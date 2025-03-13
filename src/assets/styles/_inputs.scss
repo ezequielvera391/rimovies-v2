@@ -1,0 +1,30 @@
+@import 'variables';
+
+.input {
+  width: 100%;
+  padding: $input-padding;
+  font-size: 16px;
+  border-radius: $border-radius;
+  background: rgba(255, 255, 255, 0.1);
+  color: $text-color;
+  border: 1px solid $border-color;
+  outline: none;
+
+  &:focus {
+    border-color: $primary-color;
+    background: rgba(255, 255, 255, 0.2);
+  }
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  .input__icon {
+    position: absolute;
+    right: 12px;
+    font-size: 20px;
+    color: #aaa;
+  }
+}

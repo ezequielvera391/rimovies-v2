@@ -1,0 +1,12 @@
+@import 'variables';
+@import 'buttons';
+@import 'inputs';
+@import 'typography';
+
+body {
+  font-family: $font-family;
+  background: $background-color;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+}

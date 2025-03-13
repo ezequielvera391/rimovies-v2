@@ -1,0 +1,44 @@
+@import 'variables';
+
+.button {
+  display: inline-block;
+  font-weight: bold;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: $border-radius;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.3s ease, border 0.3s ease;
+  text-transform: uppercase;
+
+  &--primary {
+    background: $primary-color;
+    color: $text-color;
+    border: none;
+
+    &:hover {
+      background: lighten($primary-color, 5%);
+    }
+  }
+
+  &--secondary {
+    background: transparent;
+    border: 2px solid $primary-color;
+    color: $primary-color;
+
+    &:hover {
+      background: $primary-color;
+      color: $text-color;
+    }
+  }
+
+  &--ghost {
+    background: transparent;
+    border: none;
+    color: $text-color;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
