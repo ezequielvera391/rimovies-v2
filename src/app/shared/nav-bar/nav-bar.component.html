@@ -1,0 +1,11 @@
+<div class="nav-bar">
+    <div class="nav-bar__logo">
+        <img [src]="logoPath " alt="logo">
+    </div>
+    <div class="nav-bar__list">
+        <div *ngFor="let item of navLinks" class="nav-bar__item" (click)="redirectTo(item.path)">
+            <span class="nav-bar__link">{{ item.name }}</span>
+        </div>
+    </div>
+    <div class="nav-bar__search"></div>
+</div>
