@@ -1,0 +1,673 @@
+[
+    {
+      "id": 1,
+      "title": "Inception",
+      "sinopsis": "A skilled thief who enters the dreams of others to steal their secrets...",
+      "year":2010,
+      "director": { "id": 1, "name": "Christopher Nolan" },
+      "genero": { "id": 1, "name": "Ciencia ficción" },
+      "cover":"/public/temp/BhpnNvf-inception-wallpapers.jpg",
+      "was_watched": true,
+      "rating": 4.5,
+      "actors": [
+        {"id": 1, "name": "Leonardo DiCaprio"},
+        {"id": 2, "name": "Joseph Gordon-Levitt"},
+        {"id": 3, "name": "Ellen Page"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "The Shawshank Redemption",
+      "sinopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "year":1994,
+      "director": { "id": 2, "name": "Frank Darabont" },
+      "genero": { "id": 2, "name": "Drama" },
+      "cover": "/public/temp/the-shawshank-redemption-cover.png",
+      "was_watched": true,
+      "rating": 4.8,
+      "actors": [
+        {"id": 4, "name": "Tim Robbins"},
+        {"id": 5, "name": "Morgan Freeman"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "The Dark Knight",
+      "sinopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham...",
+      "year": 2008,
+      "director": { "id": 1, "name": "Christopher Nolan" },
+      "genero": { "id": 3, "name": "Acción" },
+      "cover": "/public/temp/wp2587947-batman-wallpapers-dark-knight.jpg",
+      "was_watched": false,
+      "rating": 4.7,
+      "actors": [
+        {"id": 6, "name": "Christian Bale"},
+        {"id": 7, "name": "Heath Ledger"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Forrest Gump",
+      "sinopsis": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+      "year":1994,
+      "director": { "id": 4, "name": "Robert Zemeckis" },
+      "genero": { "id": 4, "name": "Comedia" },
+      "cover": "/public/temp/forest-gump-cover.png",
+      "was_watched": true,
+      "rating": 4.6,
+      "actors": [
+        {"id": 8, "name": "Tom Hanks"},
+        {"id": 9, "name": "Robin Wright"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Inception",
+      "sinopsis": "A skilled thief who enters the dreams of others to steal their secrets...",
+      "year":2010,
+      "director": { "id": 1, "name": "Christopher Nolan" },
+      "genero": { "id": 1, "name": "Ciencia ficción" },
+      "cover":"/public/temp/BhpnNvf-inception-wallpapers.jpg",
+      "was_watched": true,
+      "rating": 4.5,
+      "actors": [
+        {"id": 1, "name": "Leonardo DiCaprio"},
+        {"id": 2, "name": "Joseph Gordon-Levitt"},
+        {"id": 3, "name": "Ellen Page"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "The Shawshank Redemption",
+      "sinopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "year":1994,
+      "director": { "id": 2, "name": "Frank Darabont" },
+      "genero": { "id": 2, "name": "Drama" },
+      "cover": "/public/temp/the-shawshank-redemption-cover.png",
+      "was_watched": true,
+      "rating": 4.8,
+      "actors": [
+        {"id": 4, "name": "Tim Robbins"},
+        {"id": 5, "name": "Morgan Freeman"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "The Dark Knight",
+      "sinopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham...",
+      "year": 2008,
+      "director": { "id": 1, "name": "Christopher Nolan" },
+      "genero": { "id": 3, "name": "Acción" },
+      "cover": "/public/temp/wp2587947-batman-wallpapers-dark-knight.jpg",
+      "was_watched": false,
+      "rating": 4.7,
+      "actors": [
+        {"id": 6, "name": "Christian Bale"},
+        {"id": 7, "name": "Heath Ledger"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Forrest Gump",
+      "sinopsis": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+      "year":1994,
+      "director": { "id": 4, "name": "Robert Zemeckis" },
+      "genero": { "id": 4, "name": "Comedia" },
+      "cover": "/public/temp/forest-gump-cover.png",
+      "was_watched": true,
+      "rating": 4.6,
+      "actors": [
+        {"id": 8, "name": "Tom Hanks"},
+        {"id": 9, "name": "Robin Wright"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Inception",
+      "sinopsis": "A skilled thief who enters the dreams of others to steal their secrets...",
+      "year":2010,
+      "director": { "id": 1, "name": "Christopher Nolan" },
+      "genero": { "id": 1, "name": "Ciencia ficción" },
+      "cover":"/public/temp/BhpnNvf-inception-wallpapers.jpg",
+      "was_watched": true,
+      "rating": 4.5,
+      "actors": [
+        {"id": 1, "name": "Leonardo DiCaprio"},
+        {"id": 2, "name": "Joseph Gordon-Levitt"},
+        {"id": 3, "name": "Ellen Page"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "The Shawshank Redemption",
+      "sinopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "year":1994,
+      "director": { "id": 2, "name": "Frank Darabont" },
+      "genero": { "id": 2, "name": "Drama" },
+      "cover": "/public/temp/the-shawshank-redemption-cover.png",
+      "was_watched": true,
+      "rating": 4.8,
+      "actors": [
+        {"id": 4, "name": "Tim Robbins"},
+        {"id": 5, "name": "Morgan Freeman"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "The Dark Knight",
+      "sinopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham...",
+      "year": 2008,
+      "director": { "id": 1, "name": "Christopher Nolan" },
+      "genero": { "id": 3, "name": "Acción" },
+      "cover": "/public/temp/wp2587947-batman-wallpapers-dark-knight.jpg",
+      "was_watched": false,
+      "rating": 4.7,
+      "actors": [
+        {"id": 6, "name": "Christian Bale"},
+        {"id": 7, "name": "Heath Ledger"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Forrest Gump",
+      "sinopsis": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+      "year":1994,
+      "director": { "id": 4, "name": "Robert Zemeckis" },
+      "genero": { "id": 4, "name": "Comedia" },
+      "cover": "/public/temp/forest-gump-cover.png",
+      "was_watched": true,
+      "rating": 4.6,
+      "actors": [
+        {"id": 8, "name": "Tom Hanks"},
+        {"id": 9, "name": "Robin Wright"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Inception",
+      "sinopsis": "A skilled thief who enters the dreams of others to steal their secrets...",
+      "year":2010,
+      "director": { "id": 1, "name": "Christopher Nolan" },
+      "genero": { "id": 1, "name": "Ciencia ficción" },
+      "cover":"/public/temp/BhpnNvf-inception-wallpapers.jpg",
+      "was_watched": true,
+      "rating": 4.5,
+      "actors": [
+        {"id": 1, "name": "Leonardo DiCaprio"},
+        {"id": 2, "name": "Joseph Gordon-Levitt"},
+        {"id": 3, "name": "Ellen Page"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "The Shawshank Redemption",
+      "sinopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "year":1994,
+      "director": { "id": 2, "name": "Frank Darabont" },
+      "genero": { "id": 2, "name": "Drama" },
+      "cover": "/public/temp/the-shawshank-redemption-cover.png",
+      "was_watched": true,
+      "rating": 4.8,
+      "actors": [
+        {"id": 4, "name": "Tim Robbins"},
+        {"id": 5, "name": "Morgan Freeman"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "The Dark Knight",
+      "sinopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham...",
+      "year": 2008,
+      "director": { "id": 1, "name": "Christopher Nolan" },
+      "genero": { "id": 3, "name": "Acción" },
+      "cover": "/public/temp/wp2587947-batman-wallpapers-dark-knight.jpg",
+      "was_watched": false,
+      "rating": 4.7,
+      "actors": [
+        {"id": 6, "name": "Christian Bale"},
+        {"id": 7, "name": "Heath Ledger"}
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Forrest Gump",
+      "sinopsis": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+      "year":1994,
+      "director": { "id": 4, "name": "Robert Zemeckis" },
+      "genero": { "id": 4, "name": "Comedia" },
+      "cover": "/public/temp/forest-gump-cover.png",
+      "was_watched": true,
+      "rating": 4.6,
+      "actors": [
+        {"id": 8, "name": "Tom Hanks"},
+        {"id": 9, "name": "Robin Wright"}
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Inception",
+      "sinopsis": "A skilled thief who enters the dreams of others to steal their secrets...",
+      "year":2010,
+      "director": { "id": 1, "name": "Christopher Nolan" },
+      "genero": { "id": 1, "name": "Ciencia ficción" },
+      "cover":"/public/temp/BhpnNvf-inception-wallpapers.jpg",
+      "was_watched": true,
+      "rating": 4.5,
+      "actors": [
+        {"id": 1, "name": "Leonardo DiCaprio"},
+        {"id": 2, "name": "Joseph Gordon-Levitt"},
+        {"id": 3, "name": "Ellen Page"}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "The Shawshank Redemption",
+      "sinopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "year":1994,
+      "director": { "id": 2, "name": "Frank Darabont" },
+      "genero": { "id": 2, "name": "Drama" },
+      "cover": "/public/temp/the-shawshank-redemption-cover.png",
+      "was_watched": true,
+      "rating": 4.8,
+      "actors": [
+        {"id": 4, "name": "Tim Robbins"},
+        {"id": 5, "name": "Morgan Freeman"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "The Dark Knight",
+      "sinopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham...",
+      "year": 2008,
+      "director": { "id": 1, "name": "Christopher Nolan" },
+      "genero": { "id": 3, "name": "Acción" },
+      "cover": "/public/temp/wp2587947-batman-wallpapers-dark-knight.jpg",
+      "was_watched": false,
+      "rating": 4.7,
+      "actors": [
+        {"id": 6, "name": "Christian Bale"},
+        {"id": 7, "name": "Heath Ledger"}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Forrest Gump",
+      "sinopsis": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+      "year":1994,
+      "director": { "id": 4, "name": "Robert Zemeckis" },
+      "genero": { "id": 4, "name": "Comedia" },
+      "cover": "/public/temp/forest-gump-cover.png",
+      "was_watched": true,
+      "rating": 4.6,
+      "actors": [
+        {"id": 8, "name": "Tom Hanks"},
+        {"id": 9, "name": "Robin Wright"}
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Inception",
+      "sinopsis": "A skilled thief who enters the dreams of others to steal their secrets...",
+      "year":2010,
+      "director": { "id": 1, "name": "Christopher Nolan" },
+      "genero": { "id": 1, "name": "Ciencia ficción" },
+      "cover":"/public/temp/BhpnNvf-inception-wallpapers.jpg",
+      "was_watched": true,
+      "rating": 4.5,
+      "actors": [
+        {"id": 1, "name": "Leonardo DiCaprio"},
+        {"id": 2, "name": "Joseph Gordon-Levitt"},
+        {"id": 3, "name": "Ellen Page"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "The Shawshank Redemption",
+      "sinopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "year":1994,
+      "director": { "id": 2, "name": "Frank Darabont" },
+      "genero": { "id": 2, "name": "Drama" },
+      "cover": "/public/temp/the-shawshank-redemption-cover.png",
+      "was_watched": true,
+      "rating": 4.8,
+      "actors": [
+        {"id": 4, "name": "Tim Robbins"},
+        {"id": 5, "name": "Morgan Freeman"}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "The Dark Knight",
+      "sinopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham...",
+      "year": 2008,
+      "director": { "id": 1, "name": "Christopher Nolan" },
+      "genero": { "id": 3, "name": "Acción" },
+      "cover": "/public/temp/wp2587947-batman-wallpapers-dark-knight.jpg",
+      "was_watched": false,
+      "rating": 4.7,
+      "actors": [
+        {"id": 6, "name": "Christian Bale"},
+        {"id": 7, "name": "Heath Ledger"}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Forrest Gump",
+      "sinopsis": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+      "year":1994,
+      "director": { "id": 4, "name": "Robert Zemeckis" },
+      "genero": { "id": 4, "name": "Comedia" },
+      "cover": "/public/temp/forest-gump-cover.png",
+      "was_watched": true,
+      "rating": 4.6,
+      "actors": [
+        {"id": 8, "name": "Tom Hanks"},
+        {"id": 9, "name": "Robin Wright"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Inception",
+      "sinopsis": "A skilled thief who enters the dreams of others to steal their secrets...",
+      "year":2010,
+      "director": { "id": 1, "name": "Christopher Nolan" },
+      "genero": { "id": 1, "name": "Ciencia ficción" },
+      "cover":"/public/temp/BhpnNvf-inception-wallpapers.jpg",
+      "was_watched": true,
+      "rating": 4.5,
+      "actors": [
+        {"id": 1, "name": "Leonardo DiCaprio"},
+        {"id": 2, "name": "Joseph Gordon-Levitt"},
+        {"id": 3, "name": "Ellen Page"}
+      ]
+    },
+    {
+      "id": 26,
+      "title": "The Shawshank Redemption",
+      "sinopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "year":1994,
+      "director": { "id": 2, "name": "Frank Darabont" },
+      "genero": { "id": 2, "name": "Drama" },
+      "cover": "/public/temp/the-shawshank-redemption-cover.png",
+      "was_watched": true,
+      "rating": 4.8,
+      "actors": [
+        {"id": 4, "name": "Tim Robbins"},
+        {"id": 5, "name": "Morgan Freeman"}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "The Dark Knight",
+      "sinopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham...",
+      "year": 2008,
+      "director": { "id": 1, "name": "Christopher Nolan" },
+      "genero": { "id": 3, "name": "Acción" },
+      "cover": "/public/temp/wp2587947-batman-wallpapers-dark-knight.jpg",
+      "was_watched": false,
+      "rating": 4.7,
+      "actors": [
+        {"id": 6, "name": "Christian Bale"},
+        {"id": 7, "name": "Heath Ledger"}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Forrest Gump",
+      "sinopsis": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+      "year":1994,
+      "director": { "id": 4, "name": "Robert Zemeckis" },
+      "genero": { "id": 4, "name": "Comedia" },
+      "cover": "/public/temp/forest-gump-cover.png",
+      "was_watched": true,
+      "rating": 4.6,
+      "actors": [
+        {"id": 8, "name": "Tom Hanks"},
+        {"id": 9, "name": "Robin Wright"}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Inception",
+      "sinopsis": "A skilled thief who enters the dreams of others to steal their secrets...",
+      "year":2010,
+      "director": { "id": 1, "name": "Christopher Nolan" },
+      "genero": { "id": 1, "name": "Ciencia ficción" },
+      "cover":"/public/temp/BhpnNvf-inception-wallpapers.jpg",
+      "was_watched": true,
+      "rating": 4.5,
+      "actors": [
+        {"id": 1, "name": "Leonardo DiCaprio"},
+        {"id": 2, "name": "Joseph Gordon-Levitt"},
+        {"id": 3, "name": "Ellen Page"}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "The Shawshank Redemption",
+      "sinopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "year":1994,
+      "director": { "id": 2, "name": "Frank Darabont" },
+      "genero": { "id": 2, "name": "Drama" },
+      "cover": "/public/temp/the-shawshank-redemption-cover.png",
+      "was_watched": true,
+      "rating": 4.8,
+      "actors": [
+        {"id": 4, "name": "Tim Robbins"},
+        {"id": 5, "name": "Morgan Freeman"}
+      ]
+    },
+    {
+      "id": 31,
+      "title": "The Dark Knight",
+      "sinopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham...",
+      "year": 2008,
+      "director": { "id": 1, "name": "Christopher Nolan" },
+      "genero": { "id": 3, "name": "Acción" },
+      "cover": "/public/temp/wp2587947-batman-wallpapers-dark-knight.jpg",
+      "was_watched": false,
+      "rating": 4.7,
+      "actors": [
+        {"id": 6, "name": "Christian Bale"},
+        {"id": 7, "name": "Heath Ledger"}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Forrest Gump",
+      "sinopsis": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+      "year":1994,
+      "director": { "id": 4, "name": "Robert Zemeckis" },
+      "genero": { "id": 4, "name": "Comedia" },
+      "cover": "/public/temp/forest-gump-cover.png",
+      "was_watched": true,
+      "rating": 4.6,
+      "actors": [
+        {"id": 8, "name": "Tom Hanks"},
+        {"id": 9, "name": "Robin Wright"}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Inception",
+      "sinopsis": "A skilled thief who enters the dreams of others to steal their secrets...",
+      "year":2010,
+      "director": { "id": 1, "name": "Christopher Nolan" },
+      "genero": { "id": 1, "name": "Ciencia ficción" },
+      "cover":"/public/temp/BhpnNvf-inception-wallpapers.jpg",
+      "was_watched": true,
+      "rating": 4.5,
+      "actors": [
+        {"id": 1, "name": "Leonardo DiCaprio"},
+        {"id": 2, "name": "Joseph Gordon-Levitt"},
+        {"id": 3, "name": "Ellen Page"}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "The Shawshank Redemption",
+      "sinopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "year":1994,
+      "director": { "id": 2, "name": "Frank Darabont" },
+      "genero": { "id": 2, "name": "Drama" },
+      "cover": "/public/temp/the-shawshank-redemption-cover.png",
+      "was_watched": true,
+      "rating": 4.8,
+      "actors": [
+        {"id": 4, "name": "Tim Robbins"},
+        {"id": 5, "name": "Morgan Freeman"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "The Dark Knight",
+      "sinopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham...",
+      "year": 2008,
+      "director": { "id": 1, "name": "Christopher Nolan" },
+      "genero": { "id": 3, "name": "Acción" },
+      "cover": "/public/temp/wp2587947-batman-wallpapers-dark-knight.jpg",
+      "was_watched": false,
+      "rating": 4.7,
+      "actors": [
+        {"id": 6, "name": "Christian Bale"},
+        {"id": 7, "name": "Heath Ledger"}
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Forrest Gump",
+      "sinopsis": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+      "year":1994,
+      "director": { "id": 4, "name": "Robert Zemeckis" },
+      "genero": { "id": 4, "name": "Comedia" },
+      "cover": "/public/temp/forest-gump-cover.png",
+      "was_watched": true,
+      "rating": 4.6,
+      "actors": [
+        {"id": 8, "name": "Tom Hanks"},
+        {"id": 9, "name": "Robin Wright"}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Inception",
+      "sinopsis": "A skilled thief who enters the dreams of others to steal their secrets...",
+      "year":2010,
+      "director": { "id": 1, "name": "Christopher Nolan" },
+      "genero": { "id": 1, "name": "Ciencia ficción" },
+      "cover":"/public/temp/BhpnNvf-inception-wallpapers.jpg",
+      "was_watched": true,
+      "rating": 4.5,
+      "actors": [
+        {"id": 1, "name": "Leonardo DiCaprio"},
+        {"id": 2, "name": "Joseph Gordon-Levitt"},
+        {"id": 3, "name": "Ellen Page"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "The Shawshank Redemption",
+      "sinopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "year":1994,
+      "director": { "id": 2, "name": "Frank Darabont" },
+      "genero": { "id": 2, "name": "Drama" },
+      "cover": "/public/temp/the-shawshank-redemption-cover.png",
+      "was_watched": true,
+      "rating": 4.8,
+      "actors": [
+        {"id": 4, "name": "Tim Robbins"},
+        {"id": 5, "name": "Morgan Freeman"}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "The Dark Knight",
+      "sinopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham...",
+      "year": 2008,
+      "director": { "id": 1, "name": "Christopher Nolan" },
+      "genero": { "id": 3, "name": "Acción" },
+      "cover": "/public/temp/wp2587947-batman-wallpapers-dark-knight.jpg",
+      "was_watched": false,
+      "rating": 4.7,
+      "actors": [
+        {"id": 6, "name": "Christian Bale"},
+        {"id": 7, "name": "Heath Ledger"}
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Forrest Gump",
+      "sinopsis": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+      "year":1994,
+      "director": { "id": 4, "name": "Robert Zemeckis" },
+      "genero": { "id": 4, "name": "Comedia" },
+      "cover": "/public/temp/forest-gump-cover.png",
+      "was_watched": true,
+      "rating": 4.6,
+      "actors": [
+        {"id": 8, "name": "Tom Hanks"},
+        {"id": 9, "name": "Robin Wright"}
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Inception",
+      "sinopsis": "A skilled thief who enters the dreams of others to steal their secrets...",
+      "year":2010,
+      "director": { "id": 1, "name": "Christopher Nolan" },
+      "genero": { "id": 1, "name": "Ciencia ficción" },
+      "cover":"/public/temp/BhpnNvf-inception-wallpapers.jpg",
+      "was_watched": true,
+      "rating": 4.5,
+      "actors": [
+        {"id": 1, "name": "Leonardo DiCaprio"},
+        {"id": 2, "name": "Joseph Gordon-Levitt"},
+        {"id": 3, "name": "Ellen Page"}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "The Shawshank Redemption",
+      "sinopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "year":1994,
+      "director": { "id": 2, "name": "Frank Darabont" },
+      "genero": { "id": 2, "name": "Drama" },
+      "cover": "/public/temp/the-shawshank-redemption-cover.png",
+      "was_watched": true,
+      "rating": 4.8,
+      "actors": [
+        {"id": 4, "name": "Tim Robbins"},
+        {"id": 5, "name": "Morgan Freeman"}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "The Dark Knight",
+      "sinopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham...",
+      "year": 2008,
+      "director": { "id": 1, "name": "Christopher Nolan" },
+      "genero": { "id": 3, "name": "Acción" },
+      "cover": "/public/temp/wp2587947-batman-wallpapers-dark-knight.jpg",
+      "was_watched": false,
+      "rating": 4.7,
+      "actors": [
+        {"id": 6, "name": "Christian Bale"},
+        {"id": 7, "name": "Heath Ledger"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Forrest Gump",
+      "sinopsis": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+      "year":1994,
+      "director": { "id": 4, "name": "Robert Zemeckis" },
+      "genero": { "id": 4, "name": "Comedia" },
+      "cover": "/public/temp/forest-gump-cover.png",
+      "was_watched": true,
+      "rating": 4.6,
+      "actors": [
+        {"id": 8, "name": "Tom Hanks"},
+        {"id": 9, "name": "Robin Wright"}
+      ]
+    }
+  ]
