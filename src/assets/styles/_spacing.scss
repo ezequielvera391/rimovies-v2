@@ -1,0 +1,23 @@
+@import 'variables';
+
+// Generar clases para márgenes (m, mx, my, mt, mb, ml, mr)
+@each $key, $value in $spacing-values {
+  .m-#{$key} { margin: $value !important; }
+  .mx-#{$key} { margin-left: $value !important; margin-right: $value !important; }
+  .my-#{$key} { margin-top: $value !important; margin-bottom: $value !important; }
+  .mt-#{$key} { margin-top: $value !important; }
+  .mb-#{$key} { margin-bottom: $value !important; }
+  .ml-#{$key} { margin-left: $value !important; }
+  .mr-#{$key} { margin-right: $value !important; }
+}
+
+// Generar clases para paddings (p, px, py, pt, pb, pl, pr)
+@each $key, $value in $spacing-values {
+  .p-#{$key} { padding: $value !important; }
+  .px-#{$key} { padding-left: $value !important; padding-right: $value !important; }
+  .py-#{$key} { padding-top: $value !important; padding-bottom: $value !important; }
+  .pt-#{$key} { padding-top: $value !important; }
+  .pb-#{$key} { padding-bottom: $value !important; }
+  .pl-#{$key} { padding-left: $value !important; }
+  .pr-#{$key} { padding-right: $value !important; }
+}
