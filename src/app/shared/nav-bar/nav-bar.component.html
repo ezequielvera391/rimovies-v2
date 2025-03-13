@@ -1,10 +1,12 @@
-<div class="nav-bar">
-    <div class="nav-bar__logo">
-        <img [src]="logoPath " alt="logo">
-    </div>
-    <div class="nav-bar__list">
-        <div *ngFor="let item of navLinks" class="nav-bar__item" (click)="redirectTo(item.path)">
-            <span class="nav-bar__link">{{ item.name }}</span>
+<div class="nav-bar flex flex-row justify-between items-center p-4">
+    <div class="nav-bar__menu flex flex-row justify-start items-center">
+        <div class="nav-bar__logo">
+            <img [src]="logoPath " alt="logo">
+        </div>
+        <div class="nav-bar__list flex flex-row justify-between items-center p-4">
+            <div *ngFor="let item of navLinks" class="nav-bar__item" (click)="redirectTo(item.path)">
+                <span class="nav-bar__link bold button button--ghost">{{ item.name }}</span>
+            </div>
         </div>
     </div>
     <div class="nav-bar__search">

@@ -1,0 +1,11 @@
+@import '/src/assets/styles/_variables.scss';
+.input-wrapper {
+    width: 400px;
+}
+.input__icon {
+    img {
+        width: 16px;
+        height: 16px;
+        color: $border-color;
+    }
+}

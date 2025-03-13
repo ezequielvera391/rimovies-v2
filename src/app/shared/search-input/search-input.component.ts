@@ -9,5 +9,5 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./search-input.component.scss']
 })
 export class SearchInputComponent {
-
+  public glassSvg: string = 'assets/images/icons/glass-solid.svg';
 }
