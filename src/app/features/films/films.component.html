@@ -1,0 +1,10 @@
+
+<div class="flex flex-row justify-between items-center">
+    <app-search-input 
+        [placeholder]="'Buscar peliculas...'" 
+        [data]="films" 
+        [keys]="searchKeys"
+        (emitSearch)="showFilteredFilms($event)"
+    ></app-search-input>
+</div>
+<div>{{ filteredFilms | json }}</div>

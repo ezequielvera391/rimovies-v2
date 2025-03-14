@@ -3,15 +3,15 @@ export interface Film {
     title:       string;
     sinopsis:    string;
     year:        number;
-    director:    Director;
-    genero:      Director;
+    director:    Entity;
+    genero:      Entity;
     cover:       string;
     was_watched: boolean;
     rating:      number;
-    actors:      Director[];
+    actors:      Entity[];
 }
 
-export interface Director {
+export interface Entity {
     id:   number;
     name: string;
 }
