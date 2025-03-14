@@ -1,6 +1,12 @@
 <div class="search">
     <div class="input-wrapper">
-        <input class="input" type="text" placeholder="Buscar películas o series">
+        <input 
+            class="input" 
+            type="text" 
+            [placeholder]="placeholder" 
+            [(ngModel)]="searchTerm"
+            (input)="onSearch()"
+        >
         <span class="input__icon flex">
             <img [src]="glassSvg">
         </span>
