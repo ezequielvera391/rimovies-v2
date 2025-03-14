@@ -4,7 +4,7 @@
             <img [src]="logoPath " alt="logo">
         </div>
         <div class="nav-bar__list flex flex-row justify-between items-center p-4">
-            <div *ngFor="let item of navLinks" class="nav-bar__item" (click)="redirectTo(item.path)">
+            <div *ngFor="let item of navLinks" class="nav-bar__item" (click)="redirectTo(item.path)" (keydown)="handleKeydown($event, item.path)"  tabindex="0">
                 <span class="nav-bar__link bold button button--ghost">{{ item.name }}</span>
             </div>
         </div>

@@ -19,4 +19,10 @@ export class NavBarComponent {
   public redirectTo(path:string): void {
     this.router.navigate([path])
   }
+
+  public handleKeydown(event: KeyboardEvent, path: string): void {
+    if (event.key === 'Enter' || event.key === ' ') {
+      this.redirectTo(path);
+    }
+  }
 }
