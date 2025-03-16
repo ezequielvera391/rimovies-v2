@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
 import { SearchInputComponent } from "../search-input/search-input.component";
@@ -12,7 +12,7 @@ import { SearchInputComponent } from "../search-input/search-input.component";
 })
 export class NavBarComponent {
   public logoPath = 'assets/images/logos/logo-texto.png';
-  public navLinks = [{name: 'Home', path: '/'}, {name: 'Films', path: '/films'}]
+  @Input() navLinks: {name: string, path:string}[] 
 
   constructor(private router: Router){}
 
