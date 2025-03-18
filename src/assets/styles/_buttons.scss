@@ -41,4 +41,17 @@
       opacity: .7;
     }
   }
+
+  &--w-lg {
+    max-width: 200px;
+    width: 100%;
+  }
+
+  &--w-m {
+    max-width: 120px;
+  }
+
+  &--w-full {
+    width: 100%;
+  }
 }
