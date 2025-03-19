@@ -1,45 +1,72 @@
-<div>
+<div class="flex flex-col gap-6">
     tipografia
-    <div class="flex flex-col">
-        <h1 class="title title--large">Películas y series</h1>
-        <p class="text">Titulo h1</p>
-        <br>
-        <h2 class="title title--medium">Las más populares</h2>
-        <p class="text">Titulo h2</p>
-        <br>
-        <p class="text">Disfruta de una gran selección de películas y series.</p>
-        <p class="text">Texto</p>
-    </div>
-    <br>
-    <div class="flex flex-col">
-        botones (ancho)
-        <button class="button button--primary button--w-lg my-2">200px</button>
-        <button class="button button--primary button--w-m my-2">120px</button>
-        <button class="button button--primary button--w-full my-2">Full Width</button>
-    
-        <button class="button button--secondary button--w-lg my-2">Max 200px</button>
-        <button class="button button--secondary button--w-m my-2">Min 120px</button>
-        <button class="button button--secondary button--w-full my-2">Full Width</button>
-    
-        <button class="button button--ghost button--w-lg my-2">Max 200px</button>
-        <button class="button button--ghost button--w-m my-2">Min 120px</button>
-        <button class="button button--ghost button--w-full my-2">Full Width</button>
-    </div>
-    <br>
-    <div class="flex flex-col">
-        inputs 
-    <br>
-        <input class="input" type="text" placeholder="Buscar...">
-        <br>
-        <div class="input-wrapper">
-        <input class="input" type="text" placeholder="Buscar películas o series">
-        <span class="input__icon">🔍</span>
+    <div class="flex flex-col gap-4">
+        <div class="flex flex-col card card--secondary p-4">
+            <p class="text label">Titulo h1</p>
+            <h1 class="title title--large">Películas y series</h1>
         </div>
-        <select class="input">
-            <option>Opción 1</option>
-            <option>Opción 2</option>
-        </select>
         <br>
+        <div class="flex flex-col card card--secondary p-4">
+            <p class="text label">Titulo h2</p>
+            <h2 class="title title--medium">Las más populares</h2>
+        </div>
+        <br>
+        <div class="flex flex-col card card--secondary p-4">
+            <p class="text label">Texto</p>
+            <p class="text">Disfruta de una gran selección de películas y series.</p>
+        </div>
     </div>
-    
+    <br>
+    <div class="flex flex-col gap-4">
+        botones (ancho)
+        <div class="flex flex-col card card--secondary p-4">
+            <p class="text label">Botón grande</p>
+            <button class="button button--primary button--w-lg my-2">200px</button>
+            <p class="text label">Botón pequeño</p>
+            <button class="button button--primary button--w-m my-2">120px</button>
+            <p class="text label">Botón full width</p>
+            <button class="button button--primary button--w-full my-2">Full Width</button>
+        </div>
+        <div class="flex flex-col card card--secondary p-4">
+            <p class="text label">Botón grande</p>
+            <button class="button button--secondary button--w-lg my-2">Max 200px</button>
+            <p class="text label">Botón pequeño</p>
+            <button class="button button--secondary button--w-m my-2">Min 120px</button>
+            <p class="text label">Botón full width</p>
+            <button class="button button--secondary button--w-full my-2">Full Width</button>
+        </div>
+        <div class="flex flex-col card card--secondary p-4">
+            <p class="text label">Botón grande</p>
+            <button class="button button--ghost button--w-lg my-2">Max 200px</button>
+            <p class="text label">Botón pequeño</p>
+            <button class="button button--ghost button--w-m my-2">Min 120px</button>
+            <p class="text label">Botón full width</p>
+            <button class="button button--ghost button--w-full my-2">Full Width</button>
+        </div>
+    </div>
+    <br>
+    <div class="flex flex-col gap-4">
+        inputs 
+        <br>
+        <div class="flex flex-col card card--secondary p-4">
+            <p class="text label">Input texto</p>
+            <input class="input" type="text" placeholder="Buscar...">
+            <br>
+        </div>
+        <div class="flex flex-col card card--secondary p-4">
+            <p class="text label">Input texto con icono</p> 
+            <div class="input-wrapper">
+                <input class="input" type="text" placeholder="Buscar películas o series">
+                <span class="input__icon">🔍</span>
+            </div>
+        </div>
+        <div class="flex flex-col card card--secondary p-4">
+            <p class="text label">Input selector</p>
+            <select class="input">
+                <option>Opción 1</option>
+                <option>Opción 2</option>
+            </select>
+        </div>
+        <br>
+    </div> 
 </div>

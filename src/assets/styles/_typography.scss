@@ -33,3 +33,10 @@ h1, h2, h3 {
 .bold {
   font-weight: 700;
 }
+
+.label {
+  font-size: 0.75rem; 
+  font-weight: 600; 
+  color: $text-color-secondary;
+  letter-spacing: 0.05em; 
+}

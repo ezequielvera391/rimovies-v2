@@ -21,3 +21,10 @@
   .pl-#{$key} { padding-left: $value !important; }
   .pr-#{$key} { padding-right: $value !important; }
 }
+
+// Generar clases para gap (gap, gap-x, gap-y)
+@each $key, $value in $spacing-values {
+  .gap-#{$key} { gap: $value !important; }
+  .gap-x-#{$key} { column-gap: $value !important; }
+  .gap-y-#{$key} { row-gap: $value !important; }
+}
