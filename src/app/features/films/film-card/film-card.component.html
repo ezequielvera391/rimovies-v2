@@ -1,0 +1,12 @@
+<div class="movie-card">
+  <app-base-card [imageUrl]="imageUrl" [goToUrl]="goToUrl"></app-base-card>
+
+  <div class="overlay">
+    <button (click)="addToFavorites($event)" class="action-button">
+      <img [src]="favIcon" alt="añadir a favoritos" srcset="">
+    </button>
+    <button (click)="navigateTo($event)" class="action-button">
+      <img [src]="detailIcon" alt="ir al detalle" srcset="">
+    </button>
+  </div>
+</div>

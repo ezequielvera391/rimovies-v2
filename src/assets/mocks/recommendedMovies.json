@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Anora",
+    "sinopsis": "Una conmovedora historia que explora las complejidades de las relaciones humanas en un pequeño pueblo.",
+    "year": 2024,
+    "director": { "id": 1, "name": "Jane Doe" },
+    "genero": { "id": 1, "name": "Drama" },
+    "cover": "assets/images/temp/cards/anora-cover.jpg",
+    "was_watched": true,
+    "rating": 4.8,
+    "actors": [
+      { "id": 1, "name": "Actor A" },
+      { "id": 2, "name": "Actriz B" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "The Brutalist",
+    "sinopsis": "La vida de un arquitecto visionario y su lucha por construir su obra maestra.",
+    "year": 2024,
+    "director": { "id": 2, "name": "John Smith" },
+    "genero": { "id": 2, "name": "Biografía" },
+    "cover": "assets/images/temp/cards/brutalist-cover.png",
+    "was_watched": false,
+    "rating": 4.5,
+    "actors": [
+      { "id": 3, "name": "Actor C" },
+      { "id": 4, "name": "Actriz D" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "A Complete Unknown",
+    "sinopsis": "Un viaje a través de la vida y música de un icónico cantante que definió una era.",
+    "year": 2024,
+    "director": { "id": 3, "name": "Emily Johnson" },
+    "genero": { "id": 3, "name": "Musical" },
+    "cover": "assets/images/temp/cards/a-complete-unknown-cover.jpg",
+    "was_watched": true,
+    "rating": 4.7,
+    "actors": [
+      { "id": 5, "name": "Actor E" },
+      { "id": 6, "name": "Actriz F" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Conclave",
+    "sinopsis": "Intrigas y secretos en el proceso de elección de un nuevo Papa.",
+    "year": 2024,
+    "director": { "id": 4, "name": "Michael Brown" },
+    "genero": { "id": 4, "name": "Suspenso" },
+    "cover": "assets/images/temp/cards/conclave-cover.jpg",
+    "was_watched": false,
+    "rating": 4.6,
+    "actors": [
+      { "id": 7, "name": "Actor G" },
+      { "id": 8, "name": "Actriz H" }
+    ]
+  }
+]

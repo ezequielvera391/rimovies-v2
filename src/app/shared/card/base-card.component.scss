@@ -1,0 +1,21 @@
+@import '/src/assets/styles/_variables.scss';
+
+.card-container {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  border: 3px solid transparent;
+  transition: border-color 0.2s ease-in-out;
+  border-radius: 8px;
+  &:hover {
+    border-color: $text-color;
+  }
+}
+
+.card-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
