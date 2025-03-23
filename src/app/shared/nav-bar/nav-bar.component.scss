@@ -1,3 +1,17 @@
+@import '/src/assets/styles/_variables.scss';
+
+.nav-bar {
+  position: fixed;
+  background: linear-gradient(to bottom, rgba($full-black, 0.8),  rgba($full-black, 0));
+  transition: background 0.3s ease-in-out;
+  width: 100%;
+  z-index: 10;
+}
+
+.nav-bar.scrolled {
+  background: linear-gradient(to bottom, $full-black 30%, $background-color 100%);
+}
+
 .nav-bar__logo {
     img {
         max-width: 120px;

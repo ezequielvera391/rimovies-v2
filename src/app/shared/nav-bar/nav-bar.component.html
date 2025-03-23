@@ -1,4 +1,4 @@
-<div class="nav-bar flex flex-row justify-between items-center p-6">
+<div [ngClass]="{ 'scrolled': isScrolled }" class="nav-bar flex flex-row justify-between items-center px-6 p-y4">
     <div class="nav-bar__menu flex flex-row justify-start items-center">
         <div class="nav-bar__logo">
             <img [src]="logoPath " alt="logo">
