@@ -24,3 +24,19 @@ $spacing-values: (
   5: 24px,
   6: 32px
 );
+
+// Generar clases de width, min-width, max-width y height, min-height, max-height en píxeles
+.w-full { width: 100% !important; }
+.w-auto { width: auto !important; }
+
+// el valor máximo que puedo poner es 1000
+@for $i from 1 through 1000 {
+
+  .w-#{$i}, .min-w-#{$i}, .max-w-#{$i} {
+    width: #{$i}px !important;
+  }
+
+  .h-#{$i}, .min-h-#{$i}, .max-h-#{$i} {
+    height: #{$i}px !important;
+  }
+}

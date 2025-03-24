@@ -8,7 +8,7 @@
   color: $text-color;
   border: 1px solid $border-color;
   outline: none;
-
+  width: 100%;
   &:focus {
     border-color: $primary-color;
     background: rgba(255, 255, 255, 0.2);

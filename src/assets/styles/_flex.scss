@@ -19,3 +19,8 @@
 .items-end { align-items: flex-end !important; }
 .items-stretch { align-items: stretch !important; }
 .items-baseline { align-items: baseline !important; }
+
+// Flex grow para distribuir elementos
+.flex-grow { flex-grow: 1 !important; }
+.flex-shrink {  flex-shrink: 1 !important; }
+.flex-basis-auto { flex-basis: auto !important; }
