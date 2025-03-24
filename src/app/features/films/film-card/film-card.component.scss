@@ -10,7 +10,8 @@
   border: 3px solid transparent;
   transition: border-color 0.2s ease-in-out;
   border-radius: 8px;
-
+  width: 232px;
+  height: 352px;
   &:hover {
     border-color: $text-color;
   }
