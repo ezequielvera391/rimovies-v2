@@ -1,14 +1,15 @@
 export interface Film {
-    id:          number;
-    title:       string;
-    sinopsis:    string;
-    year:        number;
-    director:    Entity;
-    genero:      Entity;
-    cover:       string;
-    was_watched: boolean;
-    rating:      number;
-    actors:      Entity[];
+  id: number;
+  title: string;
+  sinopsis: string;
+  year: number;
+  director: Entity;
+  genero: Entity;
+  cover: string;
+  poster_url: string;
+  was_watched: boolean;
+  rating: number;
+  actors: Entity[];
 }
 
 export interface Entity {

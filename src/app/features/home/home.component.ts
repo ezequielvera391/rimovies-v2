@@ -3,11 +3,12 @@ import { CommonModule } from '@angular/common';
 import { Film } from 'src/app/core/interfaces/films.interface';
 import { FilmsService } from 'src/app/core/films.service';
 import { FilmCardComponent } from "../films/film-card/film-card.component";
+import { BackdropImageComponent } from 'src/app/shared/backdrop-image/backdrop-image.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, FilmCardComponent],
+  imports: [CommonModule, FilmCardComponent, BackdropImageComponent],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
 })
