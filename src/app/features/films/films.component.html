@@ -11,7 +11,7 @@
   </div>
   <div class="flex gap-4 flex-wrap">
     <div *ngFor="let movie of filteredFilms">
-      <app-film-card class="flex-grow" [goToUrl]="'/'" [imageUrl]="movie.cover"></app-film-card>
+      <app-film-card class="flex-grow" [goToUrl]="'/'" [imageUrl]="movie.cover" [id]="movie.id.toString()"></app-film-card>
     </div>
   </div>
 </div>

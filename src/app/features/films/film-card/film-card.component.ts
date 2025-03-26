@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BaseCardComponent } from "../../../shared/card/base-card.component";
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-film-card',
@@ -14,15 +15,16 @@ export class FilmCardComponent {
   public favIcon: string;
   @Input() imageUrl: string;
   @Input() goToUrl: string;
+  @Input() id: string;
 
-  constructor() {
+  constructor(private router: Router) {
     this.detailIcon = 'assets/images/icons/detail-eye.svg';
     this.favIcon = 'assets/images/icons/favorite.svg';
   }
 
   navigateTo(event: Event) {
     event.stopPropagation(); // Evita que el `click` active la card base
-    // Lógica para ir a detalles
+    this.router.navigate(['films/', this.id]);
   }
 
   addToFavorites(event: Event) {
