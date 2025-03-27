@@ -1,5 +1,5 @@
 export interface Film {
-  id: number;
+  id: string;
   title: string;
   sinopsis: string;
   year: number;
@@ -13,6 +13,6 @@ export interface Film {
 }
 
 export interface Entity {
-    id:   number;
-    name: string;
+  id: string;
+  name: string;
 }
