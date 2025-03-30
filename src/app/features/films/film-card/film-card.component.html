@@ -1,5 +1,5 @@
-<div class="movie-card">
-  <app-base-card [imageUrl]="imageUrl" [goToUrl]="goToUrl"></app-base-card>
+<div class="movie-card" (click)="navigateTo($event)">
+  <app-base-card [imageUrl]="data.cover" [goToUrl]="goToUrl"></app-base-card>
 
   <div class="overlay">
     <button (click)="addToFavorites($event)" class="action-button">
