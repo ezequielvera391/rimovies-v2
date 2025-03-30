@@ -12,6 +12,7 @@ import { Router } from '@angular/router';
 export class BaseCardComponent {
   @Input() imageUrl!: string;
   @Input() goToUrl?: string;
+  @Input() size: 'small' | 'medium' | 'large' = 'medium';
 
   constructor(private router: Router) {}
 

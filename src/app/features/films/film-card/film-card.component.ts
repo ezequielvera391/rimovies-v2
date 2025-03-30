@@ -16,6 +16,7 @@ export class FilmCardComponent implements OnInit {
   public favIcon: string;
   public goToUrl: string;
   @Input() data: Film;
+  @Input() size: 'small' | 'medium' | 'large' = 'medium';
 
   constructor(private router: Router) {
     this.detailIcon = 'assets/images/icons/detail-eye.svg';
