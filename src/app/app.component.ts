@@ -16,9 +16,9 @@ export class AppComponent implements OnInit {
   constructor(private filmService: FilmsService) {}
 
   ngOnInit(): void {
-     this.getFilms()
-     this.isProd = environment.production
-     this.configNavBar()
+    this.getFilms()
+    this.isProd = environment.production
+    this.configNavBar()
   }
 
   private configNavBar():void {
@@ -37,7 +37,7 @@ export class AppComponent implements OnInit {
       })
       )
       .subscribe({
-      next: (films) => {
+      next: () => {
         this.loading = true
       }
     });

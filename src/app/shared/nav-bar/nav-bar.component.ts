@@ -1,12 +1,11 @@
 import { Component, Input, HostListener } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
-import { SearchInputComponent } from "../search-input/search-input.component";
 
 @Component({
   selector: 'app-nav-bar',
   standalone: true,
-  imports: [CommonModule, SearchInputComponent],
+  imports: [CommonModule],
   templateUrl: './nav-bar.component.html',
   styleUrls: ['./nav-bar.component.scss'],
 })
