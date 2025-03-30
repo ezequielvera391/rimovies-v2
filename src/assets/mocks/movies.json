@@ -1,673 +1,2742 @@
 [
-    {
-      "id": 1,
-      "title": "Inception",
-      "sinopsis": "A skilled thief who enters the dreams of others to steal their secrets...",
-      "year":2010,
-      "director": { "id": 1, "name": "Christopher Nolan" },
-      "genero": { "id": 1, "name": "Ciencia ficción" },
-      "cover":"/public/temp/BhpnNvf-inception-wallpapers.jpg",
-      "was_watched": true,
-      "rating": 4.5,
-      "actors": [
-        {"id": 1, "name": "Leonardo DiCaprio"},
-        {"id": 2, "name": "Joseph Gordon-Levitt"},
-        {"id": 3, "name": "Ellen Page"}
-      ]
+  {
+    "title": "Drive",
+    "sinopsis": "A prototype enhanced human, on the run from Chinese-hired hit men, hooks up with a dread-locked bystander, and the two of them elude their pursuers narrowly each time.",
+    "year": 1997,
+    "director": {
+      "id": "6423910681835624258",
+      "name": "Mark Dacascos"
     },
-    {
-      "id": 2,
-      "title": "The Shawshank Redemption",
-      "sinopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-      "year":1994,
-      "director": { "id": 2, "name": "Frank Darabont" },
-      "genero": { "id": 2, "name": "Drama" },
-      "cover": "/public/temp/the-shawshank-redemption-cover.png",
-      "was_watched": true,
-      "rating": 4.8,
-      "actors": [
-        {"id": 4, "name": "Tim Robbins"},
-        {"id": 5, "name": "Morgan Freeman"}
-      ]
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
     },
-    {
-      "id": 3,
-      "title": "The Dark Knight",
-      "sinopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham...",
-      "year": 2008,
-      "director": { "id": 1, "name": "Christopher Nolan" },
-      "genero": { "id": 3, "name": "Acción" },
-      "cover": "/public/temp/wp2587947-batman-wallpapers-dark-knight.jpg",
-      "was_watched": false,
-      "rating": 4.7,
-      "actors": [
-        {"id": 6, "name": "Christian Bale"},
-        {"id": 7, "name": "Heath Ledger"}
-      ]
+    "cover": "assets/images/temp/cards/drive-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "6423910681835624258",
+        "name": "Mark Dacascos"
+      },
+      {
+        "id": "12671016886590266669",
+        "name": "Kadeem Hardison"
+      },
+      {
+        "id": "12039611290891670486",
+        "name": "John Pyper-Ferguson"
+      },
+      {
+        "id": "13184388871992858153",
+        "name": "Brittany Murphy"
+      },
+      {
+        "id": "11256182331831376635",
+        "name": "Tracey Walter"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/drive-poster.jpg",
+    "id": "1"
+  },
+  {
+    "title": "Mysterious Skin",
+    "sinopsis": "A teenage hustler and a young man obsessed with alien abductions cross paths, together discovering a horrible, liberating truth.",
+    "year": 2004,
+    "director": {
+      "id": "3339416782209307937",
+      "name": "Joseph Gordon-Levitt"
     },
-    {
-      "id": 4,
-      "title": "Forrest Gump",
-      "sinopsis": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
-      "year":1994,
-      "director": { "id": 4, "name": "Robert Zemeckis" },
-      "genero": { "id": 4, "name": "Comedia" },
-      "cover": "/public/temp/forest-gump-cover.png",
-      "was_watched": true,
-      "rating": 4.6,
-      "actors": [
-        {"id": 8, "name": "Tom Hanks"},
-        {"id": 9, "name": "Robin Wright"}
-      ]
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
     },
-    {
-      "id": 5,
-      "title": "Inception",
-      "sinopsis": "A skilled thief who enters the dreams of others to steal their secrets...",
-      "year":2010,
-      "director": { "id": 1, "name": "Christopher Nolan" },
-      "genero": { "id": 1, "name": "Ciencia ficción" },
-      "cover":"/public/temp/BhpnNvf-inception-wallpapers.jpg",
-      "was_watched": true,
-      "rating": 4.5,
-      "actors": [
-        {"id": 1, "name": "Leonardo DiCaprio"},
-        {"id": 2, "name": "Joseph Gordon-Levitt"},
-        {"id": 3, "name": "Ellen Page"}
-      ]
+    "cover": "assets/images/temp/cards/mysterious-skin-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "3339416782209307937",
+        "name": "Joseph Gordon-Levitt"
+      },
+      {
+        "id": "1563081563033525666",
+        "name": "Brady Corbet"
+      },
+      {
+        "id": "9132177978273651793",
+        "name": "Michelle Trachtenberg"
+      },
+      {
+        "id": "10283611075315261231",
+        "name": "Jeffrey Licon"
+      },
+      {
+        "id": "1921744841046446910",
+        "name": "Mary Lynn Rajskub"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/mysterious-skin-poster.jpg",
+    "id": "2"
+  },
+  {
+    "title": "The Thing",
+    "sinopsis": "In the winter of 1982, a twelve-man research team at a remote Antarctic research station discovers an alien buried in the snow for over 100,000 years. Soon unfrozen, the form-changing creature wreaks havoc, creates terror… and becomes one of them.",
+    "year": 1982,
+    "director": {
+      "id": "18094922620694387438",
+      "name": "Kurt Russell"
     },
-    {
-      "id": 6,
-      "title": "The Shawshank Redemption",
-      "sinopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-      "year":1994,
-      "director": { "id": 2, "name": "Frank Darabont" },
-      "genero": { "id": 2, "name": "Drama" },
-      "cover": "/public/temp/the-shawshank-redemption-cover.png",
-      "was_watched": true,
-      "rating": 4.8,
-      "actors": [
-        {"id": 4, "name": "Tim Robbins"},
-        {"id": 5, "name": "Morgan Freeman"}
-      ]
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
     },
-    {
-      "id": 7,
-      "title": "The Dark Knight",
-      "sinopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham...",
-      "year": 2008,
-      "director": { "id": 1, "name": "Christopher Nolan" },
-      "genero": { "id": 3, "name": "Acción" },
-      "cover": "/public/temp/wp2587947-batman-wallpapers-dark-knight.jpg",
-      "was_watched": false,
-      "rating": 4.7,
-      "actors": [
-        {"id": 6, "name": "Christian Bale"},
-        {"id": 7, "name": "Heath Ledger"}
-      ]
+    "cover": "assets/images/temp/cards/the-thing-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "18094922620694387438",
+        "name": "Kurt Russell"
+      },
+      {
+        "id": "14085388533248514446",
+        "name": "Keith David"
+      },
+      {
+        "id": "16940581127476171271",
+        "name": "Wilford Brimley"
+      },
+      {
+        "id": "2184496975124650190",
+        "name": "T.K. Carter"
+      },
+      {
+        "id": "10727623835961809109",
+        "name": "David Clennon"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/the-thing-poster.jpg",
+    "id": "3"
+  },
+  {
+    "title": "Pink Floyd: The Wall",
+    "sinopsis": "A troubled rock star descends into madness in the midst of his physical and social isolation from everyone.",
+    "year": 1982,
+    "director": {
+      "id": "5698910728475072877",
+      "name": "Bob Geldof"
     },
-    {
-      "id": 8,
-      "title": "Forrest Gump",
-      "sinopsis": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
-      "year":1994,
-      "director": { "id": 4, "name": "Robert Zemeckis" },
-      "genero": { "id": 4, "name": "Comedia" },
-      "cover": "/public/temp/forest-gump-cover.png",
-      "was_watched": true,
-      "rating": 4.6,
-      "actors": [
-        {"id": 8, "name": "Tom Hanks"},
-        {"id": 9, "name": "Robin Wright"}
-      ]
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
     },
-    {
-      "id": 9,
-      "title": "Inception",
-      "sinopsis": "A skilled thief who enters the dreams of others to steal their secrets...",
-      "year":2010,
-      "director": { "id": 1, "name": "Christopher Nolan" },
-      "genero": { "id": 1, "name": "Ciencia ficción" },
-      "cover":"/public/temp/BhpnNvf-inception-wallpapers.jpg",
-      "was_watched": true,
-      "rating": 4.5,
-      "actors": [
-        {"id": 1, "name": "Leonardo DiCaprio"},
-        {"id": 2, "name": "Joseph Gordon-Levitt"},
-        {"id": 3, "name": "Ellen Page"}
-      ]
+    "cover": "assets/images/temp/cards/pink-floyd-the-wall-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "5698910728475072877",
+        "name": "Bob Geldof"
+      },
+      {
+        "id": "5872917685231639841",
+        "name": "Christine Hargreaves"
+      },
+      {
+        "id": "11553900131873152756",
+        "name": "James Laurenson"
+      },
+      {
+        "id": "18033797067937108590",
+        "name": "Eleanor David"
+      },
+      {
+        "id": "18059903240195234817",
+        "name": "Kevin McKeon"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/pink-floyd-the-wall-poster.jpg",
+    "id": "4"
+  },
+  {
+    "title": "Brazil",
+    "sinopsis": "Low-level bureaucrat Sam Lowry escapes the monotony of his day-to-day life through a recurring daydream of himself as a virtuous hero saving a beautiful damsel. Investigating a case that led to the wrongful arrest and eventual death of an innocent man instead of wanted terrorist Harry Tuttle, he meets the woman from his daydream, and in trying to help her gets caught in a web of mistaken identities, mindless bureaucracy and lies.",
+    "year": 1985,
+    "director": {
+      "id": "14884589880545399850",
+      "name": "Jonathan Pryce"
     },
-    {
-      "id": 10,
-      "title": "The Shawshank Redemption",
-      "sinopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-      "year":1994,
-      "director": { "id": 2, "name": "Frank Darabont" },
-      "genero": { "id": 2, "name": "Drama" },
-      "cover": "/public/temp/the-shawshank-redemption-cover.png",
-      "was_watched": true,
-      "rating": 4.8,
-      "actors": [
-        {"id": 4, "name": "Tim Robbins"},
-        {"id": 5, "name": "Morgan Freeman"}
-      ]
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
     },
-    {
-      "id": 11,
-      "title": "The Dark Knight",
-      "sinopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham...",
-      "year": 2008,
-      "director": { "id": 1, "name": "Christopher Nolan" },
-      "genero": { "id": 3, "name": "Acción" },
-      "cover": "/public/temp/wp2587947-batman-wallpapers-dark-knight.jpg",
-      "was_watched": false,
-      "rating": 4.7,
-      "actors": [
-        {"id": 6, "name": "Christian Bale"},
-        {"id": 7, "name": "Heath Ledger"}
-      ]
+    "cover": "assets/images/temp/cards/brazil-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "14884589880545399850",
+        "name": "Jonathan Pryce"
+      },
+      {
+        "id": "15004595570541484829",
+        "name": "Robert De Niro"
+      },
+      {
+        "id": "8448537399310045960",
+        "name": "Katherine Helmond"
+      },
+      {
+        "id": "5768483005764753359",
+        "name": "Ian Holm"
+      },
+      {
+        "id": "13168553369428122909",
+        "name": "Bob Hoskins"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/brazil-poster.jpg",
+    "id": "5"
+  },
+  {
+    "title": "Donnie Darko",
+    "sinopsis": "After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a large bunny rabbit that manipulates him to commit a series of crimes.",
+    "year": 2001,
+    "director": {
+      "id": "2084687856362544334",
+      "name": "Jake Gyllenhaal"
     },
-    {
-      "id": 12,
-      "title": "Forrest Gump",
-      "sinopsis": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
-      "year":1994,
-      "director": { "id": 4, "name": "Robert Zemeckis" },
-      "genero": { "id": 4, "name": "Comedia" },
-      "cover": "/public/temp/forest-gump-cover.png",
-      "was_watched": true,
-      "rating": 4.6,
-      "actors": [
-        {"id": 8, "name": "Tom Hanks"},
-        {"id": 9, "name": "Robin Wright"}
-      ]
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
     },
-    {
-      "id": 13,
-      "title": "Inception",
-      "sinopsis": "A skilled thief who enters the dreams of others to steal their secrets...",
-      "year":2010,
-      "director": { "id": 1, "name": "Christopher Nolan" },
-      "genero": { "id": 1, "name": "Ciencia ficción" },
-      "cover":"/public/temp/BhpnNvf-inception-wallpapers.jpg",
-      "was_watched": true,
-      "rating": 4.5,
-      "actors": [
-        {"id": 1, "name": "Leonardo DiCaprio"},
-        {"id": 2, "name": "Joseph Gordon-Levitt"},
-        {"id": 3, "name": "Ellen Page"}
-      ]
+    "cover": "assets/images/temp/cards/donnie-darko-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "2084687856362544334",
+        "name": "Jake Gyllenhaal"
+      },
+      {
+        "id": "6635153925692151234",
+        "name": "Jena Malone"
+      },
+      {
+        "id": "16067617175697970032",
+        "name": "James Duval"
+      },
+      {
+        "id": "4685216215152152659",
+        "name": "Drew Barrymore"
+      },
+      {
+        "id": "6479992082191635346",
+        "name": "Beth Grant"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/donnie-darko-poster.jpg",
+    "id": "6"
+  },
+  {
+    "title": "Requiem for a Dream",
+    "sinopsis": "The drug-induced utopias of four Coney Island residents are shattered when their addictions run deep.",
+    "year": 2000,
+    "director": {
+      "id": "5338148531662180956",
+      "name": "Ellen Burstyn"
     },
-    {
-      "id": 14,
-      "title": "The Shawshank Redemption",
-      "sinopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-      "year":1994,
-      "director": { "id": 2, "name": "Frank Darabont" },
-      "genero": { "id": 2, "name": "Drama" },
-      "cover": "/public/temp/the-shawshank-redemption-cover.png",
-      "was_watched": true,
-      "rating": 4.8,
-      "actors": [
-        {"id": 4, "name": "Tim Robbins"},
-        {"id": 5, "name": "Morgan Freeman"}
-      ]
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
     },
-    {
-      "id": 15,
-      "title": "The Dark Knight",
-      "sinopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham...",
-      "year": 2008,
-      "director": { "id": 1, "name": "Christopher Nolan" },
-      "genero": { "id": 3, "name": "Acción" },
-      "cover": "/public/temp/wp2587947-batman-wallpapers-dark-knight.jpg",
-      "was_watched": false,
-      "rating": 4.7,
-      "actors": [
-        {"id": 6, "name": "Christian Bale"},
-        {"id": 7, "name": "Heath Ledger"}
-      ]
+    "cover": "assets/images/temp/cards/requiem-for-a-dream-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "5338148531662180956",
+        "name": "Ellen Burstyn"
+      },
+      {
+        "id": "3733722946563562551",
+        "name": "Jared Leto"
+      },
+      {
+        "id": "2241001438425534562",
+        "name": "Jennifer Connelly"
+      },
+      {
+        "id": "3838757062835458168",
+        "name": "Marlon Wayans"
+      },
+      {
+        "id": "18154103793330771529",
+        "name": "Christopher McDonald"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/requiem-for-a-dream-poster.jpg",
+    "id": "7"
+  },
+  {
+    "title": "Carrie",
+    "sinopsis": "Carrie’s dreams of adventure in the big city are quickly squashed as she discovers all that awaits her there is a bleak life of grueling and poorly paid factory work—that is, until a traveling salesman named Drouet steps into her life and changes her outlook.",
+    "year": 1952,
+    "director": {
+      "id": "3112339869811562655",
+      "name": "Laurence Olivier"
     },
-    {
-      "id": 16,
-      "title": "Forrest Gump",
-      "sinopsis": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
-      "year":1994,
-      "director": { "id": 4, "name": "Robert Zemeckis" },
-      "genero": { "id": 4, "name": "Comedia" },
-      "cover": "/public/temp/forest-gump-cover.png",
-      "was_watched": true,
-      "rating": 4.6,
-      "actors": [
-        {"id": 8, "name": "Tom Hanks"},
-        {"id": 9, "name": "Robin Wright"}
-      ]
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
     },
-    {
-      "id": 17,
-      "title": "Inception",
-      "sinopsis": "A skilled thief who enters the dreams of others to steal their secrets...",
-      "year":2010,
-      "director": { "id": 1, "name": "Christopher Nolan" },
-      "genero": { "id": 1, "name": "Ciencia ficción" },
-      "cover":"/public/temp/BhpnNvf-inception-wallpapers.jpg",
-      "was_watched": true,
-      "rating": 4.5,
-      "actors": [
-        {"id": 1, "name": "Leonardo DiCaprio"},
-        {"id": 2, "name": "Joseph Gordon-Levitt"},
-        {"id": 3, "name": "Ellen Page"}
-      ]
+    "cover": "assets/images/temp/cards/carrie-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "3112339869811562655",
+        "name": "Laurence Olivier"
+      },
+      {
+        "id": "316749441304907827",
+        "name": "Jennifer Jones"
+      },
+      {
+        "id": "11685069844987860873",
+        "name": "Miriam Hopkins"
+      },
+      {
+        "id": "4847545154657146378",
+        "name": "Eddie Albert"
+      },
+      {
+        "id": "14872526400879745991",
+        "name": "Basil Ruysdael"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/carrie-poster.jpg",
+    "id": "8"
+  },
+  {
+    "title": "Blue Velvet",
+    "sinopsis": "The discovery of a severed human ear found in a field leads a young man on an investigation related to a beautiful, mysterious nightclub singer and a group of psychopathic criminals who have kidnapped her child.",
+    "year": 1986,
+    "director": {
+      "id": "2498540526163679648",
+      "name": "Isabella Rossellini"
     },
-    {
-      "id": 18,
-      "title": "The Shawshank Redemption",
-      "sinopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-      "year":1994,
-      "director": { "id": 2, "name": "Frank Darabont" },
-      "genero": { "id": 2, "name": "Drama" },
-      "cover": "/public/temp/the-shawshank-redemption-cover.png",
-      "was_watched": true,
-      "rating": 4.8,
-      "actors": [
-        {"id": 4, "name": "Tim Robbins"},
-        {"id": 5, "name": "Morgan Freeman"}
-      ]
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
     },
-    {
-      "id": 19,
-      "title": "The Dark Knight",
-      "sinopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham...",
-      "year": 2008,
-      "director": { "id": 1, "name": "Christopher Nolan" },
-      "genero": { "id": 3, "name": "Acción" },
-      "cover": "/public/temp/wp2587947-batman-wallpapers-dark-knight.jpg",
-      "was_watched": false,
-      "rating": 4.7,
-      "actors": [
-        {"id": 6, "name": "Christian Bale"},
-        {"id": 7, "name": "Heath Ledger"}
-      ]
+    "cover": "assets/images/temp/cards/blue-velvet-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "2498540526163679648",
+        "name": "Isabella Rossellini"
+      },
+      {
+        "id": "3581162311663508819",
+        "name": "Kyle MacLachlan"
+      },
+      {
+        "id": "8157353725376745634",
+        "name": "Dennis Hopper"
+      },
+      {
+        "id": "456959154593552405",
+        "name": "Laura Dern"
+      },
+      {
+        "id": "14414692902014636615",
+        "name": "Hope Lange"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/blue-velvet-poster.jpg",
+    "id": "9"
+  },
+  {
+    "title": "Venus in Fur",
+    "sinopsis": "An enigmatic actress may have a hidden agenda when she auditions for a part in a misogynistic writer’s play.",
+    "year": 2013,
+    "director": {
+      "id": "2557453556475386722",
+      "name": "Emmanuelle Seigner"
     },
-    {
-      "id": 20,
-      "title": "Forrest Gump",
-      "sinopsis": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
-      "year":1994,
-      "director": { "id": 4, "name": "Robert Zemeckis" },
-      "genero": { "id": 4, "name": "Comedia" },
-      "cover": "/public/temp/forest-gump-cover.png",
-      "was_watched": true,
-      "rating": 4.6,
-      "actors": [
-        {"id": 8, "name": "Tom Hanks"},
-        {"id": 9, "name": "Robin Wright"}
-      ]
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
     },
-    {
-      "id": 21,
-      "title": "Inception",
-      "sinopsis": "A skilled thief who enters the dreams of others to steal their secrets...",
-      "year":2010,
-      "director": { "id": 1, "name": "Christopher Nolan" },
-      "genero": { "id": 1, "name": "Ciencia ficción" },
-      "cover":"/public/temp/BhpnNvf-inception-wallpapers.jpg",
-      "was_watched": true,
-      "rating": 4.5,
-      "actors": [
-        {"id": 1, "name": "Leonardo DiCaprio"},
-        {"id": 2, "name": "Joseph Gordon-Levitt"},
-        {"id": 3, "name": "Ellen Page"}
-      ]
+    "cover": "assets/images/temp/cards/venus-in-fur-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "2557453556475386722",
+        "name": "Emmanuelle Seigner"
+      },
+      {
+        "id": "8507847668912115819",
+        "name": "Mathieu Amalric"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/venus-in-fur-poster.jpg",
+    "id": "10"
+  },
+  {
+    "title": "2001: A Space Odyssey",
+    "sinopsis": "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world’s most advanced super computer.",
+    "year": 1968,
+    "director": {
+      "id": "6151427208759301538",
+      "name": "Keir Dullea"
     },
-    {
-      "id": 22,
-      "title": "The Shawshank Redemption",
-      "sinopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-      "year":1994,
-      "director": { "id": 2, "name": "Frank Darabont" },
-      "genero": { "id": 2, "name": "Drama" },
-      "cover": "/public/temp/the-shawshank-redemption-cover.png",
-      "was_watched": true,
-      "rating": 4.8,
-      "actors": [
-        {"id": 4, "name": "Tim Robbins"},
-        {"id": 5, "name": "Morgan Freeman"}
-      ]
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
     },
-    {
-      "id": 23,
-      "title": "The Dark Knight",
-      "sinopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham...",
-      "year": 2008,
-      "director": { "id": 1, "name": "Christopher Nolan" },
-      "genero": { "id": 3, "name": "Acción" },
-      "cover": "/public/temp/wp2587947-batman-wallpapers-dark-knight.jpg",
-      "was_watched": false,
-      "rating": 4.7,
-      "actors": [
-        {"id": 6, "name": "Christian Bale"},
-        {"id": 7, "name": "Heath Ledger"}
-      ]
+    "cover": "assets/images/temp/cards/2001-a-space-odyssey-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "6151427208759301538",
+        "name": "Keir Dullea"
+      },
+      {
+        "id": "3703304292674919849",
+        "name": "Gary Lockwood"
+      },
+      {
+        "id": "17436613331501144966",
+        "name": "William Sylvester"
+      },
+      {
+        "id": "11713378367558014991",
+        "name": "Douglas Rain"
+      },
+      {
+        "id": "15136833465345005314",
+        "name": "Daniel Richter"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/2001-a-space-odyssey-poster.jpg",
+    "id": "11"
+  },
+  {
+    "title": "Full Metal Jacket",
+    "sinopsis": "A pragmatic U.S. Marine observes the dehumanizing effects the U.S.-Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.",
+    "year": 1987,
+    "director": {
+      "id": "456404263710971139",
+      "name": "Matthew Modine"
     },
-    {
-      "id": 24,
-      "title": "Forrest Gump",
-      "sinopsis": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
-      "year":1994,
-      "director": { "id": 4, "name": "Robert Zemeckis" },
-      "genero": { "id": 4, "name": "Comedia" },
-      "cover": "/public/temp/forest-gump-cover.png",
-      "was_watched": true,
-      "rating": 4.6,
-      "actors": [
-        {"id": 8, "name": "Tom Hanks"},
-        {"id": 9, "name": "Robin Wright"}
-      ]
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
     },
-    {
-      "id": 25,
-      "title": "Inception",
-      "sinopsis": "A skilled thief who enters the dreams of others to steal their secrets...",
-      "year":2010,
-      "director": { "id": 1, "name": "Christopher Nolan" },
-      "genero": { "id": 1, "name": "Ciencia ficción" },
-      "cover":"/public/temp/BhpnNvf-inception-wallpapers.jpg",
-      "was_watched": true,
-      "rating": 4.5,
-      "actors": [
-        {"id": 1, "name": "Leonardo DiCaprio"},
-        {"id": 2, "name": "Joseph Gordon-Levitt"},
-        {"id": 3, "name": "Ellen Page"}
-      ]
+    "cover": "assets/images/temp/cards/full-metal-jacket-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "456404263710971139",
+        "name": "Matthew Modine"
+      },
+      {
+        "id": "14525454162711434073",
+        "name": "Adam Baldwin"
+      },
+      {
+        "id": "8080392551432084186",
+        "name": "Vincent D'Onofrio"
+      },
+      {
+        "id": "12515693693946976661",
+        "name": "R. Lee Ermey"
+      },
+      {
+        "id": "569518775585233629",
+        "name": "Dorian Harewood"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/full-metal-jacket-poster.jpg",
+    "id": "12"
+  },
+  {
+    "title": "The Godfather",
+    "sinopsis": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+    "year": 1972,
+    "director": {
+      "id": "3317335486926180701",
+      "name": "Marlon Brando"
     },
-    {
-      "id": 26,
-      "title": "The Shawshank Redemption",
-      "sinopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-      "year":1994,
-      "director": { "id": 2, "name": "Frank Darabont" },
-      "genero": { "id": 2, "name": "Drama" },
-      "cover": "/public/temp/the-shawshank-redemption-cover.png",
-      "was_watched": true,
-      "rating": 4.8,
-      "actors": [
-        {"id": 4, "name": "Tim Robbins"},
-        {"id": 5, "name": "Morgan Freeman"}
-      ]
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
     },
-    {
-      "id": 27,
-      "title": "The Dark Knight",
-      "sinopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham...",
-      "year": 2008,
-      "director": { "id": 1, "name": "Christopher Nolan" },
-      "genero": { "id": 3, "name": "Acción" },
-      "cover": "/public/temp/wp2587947-batman-wallpapers-dark-knight.jpg",
-      "was_watched": false,
-      "rating": 4.7,
-      "actors": [
-        {"id": 6, "name": "Christian Bale"},
-        {"id": 7, "name": "Heath Ledger"}
-      ]
+    "cover": "assets/images/temp/cards/the-godfather-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "3317335486926180701",
+        "name": "Marlon Brando"
+      },
+      {
+        "id": "1965195658026897724",
+        "name": "Al Pacino"
+      },
+      {
+        "id": "17904928066173491090",
+        "name": "James Caan"
+      },
+      {
+        "id": "6001475342360795544",
+        "name": "Robert Duvall"
+      },
+      {
+        "id": "18093184380240288006",
+        "name": "Richard S. Castellano"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/the-godfather-poster.jpg",
+    "id": "13"
+  },
+  {
+    "title": "Apocalypse Now",
+    "sinopsis": "At the height of the Vietnam war, Captain Benjamin Willard is sent on a dangerous mission that, officially, “does not exist, nor will it ever exist.” His goal is to locate - and eliminate - a mysterious Green Beret Colonel named Walter Kurtz, who has been leading his personal army on illegal guerrilla missions into enemy territory.",
+    "year": 1979,
+    "director": {
+      "id": "15803697834584071992",
+      "name": "Martin Sheen"
     },
-    {
-      "id": 28,
-      "title": "Forrest Gump",
-      "sinopsis": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
-      "year":1994,
-      "director": { "id": 4, "name": "Robert Zemeckis" },
-      "genero": { "id": 4, "name": "Comedia" },
-      "cover": "/public/temp/forest-gump-cover.png",
-      "was_watched": true,
-      "rating": 4.6,
-      "actors": [
-        {"id": 8, "name": "Tom Hanks"},
-        {"id": 9, "name": "Robin Wright"}
-      ]
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
     },
-    {
-      "id": 29,
-      "title": "Inception",
-      "sinopsis": "A skilled thief who enters the dreams of others to steal their secrets...",
-      "year":2010,
-      "director": { "id": 1, "name": "Christopher Nolan" },
-      "genero": { "id": 1, "name": "Ciencia ficción" },
-      "cover":"/public/temp/BhpnNvf-inception-wallpapers.jpg",
-      "was_watched": true,
-      "rating": 4.5,
-      "actors": [
-        {"id": 1, "name": "Leonardo DiCaprio"},
-        {"id": 2, "name": "Joseph Gordon-Levitt"},
-        {"id": 3, "name": "Ellen Page"}
-      ]
+    "cover": "assets/images/temp/cards/apocalypse-now-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "15803697834584071992",
+        "name": "Martin Sheen"
+      },
+      {
+        "id": "3317335486926180701",
+        "name": "Marlon Brando"
+      },
+      {
+        "id": "2851483611358187686",
+        "name": "Albert Hall"
+      },
+      {
+        "id": "5291239738524653553",
+        "name": "Frederic Forrest"
+      },
+      {
+        "id": "2480359437515313219",
+        "name": "Laurence Fishburne"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/apocalypse-now-poster.jpg",
+    "id": "14"
+  },
+  {
+    "title": "Dracula",
+    "sinopsis": "British estate agent Renfield travels to Transylvania to meet the mysterious Count Dracula, who is interested in leasing a castle in London. After Dracula enslaves Renfield and drives him to insanity, the pair sail to London together and Dracula, a secret vampire, begins preying on London socialites.",
+    "year": 1931,
+    "director": {
+      "id": "7990562538982299423",
+      "name": "Bela Lugosi"
     },
-    {
-      "id": 30,
-      "title": "The Shawshank Redemption",
-      "sinopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-      "year":1994,
-      "director": { "id": 2, "name": "Frank Darabont" },
-      "genero": { "id": 2, "name": "Drama" },
-      "cover": "/public/temp/the-shawshank-redemption-cover.png",
-      "was_watched": true,
-      "rating": 4.8,
-      "actors": [
-        {"id": 4, "name": "Tim Robbins"},
-        {"id": 5, "name": "Morgan Freeman"}
-      ]
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
     },
-    {
-      "id": 31,
-      "title": "The Dark Knight",
-      "sinopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham...",
-      "year": 2008,
-      "director": { "id": 1, "name": "Christopher Nolan" },
-      "genero": { "id": 3, "name": "Acción" },
-      "cover": "/public/temp/wp2587947-batman-wallpapers-dark-knight.jpg",
-      "was_watched": false,
-      "rating": 4.7,
-      "actors": [
-        {"id": 6, "name": "Christian Bale"},
-        {"id": 7, "name": "Heath Ledger"}
-      ]
+    "cover": "assets/images/temp/cards/dracula-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "7990562538982299423",
+        "name": "Bela Lugosi"
+      },
+      {
+        "id": "4444911176643006588",
+        "name": "Helen Chandler"
+      },
+      {
+        "id": "3284824443269633980",
+        "name": "David Manners"
+      },
+      {
+        "id": "12178322585282305107",
+        "name": "Dwight Frye"
+      },
+      {
+        "id": "11409414367695622753",
+        "name": "Edward Van Sloan"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/dracula-poster.jpg",
+    "id": "15"
+  },
+  {
+    "title": "Pulp Fiction",
+    "sinopsis": "A burger-loving hit man, his philosophical partner, a drug-addled gangster’s moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+    "year": 1994,
+    "director": {
+      "id": "731415561077806786",
+      "name": "John Travolta"
     },
-    {
-      "id": 32,
-      "title": "Forrest Gump",
-      "sinopsis": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
-      "year":1994,
-      "director": { "id": 4, "name": "Robert Zemeckis" },
-      "genero": { "id": 4, "name": "Comedia" },
-      "cover": "/public/temp/forest-gump-cover.png",
-      "was_watched": true,
-      "rating": 4.6,
-      "actors": [
-        {"id": 8, "name": "Tom Hanks"},
-        {"id": 9, "name": "Robin Wright"}
-      ]
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
     },
-    {
-      "id": 33,
-      "title": "Inception",
-      "sinopsis": "A skilled thief who enters the dreams of others to steal their secrets...",
-      "year":2010,
-      "director": { "id": 1, "name": "Christopher Nolan" },
-      "genero": { "id": 1, "name": "Ciencia ficción" },
-      "cover":"/public/temp/BhpnNvf-inception-wallpapers.jpg",
-      "was_watched": true,
-      "rating": 4.5,
-      "actors": [
-        {"id": 1, "name": "Leonardo DiCaprio"},
-        {"id": 2, "name": "Joseph Gordon-Levitt"},
-        {"id": 3, "name": "Ellen Page"}
-      ]
+    "cover": "assets/images/temp/cards/pulp-fiction-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "731415561077806786",
+        "name": "John Travolta"
+      },
+      {
+        "id": "12942760175506315211",
+        "name": "Samuel L. Jackson"
+      },
+      {
+        "id": "3166540040057740136",
+        "name": "Uma Thurman"
+      },
+      {
+        "id": "8992964380597507858",
+        "name": "Bruce Willis"
+      },
+      {
+        "id": "11882316483945192765",
+        "name": "Ving Rhames"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/pulp-fiction-poster.jpg",
+    "id": "16"
+  },
+  {
+    "title": "Reservoir Dogs",
+    "sinopsis": "A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors – veteran Mr. White, newcomer Mr. Orange, psychopathic parolee Mr. Blonde, bickering weasel Mr. Pink and Nice Guy Eddie – unravel.",
+    "year": 1992,
+    "director": {
+      "id": "2929823772596524139",
+      "name": "Harvey Keitel"
     },
-    {
-      "id": 34,
-      "title": "The Shawshank Redemption",
-      "sinopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-      "year":1994,
-      "director": { "id": 2, "name": "Frank Darabont" },
-      "genero": { "id": 2, "name": "Drama" },
-      "cover": "/public/temp/the-shawshank-redemption-cover.png",
-      "was_watched": true,
-      "rating": 4.8,
-      "actors": [
-        {"id": 4, "name": "Tim Robbins"},
-        {"id": 5, "name": "Morgan Freeman"}
-      ]
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
     },
-    {
-      "id": 35,
-      "title": "The Dark Knight",
-      "sinopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham...",
-      "year": 2008,
-      "director": { "id": 1, "name": "Christopher Nolan" },
-      "genero": { "id": 3, "name": "Acción" },
-      "cover": "/public/temp/wp2587947-batman-wallpapers-dark-knight.jpg",
-      "was_watched": false,
-      "rating": 4.7,
-      "actors": [
-        {"id": 6, "name": "Christian Bale"},
-        {"id": 7, "name": "Heath Ledger"}
-      ]
+    "cover": "assets/images/temp/cards/reservoir-dogs-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "2929823772596524139",
+        "name": "Harvey Keitel"
+      },
+      {
+        "id": "5028944336175845775",
+        "name": "Tim Roth"
+      },
+      {
+        "id": "13166682665653985009",
+        "name": "Michael Madsen"
+      },
+      {
+        "id": "11823866813189870735",
+        "name": "Chris Penn"
+      },
+      {
+        "id": "12045746713939105114",
+        "name": "Steve Buscemi"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/reservoir-dogs-poster.jpg",
+    "id": "17"
+  },
+  {
+    "title": "Inglourious Basterds",
+    "sinopsis": "In Nazi-occupied France during World War II, a group of Jewish-American soldiers known as “The Basterds” are chosen specifically to spread fear throughout the Third Reich by scalping and brutally killing Nazis. The Basterds, lead by Lt. Aldo Raine soon cross paths with a French-Jewish teenage girl who runs a movie theater in Paris which is targeted by the soldiers.",
+    "year": 2009,
+    "director": {
+      "id": "17005495659796061336",
+      "name": "Brad Pitt"
     },
-    {
-      "id": 36,
-      "title": "Forrest Gump",
-      "sinopsis": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
-      "year":1994,
-      "director": { "id": 4, "name": "Robert Zemeckis" },
-      "genero": { "id": 4, "name": "Comedia" },
-      "cover": "/public/temp/forest-gump-cover.png",
-      "was_watched": true,
-      "rating": 4.6,
-      "actors": [
-        {"id": 8, "name": "Tom Hanks"},
-        {"id": 9, "name": "Robin Wright"}
-      ]
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
     },
-    {
-      "id": 37,
-      "title": "Inception",
-      "sinopsis": "A skilled thief who enters the dreams of others to steal their secrets...",
-      "year":2010,
-      "director": { "id": 1, "name": "Christopher Nolan" },
-      "genero": { "id": 1, "name": "Ciencia ficción" },
-      "cover":"/public/temp/BhpnNvf-inception-wallpapers.jpg",
-      "was_watched": true,
-      "rating": 4.5,
-      "actors": [
-        {"id": 1, "name": "Leonardo DiCaprio"},
-        {"id": 2, "name": "Joseph Gordon-Levitt"},
-        {"id": 3, "name": "Ellen Page"}
-      ]
+    "cover": "assets/images/temp/cards/inglourious-basterds-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "17005495659796061336",
+        "name": "Brad Pitt"
+      },
+      {
+        "id": "7027044452228748253",
+        "name": "Mélanie Laurent"
+      },
+      {
+        "id": "10685526323072292433",
+        "name": "Christoph Waltz"
+      },
+      {
+        "id": "14484997505658671825",
+        "name": "Eli Roth"
+      },
+      {
+        "id": "8406313490096676720",
+        "name": "Michael Fassbender"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/inglourious-basterds-poster.jpg",
+    "id": "18"
+  },
+  {
+    "title": "Cape Fear",
+    "sinopsis": "Sam Bowden witnesses a rape committed by Max Cady and testifies against him. When released after 8 years in prison, Cady begins stalking Bowden and his family but is always clever enough not to violate the law.",
+    "year": 1962,
+    "director": {
+      "id": "17472156460956998384",
+      "name": "Gregory Peck"
     },
-    {
-      "id": 38,
-      "title": "The Shawshank Redemption",
-      "sinopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-      "year":1994,
-      "director": { "id": 2, "name": "Frank Darabont" },
-      "genero": { "id": 2, "name": "Drama" },
-      "cover": "/public/temp/the-shawshank-redemption-cover.png",
-      "was_watched": true,
-      "rating": 4.8,
-      "actors": [
-        {"id": 4, "name": "Tim Robbins"},
-        {"id": 5, "name": "Morgan Freeman"}
-      ]
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
     },
-    {
-      "id": 39,
-      "title": "The Dark Knight",
-      "sinopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham...",
-      "year": 2008,
-      "director": { "id": 1, "name": "Christopher Nolan" },
-      "genero": { "id": 3, "name": "Acción" },
-      "cover": "/public/temp/wp2587947-batman-wallpapers-dark-knight.jpg",
-      "was_watched": false,
-      "rating": 4.7,
-      "actors": [
-        {"id": 6, "name": "Christian Bale"},
-        {"id": 7, "name": "Heath Ledger"}
-      ]
+    "cover": "assets/images/temp/cards/cape-fear-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "17472156460956998384",
+        "name": "Gregory Peck"
+      },
+      {
+        "id": "17023906250485617606",
+        "name": "Robert Mitchum"
+      },
+      {
+        "id": "9943081445743022109",
+        "name": "Polly Bergen"
+      },
+      {
+        "id": "12136768676122547610",
+        "name": "Lori Martin"
+      },
+      {
+        "id": "15561782725097904142",
+        "name": "Martin Balsam"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/cape-fear-poster.jpg",
+    "id": "20"
+  },
+  {
+    "title": "Casino",
+    "sinopsis": "In early-1970s Las Vegas, Sam “Ace” Rothstein gets tapped by his bosses to head the Tangiers Casino. At first, he’s a great success in the job, but over the years, problems with his loose-cannon enforcer Nicky Santoro, his ex-hustler wife Ginger, her con-artist ex Lester Diamond and a handful of corrupt politicians put Sam in ever-increasing danger.",
+    "year": 1995,
+    "director": {
+      "id": "15004595570541484829",
+      "name": "Robert De Niro"
     },
-    {
-      "id": 40,
-      "title": "Forrest Gump",
-      "sinopsis": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
-      "year":1994,
-      "director": { "id": 4, "name": "Robert Zemeckis" },
-      "genero": { "id": 4, "name": "Comedia" },
-      "cover": "/public/temp/forest-gump-cover.png",
-      "was_watched": true,
-      "rating": 4.6,
-      "actors": [
-        {"id": 8, "name": "Tom Hanks"},
-        {"id": 9, "name": "Robin Wright"}
-      ]
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
     },
-    {
-      "id": 41,
-      "title": "Inception",
-      "sinopsis": "A skilled thief who enters the dreams of others to steal their secrets...",
-      "year":2010,
-      "director": { "id": 1, "name": "Christopher Nolan" },
-      "genero": { "id": 1, "name": "Ciencia ficción" },
-      "cover":"/public/temp/BhpnNvf-inception-wallpapers.jpg",
-      "was_watched": true,
-      "rating": 4.5,
-      "actors": [
-        {"id": 1, "name": "Leonardo DiCaprio"},
-        {"id": 2, "name": "Joseph Gordon-Levitt"},
-        {"id": 3, "name": "Ellen Page"}
-      ]
+    "cover": "assets/images/temp/cards/casino-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "15004595570541484829",
+        "name": "Robert De Niro"
+      },
+      {
+        "id": "16326218457441719350",
+        "name": "Sharon Stone"
+      },
+      {
+        "id": "6814623093155321803",
+        "name": "Joe Pesci"
+      },
+      {
+        "id": "4733423102982052565",
+        "name": "James Woods"
+      },
+      {
+        "id": "5382278096127613656",
+        "name": "Don Rickles"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/casino-poster.jpg",
+    "id": "21"
+  },
+  {
+    "title": "Shutter Island",
+    "sinopsis": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a mysterious doctor.",
+    "year": 2010,
+    "director": {
+      "id": "8549134310104062176",
+      "name": "Leonardo DiCaprio"
     },
-    {
-      "id": 42,
-      "title": "The Shawshank Redemption",
-      "sinopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-      "year":1994,
-      "director": { "id": 2, "name": "Frank Darabont" },
-      "genero": { "id": 2, "name": "Drama" },
-      "cover": "/public/temp/the-shawshank-redemption-cover.png",
-      "was_watched": true,
-      "rating": 4.8,
-      "actors": [
-        {"id": 4, "name": "Tim Robbins"},
-        {"id": 5, "name": "Morgan Freeman"}
-      ]
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
     },
-    {
-      "id": 43,
-      "title": "The Dark Knight",
-      "sinopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham...",
-      "year": 2008,
-      "director": { "id": 1, "name": "Christopher Nolan" },
-      "genero": { "id": 3, "name": "Acción" },
-      "cover": "/public/temp/wp2587947-batman-wallpapers-dark-knight.jpg",
-      "was_watched": false,
-      "rating": 4.7,
-      "actors": [
-        {"id": 6, "name": "Christian Bale"},
-        {"id": 7, "name": "Heath Ledger"}
-      ]
+    "cover": "assets/images/temp/cards/shutter-island-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "8549134310104062176",
+        "name": "Leonardo DiCaprio"
+      },
+      {
+        "id": "9095922152799752907",
+        "name": "Mark Ruffalo"
+      },
+      {
+        "id": "2610825005254401473",
+        "name": "Ben Kingsley"
+      },
+      {
+        "id": "2436580431316801644",
+        "name": "Max von Sydow"
+      },
+      {
+        "id": "11817831909027108096",
+        "name": "Michelle Williams"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/shutter-island-poster.jpg",
+    "id": "22"
+  },
+  {
+    "title": "Gangs of New York",
+    "sinopsis": "In 1863, Amsterdam Vallon returns to the Five Points of America to seek vengeance against the psychotic gangland kingpin, Bill the Butcher, who murdered his father years earlier. With an eager pickpocket by his side and a whole new army, Vallon fights his way to seek vengeance on the Butcher and restore peace in the area.",
+    "year": 2002,
+    "director": {
+      "id": "8549134310104062176",
+      "name": "Leonardo DiCaprio"
     },
-    {
-      "id": 44,
-      "title": "Forrest Gump",
-      "sinopsis": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
-      "year":1994,
-      "director": { "id": 4, "name": "Robert Zemeckis" },
-      "genero": { "id": 4, "name": "Comedia" },
-      "cover": "/public/temp/forest-gump-cover.png",
-      "was_watched": true,
-      "rating": 4.6,
-      "actors": [
-        {"id": 8, "name": "Tom Hanks"},
-        {"id": 9, "name": "Robin Wright"}
-      ]
-    }
-  ]
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/gangs-of-new-york-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "8549134310104062176",
+        "name": "Leonardo DiCaprio"
+      },
+      {
+        "id": "18225264039386175976",
+        "name": "Daniel Day-Lewis"
+      },
+      {
+        "id": "6950659293817036356",
+        "name": "Cameron Diaz"
+      },
+      {
+        "id": "5655073984203677448",
+        "name": "Jim Broadbent"
+      },
+      {
+        "id": "10864240684026451752",
+        "name": "John C. Reilly"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/gangs-of-new-york-poster.jpg",
+    "id": "23"
+  },
+  {
+    "title": "The Aviator",
+    "sinopsis": "A biopic depicting the life of filmmaker and aviation pioneer Howard Hughes from 1927 to 1947, during which time he became a successful film producer and an aviation magnate, while simultaneously growing more unstable due to severe obsessive-compulsive disorder.",
+    "year": 2004,
+    "director": {
+      "id": "8549134310104062176",
+      "name": "Leonardo DiCaprio"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/the-aviator-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "8549134310104062176",
+        "name": "Leonardo DiCaprio"
+      },
+      {
+        "id": "10437164876095509584",
+        "name": "Cate Blanchett"
+      },
+      {
+        "id": "12357699687795940436",
+        "name": "Kate Beckinsale"
+      },
+      {
+        "id": "10864240684026451752",
+        "name": "John C. Reilly"
+      },
+      {
+        "id": "9364001098516091432",
+        "name": "Alec Baldwin"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/the-aviator-poster.jpg",
+    "id": "24"
+  },
+  {
+    "title": "The Lobster",
+    "sinopsis": "In a dystopian near future, single people, according to the laws of The City, are taken to The Hotel, where they are obliged to find a romantic partner in forty-five days or are transformed into animals and sent off into The Woods.",
+    "year": 2015,
+    "director": {
+      "id": "12585678686446637683",
+      "name": "Colin Farrell"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/the-lobster-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "12585678686446637683",
+        "name": "Colin Farrell"
+      },
+      {
+        "id": "14008302232614755072",
+        "name": "Rachel Weisz"
+      },
+      {
+        "id": "8815730959804095620",
+        "name": "Olivia Colman"
+      },
+      {
+        "id": "4586359157276498492",
+        "name": "Léa Seydoux"
+      },
+      {
+        "id": "10702097972699488178",
+        "name": "Michael Smiley"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/the-lobster-poster.jpg",
+    "id": "25"
+  },
+  {
+    "title": "The Killing of a Sacred Deer",
+    "sinopsis": "Dr. Steven Murphy is a renowned cardiovascular surgeon who presides over a spotless household with his wife and two children. Lurking at the margins of his idyllic suburban existence is Martin, a fatherless teen who insinuates himself into the doctor’s life in gradually unsettling ways.",
+    "year": 2017,
+    "director": {
+      "id": "12585678686446637683",
+      "name": "Colin Farrell"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/the-killing-of-a-sacred-deer-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "12585678686446637683",
+        "name": "Colin Farrell"
+      },
+      {
+        "id": "1381453631133802072",
+        "name": "Nicole Kidman"
+      },
+      {
+        "id": "7785149255257643721",
+        "name": "Barry Keoghan"
+      },
+      {
+        "id": "16436789622479870177",
+        "name": "Raffey Cassidy"
+      },
+      {
+        "id": "16419945523162011045",
+        "name": "Sunny Suljic"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/the-killing-of-a-sacred-deer-poster.jpg",
+    "id": "26"
+  },
+  {
+    "title": "The Elephant Man",
+    "sinopsis": "A Victorian surgeon rescues a heavily disfigured man being mistreated by his “owner” as a side-show freak. Behind his monstrous façade, there is revealed a person of great intelligence and sensitivity. Based on the true story of Joseph Merrick (called John Merrick in the film), a severely deformed man in 19th century London.",
+    "year": 1980,
+    "director": {
+      "id": "11683139881137428335",
+      "name": "Anthony Hopkins"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/the-elephant-man-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "11683139881137428335",
+        "name": "Anthony Hopkins"
+      },
+      {
+        "id": "7725842715676465241",
+        "name": "John Hurt"
+      },
+      {
+        "id": "12520644609986680604",
+        "name": "Anne Bancroft"
+      },
+      {
+        "id": "9684701860216132963",
+        "name": "John Gielgud"
+      },
+      {
+        "id": "949374109477721185",
+        "name": "Wendy Hiller"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/the-elephant-man-poster.jpg",
+    "id": "27"
+  },
+  {
+    "title": "Midnight Express",
+    "sinopsis": "Billy Hayes is caught attempting to smuggle drugs out of Turkey. The Turkish courts decide to make an example of him, sentencing him to more than 30 years in prison. Hayes has two opportunities for release: the appeals made by his lawyer, his family, and the American government, or the “Midnight Express”.",
+    "year": 1978,
+    "director": {
+      "id": "10700453378398377313",
+      "name": "Brad Davis"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/midnight-express-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "10700453378398377313",
+        "name": "Brad Davis"
+      },
+      {
+        "id": "3795484435462838113",
+        "name": "Irene Miracle"
+      },
+      {
+        "id": "5555701709489986323",
+        "name": "Bo Hopkins"
+      },
+      {
+        "id": "13351217144680962068",
+        "name": "Paolo Bonacelli"
+      },
+      {
+        "id": "18221148507835883246",
+        "name": "Paul L. Smith"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/midnight-express-poster.jpg",
+    "id": "28"
+  },
+  {
+    "title": "Amores Perros",
+    "sinopsis": "A fatalistic car crash in Mexico city sets off a chain of events in the lives of three people: a supermodel, a young man wanting to run off with his sister-in-law, and a homeless man. Their lives are catapulted into unforeseen situations instigated by the seemingly inconsequential destiny of a dog.",
+    "year": 2000,
+    "director": {
+      "id": "11472763541591120927",
+      "name": "Emilio Echevarría"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/amores-perros-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "11472763541591120927",
+        "name": "Emilio Echevarría"
+      },
+      {
+        "id": "10100525573739073798",
+        "name": "Gael García Bernal"
+      },
+      {
+        "id": "2920659210041908140",
+        "name": "Vanessa Bauche"
+      },
+      {
+        "id": "11967093180173082516",
+        "name": "Goya Toledo"
+      },
+      {
+        "id": "4485190881419743438",
+        "name": "Álvaro Guerrero"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/amores-perros-poster.jpg",
+    "id": "29"
+  },
+  {
+    "title": "The Pianist",
+    "sinopsis": "The true story of pianist Władysław Szpilman’s experiences in Warsaw during the Nazi occupation. When the Jews of the city find themselves forced into a ghetto, Szpilman finds work playing in a café; and when his family is deported in 1942, he stays behind, works for a while as a laborer, and eventually goes into hiding in the ruins of the war-torn city.",
+    "year": 2002,
+    "director": {
+      "id": "7454290802574120796",
+      "name": "Adrien Brody"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/the-pianist-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "7454290802574120796",
+        "name": "Adrien Brody"
+      },
+      {
+        "id": "12261886530865748118",
+        "name": "Thomas Kretschmann"
+      },
+      {
+        "id": "9660334007945746919",
+        "name": "Frank Finlay"
+      },
+      {
+        "id": "4874705598148468560",
+        "name": "Maureen Lipman"
+      },
+      {
+        "id": "6978980522947991765",
+        "name": "Emilia Fox"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/the-pianist-poster.jpg",
+    "id": "31"
+  },
+  {
+    "title": "The Lives of Others",
+    "sinopsis": "In 1983 East Berlin, dedicated Stasi officer Gerd Wiesler begins spying on a famous playwright and his actress-lover Christa-Maria. Wiesler becomes unexpectedly sympathetic to the couple, and faces conflicting loyalties when his superior takes a liking to Christa-Maria.",
+    "year": 2006,
+    "director": {
+      "id": "12748564726933574790",
+      "name": "Martina Gedeck"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/the-lives-of-others-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "12748564726933574790",
+        "name": "Martina Gedeck"
+      },
+      {
+        "id": "7946406378692628676",
+        "name": "Ulrich Mühe"
+      },
+      {
+        "id": "10375320064530011608",
+        "name": "Sebastian Koch"
+      },
+      {
+        "id": "14484080412133577505",
+        "name": "Ulrich Tukur"
+      },
+      {
+        "id": "13221860578698091381",
+        "name": "Thomas Thieme"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/the-lives-of-others-poster.jpg",
+    "id": "32"
+  },
+  {
+    "title": "No Country for Old Men",
+    "sinopsis": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide.",
+    "year": 2007,
+    "director": {
+      "id": "17885707485753073298",
+      "name": "Javier Bardem"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/no-country-for-old-men-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "17885707485753073298",
+        "name": "Javier Bardem"
+      },
+      {
+        "id": "17997504661439274267",
+        "name": "Tommy Lee Jones"
+      },
+      {
+        "id": "6480362522990042667",
+        "name": "Josh Brolin"
+      },
+      {
+        "id": "11891867386196939564",
+        "name": "Woody Harrelson"
+      },
+      {
+        "id": "16284282114652789110",
+        "name": "Kelly Macdonald"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/no-country-for-old-men-poster.jpg",
+    "id": "33"
+  },
+  {
+    "title": "We Need to Talk About Kevin",
+    "sinopsis": "After her son Kevin commits a horrific act, troubled mother Eva reflects on her complicated relationship with her disturbed son as he grew from a toddler into a teenager.",
+    "year": 2011,
+    "director": {
+      "id": "12791299072639392320",
+      "name": "Tilda Swinton"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/we-need-to-talk-about-kevin-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "12791299072639392320",
+        "name": "Tilda Swinton"
+      },
+      {
+        "id": "10864240684026451752",
+        "name": "John C. Reilly"
+      },
+      {
+        "id": "15481249276554991437",
+        "name": "Ezra Miller"
+      },
+      {
+        "id": "3777504773282421527",
+        "name": "Jasper Newell"
+      },
+      {
+        "id": "11455732946970697603",
+        "name": "Rock Duer"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/we-need-to-talk-about-kevin-poster.jpg",
+    "id": "34"
+  },
+  {
+    "title": "Hereditary",
+    "sinopsis": "Following the death of the Leigh family matriarch, Annie and her children uncover disturbing secrets about their heritage. Their daily lives are not only impacted, but they also become entangled in a chilling fate from which they cannot escape, driving them to the brink of madness.",
+    "year": 2018,
+    "director": {
+      "id": "11538628600444509066",
+      "name": "Toni Collette"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/hereditary-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "11538628600444509066",
+        "name": "Toni Collette"
+      },
+      {
+        "id": "7383116688379434522",
+        "name": "Alex Wolff"
+      },
+      {
+        "id": "6104439503926022684",
+        "name": "Gabriel Byrne"
+      },
+      {
+        "id": "5037305796243379784",
+        "name": "Milly Shapiro"
+      },
+      {
+        "id": "11230623517691371103",
+        "name": "Ann Dowd"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/hereditary-poster.jpg",
+    "id": "35"
+  },
+  {
+    "title": "Gattaca",
+    "sinopsis": "Vincent is an all-too-human man who dares to defy a system obsessed with genetic perfection. He is an “In-Valid” who assumes the identity of a member of the genetic elite to pursue his goal of traveling into space with the Gattaca Aerospace Corporation.",
+    "year": 1997,
+    "director": {
+      "id": "11379497556121441339",
+      "name": "Ethan Hawke"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/gattaca-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "11379497556121441339",
+        "name": "Ethan Hawke"
+      },
+      {
+        "id": "3166540040057740136",
+        "name": "Uma Thurman"
+      },
+      {
+        "id": "424907245311908986",
+        "name": "Jude Law"
+      },
+      {
+        "id": "17168686487445658562",
+        "name": "Alan Arkin"
+      },
+      {
+        "id": "16407638496826905337",
+        "name": "Loren Dean"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/gattaca-poster.jpg",
+    "id": "36"
+  },
+  {
+    "title": "Gone Girl",
+    "sinopsis": "With his wife’s disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it’s suspected that he may not be innocent.",
+    "year": 2014,
+    "director": {
+      "id": "1359588848534049030",
+      "name": "Ben Affleck"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/gone-girl-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "1359588848534049030",
+        "name": "Ben Affleck"
+      },
+      {
+        "id": "13503711497871840817",
+        "name": "Rosamund Pike"
+      },
+      {
+        "id": "9890460559270763315",
+        "name": "Neil Patrick Harris"
+      },
+      {
+        "id": "2274994741256412886",
+        "name": "Tyler Perry"
+      },
+      {
+        "id": "1509595987343466070",
+        "name": "Carrie Coon"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/gone-girl-poster.jpg",
+    "id": "37"
+  },
+  {
+    "title": "Seven",
+    "sinopsis": "A government agent discovers a plot by a cartel of seven gangsters to take over the state of Hawaii. He hires a team of seven hitmen to stop them.",
+    "year": 1979,
+    "director": {
+      "id": "14338699710197946202",
+      "name": "William Smith"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/seven-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "14338699710197946202",
+        "name": "William Smith"
+      },
+      {
+        "id": "12812240816315783311",
+        "name": "Barbara Leigh"
+      },
+      {
+        "id": "10096717431482700355",
+        "name": "Guich Koock"
+      },
+      {
+        "id": "3900339690261536325",
+        "name": "Christopher Joy"
+      },
+      {
+        "id": "682261622953562236",
+        "name": "Art Metrano"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/seven-poster.jpg",
+    "id": "38"
+  },
+  {
+    "title": "Black Swan",
+    "sinopsis": "The story of Nina, a ballerina in a New York City ballet company whose life, like all those in her profession, is completely consumed with dance. She lives with her retired ballerina mother Erica who zealously supports her daughter’s professional ambition. When artistic director Thomas Leroy decides to replace prima ballerina Beth MacIntyre for the opening production of their new season, Swan Lake, Nina is his first choice.",
+    "year": 2010,
+    "director": {
+      "id": "15409622895904969331",
+      "name": "Natalie Portman"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/black-swan-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "15409622895904969331",
+        "name": "Natalie Portman"
+      },
+      {
+        "id": "3438590786752961271",
+        "name": "Mila Kunis"
+      },
+      {
+        "id": "12719477603840579353",
+        "name": "Vincent Cassel"
+      },
+      {
+        "id": "1720642304425546722",
+        "name": "Barbara Hershey"
+      },
+      {
+        "id": "3262130182177184584",
+        "name": "Winona Ryder"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/black-swan-poster.jpg",
+    "id": "39"
+  },
+  {
+    "title": "Mother",
+    "sinopsis": "A teenaged girl witnesses her widowed mother’s attempt to sustain her family.",
+    "year": 1952,
+    "director": {
+      "id": "13262452818904437252",
+      "name": "Kinuyo Tanaka"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/mother-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "13262452818904437252",
+        "name": "Kinuyo Tanaka"
+      },
+      {
+        "id": "14451651432877612187",
+        "name": "Kyōko Kagawa"
+      },
+      {
+        "id": "7082966983985945589",
+        "name": "Eiji Okada"
+      },
+      {
+        "id": "11781031816743116300",
+        "name": "Akihiko Katayama"
+      },
+      {
+        "id": "7517011794989964269",
+        "name": "Daisuke Katō"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/mother-poster.jpg",
+    "id": "40"
+  },
+  {
+    "title": "American Beauty",
+    "sinopsis": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter’s attractive friend.",
+    "year": 1999,
+    "director": {
+      "id": "11640022196356338791",
+      "name": "Kevin Spacey"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/american-beauty-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "11640022196356338791",
+        "name": "Kevin Spacey"
+      },
+      {
+        "id": "10777087753742604229",
+        "name": "Annette Bening"
+      },
+      {
+        "id": "14271199391883351079",
+        "name": "Thora Birch"
+      },
+      {
+        "id": "7855386673498643755",
+        "name": "Wes Bentley"
+      },
+      {
+        "id": "15390818722310413263",
+        "name": "Mena Suvari"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/american-beauty-poster.jpg",
+    "id": "41"
+  },
+  {
+    "title": "The Virgin Suicides",
+    "sinopsis": "A group of male friends become obsessed with five mysterious sisters who are sheltered by their strict, religious parents.",
+    "year": 1999,
+    "director": {
+      "id": "4733423102982052565",
+      "name": "James Woods"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/the-virgin-suicides-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "4733423102982052565",
+        "name": "James Woods"
+      },
+      {
+        "id": "16454534152378734308",
+        "name": "Kirsten Dunst"
+      },
+      {
+        "id": "1458323606724302415",
+        "name": "Kathleen Turner"
+      },
+      {
+        "id": "16309081631587457444",
+        "name": "Josh Hartnett"
+      },
+      {
+        "id": "18295915551513792600",
+        "name": "Michael Paré"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/the-virgin-suicides-poster.jpg",
+    "id": "42"
+  },
+  {
+    "title": "Midsommar",
+    "sinopsis": "Several friends travel to Sweden to study as anthropologists a summer festival that is held every ninety years in the remote hometown of one of them. What begins as a dream vacation in a place where the sun never sets, gradually turns into a dark nightmare as the mysterious inhabitants invite them to participate in their disturbing festive activities.",
+    "year": 2019,
+    "director": {
+      "id": "15327363410726769961",
+      "name": "Florence Pugh"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/midsommar-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "15327363410726769961",
+        "name": "Florence Pugh"
+      },
+      {
+        "id": "13829421004648897754",
+        "name": "Jack Reynor"
+      },
+      {
+        "id": "13959794445211489480",
+        "name": "William Jackson Harper"
+      },
+      {
+        "id": "4963298451219633404",
+        "name": "Will Poulter"
+      },
+      {
+        "id": "7427908507147655801",
+        "name": "Vilhelm Blomgren"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/midsommar-poster.jpg",
+    "id": "43"
+  },
+  {
+    "title": "Monster",
+    "sinopsis": "An emotionally scarred highway drifter shoots a sadistic trick who rapes her, and ultimately becomes America’s first female serial killer.",
+    "year": 2003,
+    "director": {
+      "id": "450663788341122774",
+      "name": "Charlize Theron"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/monster-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "450663788341122774",
+        "name": "Charlize Theron"
+      },
+      {
+        "id": "6803332920600581908",
+        "name": "Christina Ricci"
+      },
+      {
+        "id": "6733563593802667973",
+        "name": "Bruce Dern"
+      },
+      {
+        "id": "10358779062453886059",
+        "name": "Lee Tergesen"
+      },
+      {
+        "id": "16880479253488425590",
+        "name": "Annie Corley"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/monster-poster.jpg",
+    "id": "44"
+  },
+  {
+    "title": "American Psycho",
+    "sinopsis": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
+    "year": 2000,
+    "director": {
+      "id": "7207320979052254545",
+      "name": "Christian Bale"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/american-psycho-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "7207320979052254545",
+        "name": "Christian Bale"
+      },
+      {
+        "id": "3097675710257124470",
+        "name": "Justin Theroux"
+      },
+      {
+        "id": "6204774197305299248",
+        "name": "Josh Lucas"
+      },
+      {
+        "id": "4443433399747108428",
+        "name": "Bill Sage"
+      },
+      {
+        "id": "16181851500539632583",
+        "name": "Chloë Sevigny"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/american-psycho-poster.jpg",
+    "id": "45"
+  },
+  {
+    "title": "Jennifer’s Body",
+    "sinopsis": "Jennifer, a gorgeous, seductive cheerleader takes evil to a whole new level after she’s possessed by a sinister demon. Now it’s up to her best friend to stop Jennifer’s reign of terror before it’s too late.",
+    "year": 2009,
+    "director": {
+      "id": "7982185505163992829",
+      "name": "Megan Fox"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/jennifers-body-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "7982185505163992829",
+        "name": "Megan Fox"
+      },
+      {
+        "id": "8796552995518373337",
+        "name": "Amanda Seyfried"
+      },
+      {
+        "id": "2513165452259383080",
+        "name": "Johnny Simmons"
+      },
+      {
+        "id": "12916286007691269160",
+        "name": "Adam Brody"
+      },
+      {
+        "id": "803236453959881820",
+        "name": "Sal Cortez"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/jennifers-body-poster.jpg",
+    "id": "46"
+  },
+  {
+    "title": "Big Fish",
+    "sinopsis": "Throughout his life Edward Bloom has always been a man of big appetites, enormous passions and tall tales. In his later years, he remains a huge mystery to his son, William. Now, to get to know the real man, Will begins piecing together a true picture of his father from flashbacks of his amazing adventures.",
+    "year": 2003,
+    "director": {
+      "id": "17069012504405564821",
+      "name": "Ewan McGregor"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/big-fish-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "17069012504405564821",
+        "name": "Ewan McGregor"
+      },
+      {
+        "id": "13278672215532788502",
+        "name": "Albert Finney"
+      },
+      {
+        "id": "5781636683205006406",
+        "name": "Billy Crudup"
+      },
+      {
+        "id": "2880131685650226400",
+        "name": "Jessica Lange"
+      },
+      {
+        "id": "11142958212228272914",
+        "name": "Helena Bonham Carter"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/big-fish-poster.jpg",
+    "id": "47"
+  },
+  {
+    "title": "American History X",
+    "sinopsis": "",
+    "year": 1998,
+    "director": {
+      "id": "6347379004986315671",
+      "name": "Edward Norton"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/american-history-x-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "6347379004986315671",
+        "name": "Edward Norton"
+      },
+      {
+        "id": "13697770002374218786",
+        "name": "Edward Furlong"
+      },
+      {
+        "id": "7028771043958282479",
+        "name": "Beverly D'Angelo"
+      },
+      {
+        "id": "7625613893331343746",
+        "name": "Jennifer Lien"
+      },
+      {
+        "id": "8889338864502266833",
+        "name": "Ethan Suplee"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/american-history-x-poster.jpg",
+    "id": "48"
+  },
+  {
+    "title": "It’s Kind of a Funny Story",
+    "sinopsis": "A clinically depressed teenager gets a new start after he checks himself into an adult psychiatric ward.",
+    "year": 2010,
+    "director": {
+      "id": "3904803653907078719",
+      "name": "Keir Gilchrist"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/its-kind-of-a-funny-story-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "3904803653907078719",
+        "name": "Keir Gilchrist"
+      },
+      {
+        "id": "11228567488301978660",
+        "name": "Emma Roberts"
+      },
+      {
+        "id": "8131251055027248911",
+        "name": "Zach Galifianakis"
+      },
+      {
+        "id": "21939300255814314",
+        "name": "Viola Davis"
+      },
+      {
+        "id": "4125394459304548442",
+        "name": "Lauren Graham"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/its-kind-of-a-funny-story-poster.jpg",
+    "id": "50"
+  },
+  {
+    "title": "Palo Alto",
+    "sinopsis": "A lack of parental guidance encourages teens in an affluent California town to rebel with substance abuse and casual sex.",
+    "year": 2013,
+    "director": {
+      "id": "11228567488301978660",
+      "name": "Emma Roberts"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/palo-alto-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "11228567488301978660",
+        "name": "Emma Roberts"
+      },
+      {
+        "id": "5162258035146644124",
+        "name": "Jack Kilmer"
+      },
+      {
+        "id": "16767989343067199223",
+        "name": "Nat Wolff"
+      },
+      {
+        "id": "9045303890066430993",
+        "name": "James Franco"
+      },
+      {
+        "id": "765834603652471978",
+        "name": "Zoe Levin"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/palo-alto-poster.jpg",
+    "id": "51"
+  },
+  {
+    "title": "The Master",
+    "sinopsis": "When Master Tak, an old martial arts master, disappears, his best student, Jet, steps in to find him. However, when he learns that Tak’s life is in danger, he decides to protect him at all costs.",
+    "year": 1992,
+    "director": {
+      "id": "40077546684111284",
+      "name": "Jet Li"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/the-master-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "40077546684111284",
+        "name": "Jet Li"
+      },
+      {
+        "id": "5873075218232530239",
+        "name": "Yuen Wah"
+      },
+      {
+        "id": "366835517011546369",
+        "name": "Crystal Kwok"
+      },
+      {
+        "id": "10852690230342145849",
+        "name": "Jerry Trimble"
+      },
+      {
+        "id": "9446871586519733458",
+        "name": "Anne Rickets"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/the-master-poster.jpg",
+    "id": "52"
+  },
+  {
+    "title": "Capote",
+    "sinopsis": "A biopic of writer Truman Capote and his assignment for The New Yorker to write the non-fiction book “In Cold Blood”.",
+    "year": 2005,
+    "director": {
+      "id": "2125493790091205561",
+      "name": "Philip Seymour Hoffman"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/capote-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "2125493790091205561",
+        "name": "Philip Seymour Hoffman"
+      },
+      {
+        "id": "3063565384450399291",
+        "name": "Catherine Keener"
+      },
+      {
+        "id": "12287383364007514523",
+        "name": "Clifton Collins Jr."
+      },
+      {
+        "id": "5559828575786324346",
+        "name": "Bruce Greenwood"
+      },
+      {
+        "id": "12403721852291342326",
+        "name": "Bob Balaban"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/capote-poster.jpg",
+    "id": "53"
+  },
+  {
+    "title": "A Beautiful Mind",
+    "sinopsis": "Brilliant mathematician, John Nash, is on the brink of international acclaim when he becomes entangled in a mysterious conspiracy.",
+    "year": 2001,
+    "director": {
+      "id": "9301803125821890134",
+      "name": "Russell Crowe"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/a-beautiful-mind-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "9301803125821890134",
+        "name": "Russell Crowe"
+      },
+      {
+        "id": "2241001438425534562",
+        "name": "Jennifer Connelly"
+      },
+      {
+        "id": "18076345550913229218",
+        "name": "Ed Harris"
+      },
+      {
+        "id": "13982466368182837127",
+        "name": "Paul Bettany"
+      },
+      {
+        "id": "3015228688822983525",
+        "name": "Christopher Plummer"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/a-beautiful-mind-poster.jpg",
+    "id": "54"
+  },
+  {
+    "title": "Sophie’s Choice",
+    "sinopsis": "Stingo, a young writer, moves to Brooklyn in 1947 to begin work on his first novel. As he becomes friendly with Sophie and her lover Nathan, he learns that she is a Holocaust survivor. Flashbacks reveal her harrowing story, from pre-war prosperity to Auschwitz. In the present, Sophie and Nathan’s relationship increasingly unravels as Stingo grows closer to Sophie and Nathan’s fragile mental state becomes ever more apparent.",
+    "year": 1982,
+    "director": {
+      "id": "288353839632702116",
+      "name": "Meryl Streep"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/sophies-choice-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "288353839632702116",
+        "name": "Meryl Streep"
+      },
+      {
+        "id": "8160168085098158023",
+        "name": "Kevin Kline"
+      },
+      {
+        "id": "13304923338326955344",
+        "name": "Peter MacNicol"
+      },
+      {
+        "id": "7031481985938511298",
+        "name": "Rita Karin"
+      },
+      {
+        "id": "3310349863341085064",
+        "name": "Josh Mostel"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/sophies-choice-poster.jpg",
+    "id": "55"
+  },
+  {
+    "title": "Room",
+    "sinopsis": "Held captive for 7 years in an enclosed space, a woman and her young son finally gain their freedom, allowing the boy to experience the outside world for the first time.",
+    "year": 2015,
+    "director": {
+      "id": "4476151894260404766",
+      "name": "Brie Larson"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/room-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "4476151894260404766",
+        "name": "Brie Larson"
+      },
+      {
+        "id": "11131729887860643300",
+        "name": "Jacob Tremblay"
+      },
+      {
+        "id": "2571679973997499483",
+        "name": "Joan Allen"
+      },
+      {
+        "id": "16806626864967340428",
+        "name": "Sean Bridgers"
+      },
+      {
+        "id": "14149483387799231880",
+        "name": "Tom McCamus"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/room-poster.jpg",
+    "id": "56"
+  },
+  {
+    "title": "Mulholland Drive",
+    "sinopsis": "Blonde Betty Elms has only just arrived in Hollywood to become a movie star when she meets an enigmatic brunette with amnesia. Meanwhile, as the two set off to solve the second woman’s identity, filmmaker Adam Kesher runs into ominous trouble while casting his latest project.",
+    "year": 2001,
+    "director": {
+      "id": "49506937523559232",
+      "name": "Naomi Watts"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/mulholland-drive-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "49506937523559232",
+        "name": "Naomi Watts"
+      },
+      {
+        "id": "16766025986737069413",
+        "name": "Laura Harring"
+      },
+      {
+        "id": "3097675710257124470",
+        "name": "Justin Theroux"
+      },
+      {
+        "id": "7489295951305855105",
+        "name": "Ann Miller"
+      },
+      {
+        "id": "5476994547045126478",
+        "name": "Mark Pellegrino"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/mulholland-drive-poster.jpg",
+    "id": "57"
+  },
+  {
+    "title": "Natural Born Killers",
+    "sinopsis": "Two victims of traumatized childhoods become lovers and serial murderers irresponsibly glorified by the mass media.",
+    "year": 1994,
+    "director": {
+      "id": "11891867386196939564",
+      "name": "Woody Harrelson"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/natural-born-killers-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "11891867386196939564",
+        "name": "Woody Harrelson"
+      },
+      {
+        "id": "7781509862643028422",
+        "name": "Juliette Lewis"
+      },
+      {
+        "id": "8017428209196095116",
+        "name": "Robert Downey Jr."
+      },
+      {
+        "id": "17997504661439274267",
+        "name": "Tommy Lee Jones"
+      },
+      {
+        "id": "8382194115825194245",
+        "name": "Tom Sizemore"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/natural-born-killers-poster.jpg",
+    "id": "58"
+  },
+  {
+    "title": "The Witch",
+    "sinopsis": "A historian goes to a castle library to translate some ancient erotic literature. While there he discovers what he believes to be supernatural forces at work.",
+    "year": 1966,
+    "director": {
+      "id": "16739364905934345732",
+      "name": "Richard Johnson"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/the-witch-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "16739364905934345732",
+        "name": "Richard Johnson"
+      },
+      {
+        "id": "5197740997175235074",
+        "name": "Rosanna Schiaffino"
+      },
+      {
+        "id": "10902076227376667090",
+        "name": "Gian Maria Volonté"
+      },
+      {
+        "id": "17696393242732419870",
+        "name": "Sarah Ferrati"
+      },
+      {
+        "id": "14744054251421847724",
+        "name": "Margherita Guzzinati"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/the-witch-poster.jpg",
+    "id": "59"
+  },
+  {
+    "title": "Promising Young Woman",
+    "sinopsis": "A young woman, traumatized by a tragic event in her past, seeks out vengeance against those who crossed her path.",
+    "year": 2020,
+    "director": {
+      "id": "8000758401753633367",
+      "name": "Carey Mulligan"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/promising-young-woman-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "8000758401753633367",
+        "name": "Carey Mulligan"
+      },
+      {
+        "id": "6650905646418711142",
+        "name": "Bo Burnham"
+      },
+      {
+        "id": "4324432361664239440",
+        "name": "Alison Brie"
+      },
+      {
+        "id": "4566509718083950772",
+        "name": "Clancy Brown"
+      },
+      {
+        "id": "7179911394799800467",
+        "name": "Jennifer Coolidge"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/promising-young-woman-poster.jpg",
+    "id": "60"
+  },
+  {
+    "title": "The Terminal",
+    "sinopsis": "An Eastern European tourist unexpectedly finds himself stranded in JFK airport, and must take up temporary residence there.",
+    "year": 2004,
+    "director": {
+      "id": "243871452045988419",
+      "name": "Tom Hanks"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/the-terminal-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "243871452045988419",
+        "name": "Tom Hanks"
+      },
+      {
+        "id": "408139748366177090",
+        "name": "Catherine Zeta-Jones"
+      },
+      {
+        "id": "410304546202670945",
+        "name": "Stanley Tucci"
+      },
+      {
+        "id": "16478095282352641624",
+        "name": "Chi McBride"
+      },
+      {
+        "id": "2023804532389404484",
+        "name": "Diego Luna"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/the-terminal-poster.jpg",
+    "id": "61"
+  },
+  {
+    "title": "Hard Candy",
+    "sinopsis": "Hayley’s a smart, charming teenage girl. Jeff’s a handsome, smooth fashion photographer. An Internet chat, a coffee shop meet-up, an impromptu fashion shoot back at Jeff’s place. Jeff thinks it’s his lucky night. He’s in for a surprise.",
+    "year": 2005,
+    "director": {
+      "id": "5166932328984042697",
+      "name": "Elliot Page"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/hard-candy-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "5166932328984042697",
+        "name": "Elliot Page"
+      },
+      {
+        "id": "10266174392580135726",
+        "name": "Patrick Wilson"
+      },
+      {
+        "id": "6339973995631957566",
+        "name": "Sandra Oh"
+      },
+      {
+        "id": "3828229056212783759",
+        "name": "Odessa Rae"
+      },
+      {
+        "id": "2839207981000186802",
+        "name": "G.J. Echternkamp"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/hard-candy-poster.jpg",
+    "id": "62"
+  },
+  {
+    "title": "Rear Window",
+    "sinopsis": "A wheelchair-bound photographer spies on his neighbors from his apartment window and becomes convinced one of them has committed murder.",
+    "year": 1954,
+    "director": {
+      "id": "744550317537906719",
+      "name": "James Stewart"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/rear-window-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "744550317537906719",
+        "name": "James Stewart"
+      },
+      {
+        "id": "8674953839755679831",
+        "name": "Grace Kelly"
+      },
+      {
+        "id": "8511389227402025403",
+        "name": "Wendell Corey"
+      },
+      {
+        "id": "9760904197311976946",
+        "name": "Thelma Ritter"
+      },
+      {
+        "id": "13524434422109068946",
+        "name": "Raymond Burr"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/rear-window-poster.jpg",
+    "id": "63"
+  },
+  {
+    "title": "The Devil’s Advocate",
+    "sinopsis": "Aspiring Florida defense lawyer Kevin Lomax accepts a job at a New York law firm. With the stakes getting higher every case, Kevin quickly learns that his boss has something far more evil planned.",
+    "year": 1997,
+    "director": {
+      "id": "2929022599763153725",
+      "name": "Keanu Reeves"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/the-devils-advocate-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "2929022599763153725",
+        "name": "Keanu Reeves"
+      },
+      {
+        "id": "1965195658026897724",
+        "name": "Al Pacino"
+      },
+      {
+        "id": "450663788341122774",
+        "name": "Charlize Theron"
+      },
+      {
+        "id": "17909383184605732829",
+        "name": "Jeffrey Jones"
+      },
+      {
+        "id": "7585913119241425931",
+        "name": "Judith Ivey"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/the-devils-advocate-poster.jpg",
+    "id": "64"
+  },
+  {
+    "title": "Scent of a Woman",
+    "sinopsis": "Charlie Simms is a student at a private preparatory school who comes from a poor family. To earn the money for his flight home to Gresham, Oregon for Christmas, Charlie takes a job over Thanksgiving looking after retired U.S. Army officer Lieutenant Colonel Frank Slade, a cantankerous middle-aged man who lives with his niece and her family.",
+    "year": 1992,
+    "director": {
+      "id": "1965195658026897724",
+      "name": "Al Pacino"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/scent-of-a-woman-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "1965195658026897724",
+        "name": "Al Pacino"
+      },
+      {
+        "id": "339617879321173010",
+        "name": "Chris O'Donnell"
+      },
+      {
+        "id": "7068997436645662587",
+        "name": "James Rebhorn"
+      },
+      {
+        "id": "11093218846733459193",
+        "name": "Gabrielle Anwar"
+      },
+      {
+        "id": "2125493790091205561",
+        "name": "Philip Seymour Hoffman"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/scent-of-a-woman-poster.jpg",
+    "id": "65"
+  },
+  {
+    "title": "Dancer in the Dark",
+    "sinopsis": "Selma, a Czech immigrant on the verge of blindness, struggles to make ends meet for herself and her son, who has inherited the same genetic disorder and will suffer the same fate without an expensive operation. When life gets too difficult, Selma learns to cope through her love of musicals, escaping life’s troubles – even if just for a moment – by dreaming up little numbers to the rhythmic beats of her surroundings.",
+    "year": 2000,
+    "director": {
+      "id": "10469447797242548740",
+      "name": "Björk"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/dancer-in-the-dark-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "10469447797242548740",
+        "name": "Björk"
+      },
+      {
+        "id": "1431965549465588666",
+        "name": "Catherine Deneuve"
+      },
+      {
+        "id": "3569287657254706125",
+        "name": "David Morse"
+      },
+      {
+        "id": "16956625494181502197",
+        "name": "Peter Stormare"
+      },
+      {
+        "id": "4381357636699574375",
+        "name": "Joel Grey"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/dancer-in-the-dark-poster.jpg",
+    "id": "66"
+  },
+  {
+    "title": "Dogville",
+    "sinopsis": "When beautiful young Grace arrives in the isolated township of Dogville, the small community agrees to hide her from a gang of ruthless gangsters, and, in return, Grace agrees to do odd jobs for the townspeople.",
+    "year": 2003,
+    "director": {
+      "id": "1381453631133802072",
+      "name": "Nicole Kidman"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/dogville-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "1381453631133802072",
+        "name": "Nicole Kidman"
+      },
+      {
+        "id": "13982466368182837127",
+        "name": "Paul Bettany"
+      },
+      {
+        "id": "7725842715676465241",
+        "name": "John Hurt"
+      },
+      {
+        "id": "3562696079180191242",
+        "name": "Stellan Skarsgård"
+      },
+      {
+        "id": "15493724415380904962",
+        "name": "Philip Baker Hall"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/dogville-poster.jpg",
+    "id": "67"
+  },
+  {
+    "title": "Nymphomaniac",
+    "sinopsis": "A man named Seligman finds a fainted wounded woman in an alley and he brings her home. She tells him that her name is Joe and that she is nymphomaniac. Joe tells her life and sexual experiences with hundreds of men since she was a young teenager while Seligman tells about his hobbies, such as fly fishing, reading about Fibonacci numbers or listening to organ music.",
+    "year": 2014,
+    "director": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/nymphomaniac-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "5673693341140147561",
+        "name": ""
+      },
+      {
+        "id": "5673693341140147561",
+        "name": ""
+      },
+      {
+        "id": "5673693341140147561",
+        "name": ""
+      },
+      {
+        "id": "5673693341140147561",
+        "name": ""
+      },
+      {
+        "id": "5673693341140147561",
+        "name": ""
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/nymphomaniac-poster.jpg",
+    "id": "68"
+  },
+  {
+    "title": "Melancholia",
+    "sinopsis": "Justine and Michael are celebrating their marriage at a sumptuous party in the home of her sister Claire, and brother-in-law John. Despite Claire’s best efforts, the wedding is a fiasco, with family tensions mounting and relationships fraying. Meanwhile, a planet called Melancholia is heading directly towards Earth…",
+    "year": 2011,
+    "director": {
+      "id": "16454534152378734308",
+      "name": "Kirsten Dunst"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/melancholia-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "16454534152378734308",
+        "name": "Kirsten Dunst"
+      },
+      {
+        "id": "17741209363287527469",
+        "name": "Charlotte Gainsbourg"
+      },
+      {
+        "id": "1971420788532730795",
+        "name": "Kiefer Sutherland"
+      },
+      {
+        "id": "16679272577249989383",
+        "name": "Alexander Skarsgård"
+      },
+      {
+        "id": "15719872769094537567",
+        "name": "Cameron Spurr"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/melancholia-poster.jpg",
+    "id": "69"
+  },
+  {
+    "title": "Antichrist",
+    "sinopsis": "A grieving couple retreats to their cabin ‘Eden’ in the woods, hoping to repair their broken hearts and troubled marriage. But nature takes its course and things go from bad to worse.",
+    "year": 2009,
+    "director": {
+      "id": "12139651180873143997",
+      "name": "Willem Dafoe"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/antichrist-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "12139651180873143997",
+        "name": "Willem Dafoe"
+      },
+      {
+        "id": "17741209363287527469",
+        "name": "Charlotte Gainsbourg"
+      },
+      {
+        "id": "8994549535726132699",
+        "name": "Storm Acheche Sahlstrøm"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/antichrist-poster.jpg",
+    "id": "70"
+  },
+  {
+    "title": "Breaking the Waves",
+    "sinopsis": "In a small and conservative Scottish village, a woman’s paralytic husband convinces her to have extramarital intercourse so she can tell him about it and give him a reason for living.",
+    "year": 1996,
+    "director": {
+      "id": "6533176214199295362",
+      "name": "Emily Watson"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/breaking-the-waves-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "6533176214199295362",
+        "name": "Emily Watson"
+      },
+      {
+        "id": "3562696079180191242",
+        "name": "Stellan Skarsgård"
+      },
+      {
+        "id": "8804694621324204441",
+        "name": "Katrin Cartlidge"
+      },
+      {
+        "id": "11969354338863173986",
+        "name": "Jean-Marc Barr"
+      },
+      {
+        "id": "2600415990792019323",
+        "name": "Adrian Rawlins"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/breaking-the-waves-poster.jpg",
+    "id": "71"
+  },
+  {
+    "title": "The Idiots",
+    "sinopsis": "A mix of home-video and documentary styles about a group of young people who have decided to get to know their “inner-idiots” and thus not only facing and breaking their outer appearance but also their inner.",
+    "year": 1998,
+    "director": {
+      "id": "7746126393927815909",
+      "name": "Bodil Jørgensen"
+    },
+    "genero": {
+      "id": "5673693341140147561",
+      "name": ""
+    },
+    "cover": "assets/images/temp/cards/the-idiots-cover.jpg",
+    "was_watched": false,
+    "rating": null,
+    "actors": [
+      {
+        "id": "7746126393927815909",
+        "name": "Bodil Jørgensen"
+      },
+      {
+        "id": "4028320988137017448",
+        "name": "Jens Albinus"
+      },
+      {
+        "id": "13379269273773825445",
+        "name": "Anne Louise Hassing"
+      },
+      {
+        "id": "17486887185700115621",
+        "name": "Troels Lyby"
+      },
+      {
+        "id": "5593588298429520936",
+        "name": "Nikolaj Lie Kaas"
+      }
+    ],
+    "poster_url": "assets/images/temp/posters/the-idiots-poster.jpg",
+    "id": "72"
+  }
+]
