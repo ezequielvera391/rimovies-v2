@@ -4,6 +4,7 @@
     <h1 class="title title--large lighter">Welcome back. Here's what we've been watching</h1>
     <div class="flex gap-4">
       <div *ngFor="let movie of recommendedFilms">
+        <!-- le paso data como parámetro, pero en un cuando este el servicio de film/:id esa data la va a ir a buscar con el id -->
         <app-film-card [data]="movie" [id]="movie.id"></app-film-card>
       </div>
     </div>

@@ -11,7 +11,8 @@
   </div>
   <div class="flex gap-4 flex-wrap">
     <div *ngFor="let movie of filteredFilms">
-      <app-film-card class="flex-grow" [goToUrl]="'/'" [imageUrl]="movie.cover" [id]="movie.id.toString()"></app-film-card>
+      <!-- le paso data como parámetro, pero en un cuando este el servicio de film/:id esa data la va a ir a buscar con el id -->
+      <app-film-card class="flex-grow" [data]="movie" [id]="movie.id"></app-film-card>
     </div>
   </div>
 </div>

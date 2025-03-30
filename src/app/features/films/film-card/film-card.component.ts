@@ -27,7 +27,10 @@ export class FilmCardComponent implements OnInit {
 
   navigateTo(event: Event) {
     event.stopPropagation();
-    this.router.navigate(['films/', this.data.id]);
+    // * le paso data por ruta, pero en un futuro cuando llegue films/:id va a buscar la información a un servicio
+    this.router.navigate(['films/', this.data.id], {
+      state: { filmData: this.data },
+    });
   }
 
   addToFavorites(event: Event) {
