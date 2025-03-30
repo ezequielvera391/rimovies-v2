@@ -1,14 +1,15 @@
 <div class="search">
     <div class="input-wrapper">
-        <input 
-            class="input" 
-            type="text" 
-            [placeholder]="placeholder" 
-            [(ngModel)]="searchTerm"
-            (input)="onSearch()"
+        <input
+          class="input"
+          type="text"
+          [placeholder]="placeholder"
+          [(ngModel)]="searchTerm"
+          (input)="onSearch()"
+          aria-label="Buscar"
         >
         <span class="input__icon flex">
-            <img [src]="glassSvg">
+            <img alt="search-icon" [src]="glassSvg">
         </span>
     </div>
 </div>
