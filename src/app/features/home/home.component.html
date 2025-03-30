@@ -1,10 +1,10 @@
 <div class="home">
-  <app-backdrop-image [imageUrl]="recommendedFilms[0].poster_url"></app-backdrop-image>
+  <app-backdrop-image [imageUrl]="posterUrl"></app-backdrop-image>
   <div class="flex flex-col gap-6 justify-start items-center py-6">
     <h1 class="title title--large lighter">Welcome back. Here's what we've been watching</h1>
     <div class="flex gap-4">
       <div *ngFor="let movie of recommendedFilms">
-        <app-film-card [goToUrl]="'/'" [imageUrl]="movie.cover"></app-film-card>
+        <app-film-card [data]="movie" [id]="movie.id"></app-film-card>
       </div>
     </div>
   </div>
