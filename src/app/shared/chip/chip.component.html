@@ -1,0 +1,4 @@
+<div class="chip" [ngClass]="{ 'chip--removable': removable }">
+  {{ label }}
+  <button *ngIf="removable" class="close-btn" (click)="remove()">×</button>
+</div>

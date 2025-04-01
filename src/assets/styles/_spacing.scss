@@ -1,5 +1,8 @@
 @import 'variables';
 
+.m-auto { margin: auto !important; }
+.mx-auto { margin-left: auto !important; margin-right: auto !important;}
+.my-auto {  margin-top: auto !important; margin-bottom: auto !important;}
 // Generar clases para márgenes (m, mx, my, mt, mb, ml, mr)
 @each $key, $value in $spacing-values {
   .m-#{$key} { margin: $value !important; }
@@ -11,6 +14,9 @@
   .mr-#{$key} { margin-right: $value !important; }
 }
 
+.p-auto { padding: auto !important; }
+.px-auto { padding-left: auto !important; padding-right: auto !important; }
+.py-auto { padding-top: auto !important; padding-bottom: auto !important; }
 // Generar clases para paddings (p, px, py, pt, pb, pl, pr)
 @each $key, $value in $spacing-values {
   .p-#{$key} { padding: $value !important; }

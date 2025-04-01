@@ -1,14 +1,22 @@
-<div class="flex flex-col gap-6">
+<div class="flex flex-col gap-6 mt-6 pt-6">
     tipografia
     <div class="flex flex-col gap-4">
         <div class="flex flex-col card card--secondary p-4">
             <p class="text label">Titulo h1</p>
             <h1 class="title title--large">Películas y series</h1>
         </div>
+        <div class="flex flex-col card card--secondary p-4">
+            <p class="text label">Titulo h1 lighter</p>
+            <h1 class="title title--large lighter">Películas y series</h1>
+        </div>
         <br>
         <div class="flex flex-col card card--secondary p-4">
             <p class="text label">Titulo h2</p>
             <h2 class="title title--medium">Las más populares</h2>
+        </div>
+        <div class="flex flex-col card card--secondary p-4">
+            <p class="text label">Titulo h2 lighter</p>
+            <h2 class="title title--medium lighter">Las más populares</h2>
         </div>
         <br>
         <div class="flex flex-col card card--secondary p-4">
@@ -35,13 +43,23 @@
             <p class="text label">Botón full width</p>
             <button class="button button--secondary button--w-full my-2">Full Width</button>
         </div>
+          <div class="flex flex-col card card--secondary p-4">
+        <p class="text label">Botón grande</p>
+        <button class="button button--action button--w-lg my-2">
+          Action <img src="assets/images/icons/add_circle.svg" alt="Play">
+        </button>
+        <p class="text label">Botón pequeño</p>
+        <button class="button button--action button--w-m my-2">
+          Action   <img src="assets/images/icons/add_circle.svg" alt="Play">
+        </button>
+        <p class="text label">Botón full width</p>
+        <button class="button button--action button--w-full my-2">
+          Action <img src="assets/images/icons/add_circle.svg" alt="Play">
+        </button>
+    </div>
         <div class="flex flex-col card card--secondary p-4">
-            <p class="text label">Botón grande</p>
+            <p class="text label">Botón texto</p>
             <button class="button button--ghost button--w-lg my-2">Max 200px</button>
-            <p class="text label">Botón pequeño</p>
-            <button class="button button--ghost button--w-m my-2">Min 120px</button>
-            <p class="text label">Botón full width</p>
-            <button class="button button--ghost button--w-full my-2">Full Width</button>
         </div>
     </div>
     <br>
@@ -50,7 +68,9 @@
         <br>
         <div class="flex flex-col card card--secondary p-4">
             <p class="text label">Input texto</p>
-            <input class="input" type="text" placeholder="Buscar...">
+            <div class="input-wrapper">
+              <input class="input" type="text" placeholder="Buscar...">
+            </div>
             <br>
         </div>
         <div class="flex flex-col card card--secondary p-4">
@@ -68,5 +88,15 @@
             </select>
         </div>
         <br>
+    </div>
+    <div class="flex flex-col gap-4">
+      Chips
+      <br>
+        <div class="flex flex-col card card--secondary p-4 gap-4">
+          <app-chip label="Action"></app-chip>
+          <app-chip label="Drama"></app-chip>
+          <app-chip label="Thriller"></app-chip>
+          <app-chip label="Leonardo DiCaprio" [removable]="true"></app-chip>
+        </div>
     </div>
 </div>

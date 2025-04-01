@@ -9,7 +9,6 @@
   cursor: pointer;
   text-align: center;
   transition: background 0.3s ease, border 0.3s ease;
-  text-transform: uppercase;
 
   &--primary {
     background: $primary-color;
@@ -17,10 +16,28 @@
     border: none;
 
     &:hover {
-      background: lighten($primary-color, 5%);
+      background: lighten($primary-color, 20%);
     }
   }
+  &--action {
+    background: #fff;
+    color: #000;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 
+    &:hover {
+      background: darken(#fff, 20%);
+    }
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
   &--secondary {
     background: transparent;
     border: 2px solid $text-color;

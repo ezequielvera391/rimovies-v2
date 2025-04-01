@@ -1,0 +1,31 @@
+@import '/src/assets/styles/variables';
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  background: $chip-background-color;
+  color: $text-color;
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+
+  &--removable {
+    padding-right: 8px;
+
+    .close-btn {
+      margin-left: 8px;
+      background: none;
+      border: none;
+      color: $text-color;
+      font-weight: bold;
+      cursor: pointer;
+      transition: opacity 0.2s ease;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}
