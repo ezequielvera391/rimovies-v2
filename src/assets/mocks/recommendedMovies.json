@@ -6,7 +6,7 @@
     "year": 2024,
     "director": {
       "id": "1",
-      "name": "Jane Doe"
+      "name": "Sean Baker"
     },
     "genero": {
       "id": "1",
@@ -19,11 +19,31 @@
     "actors": [
       {
         "id": "1",
-        "name": "Actor A"
+        "name": "Mikey Madison"
       },
       {
         "id": "2",
-        "name": "Actriz B"
+        "name": "Mark Eydelshteyn"
+      },
+      {
+        "id": "3",
+        "name": "Yura Borisov"
+      },
+      {
+        "id": "4",
+        "name": "Karren Karagulian"
+      },
+      {
+        "id": "5",
+        "name": "Vache Tovmasyan"
+      },
+      {
+        "id": "6",
+        "name": "Darya Ekamasova"
+      },
+      {
+        "id": "7",
+        "name": "Aleksei Serebryakov"
       }
     ]
   },
@@ -34,7 +54,7 @@
     "year": 2024,
     "director": {
       "id": "2",
-      "name": "John Smith"
+      "name": "Brady Corbet"
     },
     "genero": {
       "id": "2",
@@ -46,12 +66,40 @@
     "rating": 4.5,
     "actors": [
       {
-        "id": "3",
-        "name": "Actor C"
+        "id": "8",
+        "name": "Adrien Brody"
       },
       {
-        "id": "4",
-        "name": "Actriz D"
+        "id": "9",
+        "name": "Felicity Jones"
+      },
+      {
+        "id": "10",
+        "name": "Guy Pearce"
+      },
+      {
+        "id": "11",
+        "name": "Joe Alwyn"
+      },
+      {
+        "id": "12",
+        "name": "Raffey Cassidy"
+      },
+      {
+        "id": "13",
+        "name": "Stacy Martin"
+      },
+      {
+        "id": "14",
+        "name": "Emma Laird"
+      },
+      {
+        "id": "15",
+        "name": "Isaach De Bankolé"
+      },
+      {
+        "id": "16",
+        "name": "Alessandro Nivola"
       }
     ]
   },
@@ -62,7 +110,7 @@
     "year": 2024,
     "director": {
       "id": "3",
-      "name": "Emily Johnson"
+      "name": "James Mangold"
     },
     "genero": {
       "id": "3",
@@ -74,12 +122,32 @@
     "rating": 4.7,
     "actors": [
       {
-        "id": "5",
-        "name": "Actor E"
+        "id": "17",
+        "name": "Timothée Chalamet"
       },
       {
-        "id": "6",
-        "name": "Actriz F"
+        "id": "18",
+        "name": "Edward Norton"
+      },
+      {
+        "id": "19",
+        "name": "Elle Fanning"
+      },
+      {
+        "id": "20",
+        "name": "Monica Barbaro"
+      },
+      {
+        "id": "21",
+        "name": "Boyd Holbrook"
+      },
+      {
+        "id": "22",
+        "name": "Dan Fogler"
+      },
+      {
+        "id": "23",
+        "name": "Norbert Leo Butz"
       }
     ]
   },
@@ -90,7 +158,7 @@
     "year": 2024,
     "director": {
       "id": "4",
-      "name": "Michael Brown"
+      "name": "Edward Berger"
     },
     "genero": {
       "id": "4",
@@ -102,12 +170,28 @@
     "rating": 4.6,
     "actors": [
       {
-        "id": "7",
-        "name": "Actor G"
+        "id": "24",
+        "name": "Ralph Fiennes"
       },
       {
-        "id": "8",
-        "name": "Actriz H"
+        "id": "25",
+        "name": "Stanley Tucci"
+      },
+      {
+        "id": "26",
+        "name": "John Lithgow"
+      },
+      {
+        "id": "27",
+        "name": "Lucian Msamati"
+      },
+      {
+        "id": "28",
+        "name": "Jacek Koman"
+      },
+      {
+        "id": "29",
+        "name": "Isabella Rossellini"
       }
     ]
   }
