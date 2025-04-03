@@ -1,7 +1,7 @@
 import { Component, OnDestroy } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Film } from 'src/app/core/interfaces/films.interface';
-import { FilmsService } from 'src/app/core/films.service';
+import { FilmsService } from 'src/app/core/services/films.service';
 import { FilmCardComponent } from "../films/film-card/film-card.component";
 import { BackdropImageComponent } from 'src/app/shared/backdrop-image/backdrop-image.component';
 import { timer, concatMap, Subject, takeUntil } from 'rxjs';

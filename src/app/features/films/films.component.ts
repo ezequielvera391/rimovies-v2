@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FilmsService } from 'src/app/core/films.service';
+import { FilmsService } from 'src/app/core/services/films.service';
 import { Film } from 'src/app/core/interfaces/films.interface';
 import { SearchInputComponent } from "../../shared/search-input/search-input.component";
 import { FilmCardComponent } from './film-card/film-card.component';

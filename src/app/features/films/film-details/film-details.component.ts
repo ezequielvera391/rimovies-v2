@@ -6,7 +6,7 @@ import { BackdropImageComponent } from 'src/app/shared/backdrop-image/backdrop-i
 import { BaseCardComponent } from 'src/app/shared/card/base-card.component';
 import { ChipComponent } from "../../../shared/chip/chip.component";
 import { DividerComponent } from 'src/app/shared/divider/divider.component';
-import { FilmsService } from 'src/app/core/films.service';
+import { FilmsService } from 'src/app/core/services/films.service';
 
 @Component({
   selector: 'app-film-details',

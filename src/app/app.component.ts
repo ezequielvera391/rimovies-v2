@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FilmsService } from './core/films.service';
+import { FilmsService } from './core/services/films.service';
 import { concatMap, filter, of, take } from 'rxjs';
 import { environment } from 'src/enviroments/enviroment';
 import { NavigationEnd, Router } from '@angular/router';
