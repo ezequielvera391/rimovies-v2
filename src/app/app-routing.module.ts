@@ -9,7 +9,8 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'films', component: FilmsComponent },
   { path: 'films/:id', loadComponent: () => import('./features/films/film-details/film-details.component').then(c => c.FilmDetailsComponent) },
-  { path: 'playground', component: PlaygroundComponent }, // TODO: añadir un guard para detectar si es dev
+  { path: 'playground', component: PlaygroundComponent },
+  { path: 'auth', loadChildren: () => import('./features/auth/auth.module').then(m => m.AuthModule) }, // TODO: añadir un guard para detectar si es dev
   { path: '**', component: NotFoundComponent },
 ];
 
