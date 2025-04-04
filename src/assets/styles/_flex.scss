@@ -4,6 +4,9 @@
 .flex-row { flex-direction: row !important; }
 .flex-wrap { flex-wrap: wrap !important; }
 .flex-nowrap { flex-wrap: nowrap !important; }
+.flex-1 { flex: 1 1 0% !important;}
+
+// ¡clave!
 
 // Justify content
 .justify-start { justify-content: flex-start !important; }
@@ -24,3 +27,9 @@
 .flex-grow { flex-grow: 1 !important; }
 .flex-shrink {  flex-shrink: 1 !important; }
 .flex-basis-auto { flex-basis: auto !important; }
+
+// Alinear un elemento por fuera de alineacion general
+.self-start { align-self: flex-start !important;}
+.self-center { align-self: center !important; }
+.self-end { align-self: flex-end !important; }
+.self-stretch { align-self: stretch !important;}

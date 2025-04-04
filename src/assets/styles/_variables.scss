@@ -30,6 +30,8 @@ $spacing-values: (
 // Generar clases de width, min-width, max-width y height, min-height, max-height en píxeles
 .w-full { width: 100% !important; }
 .w-auto { width: auto !important; }
+.h-full { height: 100% !important; }
+.h-auto { height: auto !important; }
 
 // el valor máximo que puedo poner es 1000
 @for $i from 1 through 1200 {
@@ -42,3 +44,8 @@ $spacing-values: (
     height: #{$i}px !important;
   }
 }
+
+// valores para media query
+$breakpoint-sm: 480px; // mobile
+$breakpoint-md: 768px; // tablet
+$breakpoint-lg: 1024px; // desktop
