@@ -4,5 +4,6 @@
   </div>
   <app-password-input class="w-300"></app-password-input>
   <button class="button button--primary w-300">Login</button>
-  <a class="text text--small lighter">Forgot your password?</a>
+  <a [routerLink]="'/auth/register'" class="text text--small lighter">Don’t have an account? Sign up</a>
+  <a [routerLink]="'/auth/login'" class="text text--small lighter">Forgot your password?</a>
 </div>

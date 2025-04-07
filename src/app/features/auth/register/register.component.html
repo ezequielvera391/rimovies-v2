@@ -1,0 +1,9 @@
+<div class="flex flex-col gap-4 justify-center items-center h-full">
+  <div class="input-wrapper w-300">
+    <input class="input" type="text" placeholder="user">
+  </div>
+  <app-password-input class="w-300"></app-password-input>
+  <app-password-input class="w-300" [placeholder]="'Repeat password'" [ariaLabel]="'Repeat password'"></app-password-input>
+  <button class="button button--primary w-300">Sign up</button>
+  <a [routerLink]="'/auth/login'" class="text text--small lighter">Have an account? Sign in</a>
+</div>
