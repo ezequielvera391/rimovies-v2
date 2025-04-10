@@ -1,13 +1,13 @@
-<div class="flex flex-col gap-4 justify-center items-center h-full">
+<div [formGroup]="form" class="flex flex-col gap-4 justify-center items-center h-full">
   <div class="flex flex-col justify-start items-center">
     <h2 class="title title--medium mb-0">Welcome back!</h2>
     <p class="text">Sign in to your account</p>
   </div>
   <div class="input-wrapper w-300">
-    <input class="input" type="text" placeholder="user">
+    <input class="input" type="text" placeholder="user" formControlName="username" data-testid="username-input">
   </div>
-  <app-password-input class="w-300"></app-password-input>
-  <button class="button button--primary w-300">Login</button>
-  <a [routerLink]="'/auth/register'" class="text text--small lighter">Don’t have an account? Sign up</a>
-  <a [routerLink]="'/auth/forgot-password'" class="text text--small lighter">Forgot your password?</a>
+  <app-password-input class="w-300" [formControlName]="'password'" data-testid="password-input"></app-password-input>
+  <button type="submit" class="button button--primary w-300" data-testid="login-button" [disabled]="!formValid">Login</button>
+  <a [routerLink]="'/auth/register'" class="text text--small lighter" data-testid="register-link">Don’t have an account? Sign up</a>
+  <a [routerLink]="'/auth/forgot-password'" class="text text--small lighter" data-testid="reset-link">Forgot your password?</a>
 </div>
