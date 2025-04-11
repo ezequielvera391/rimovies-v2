@@ -76,7 +76,8 @@ fdescribe('LoginComponent', () => {
       username: 'testuser',
       password: 'testpass',
     });
-    expect(button.disabled).toBeTrue();
+    fixture.detectChanges();
+    expect(button.disabled).toBeFalse();
   });
 
   it('should have the correct routerLink for register', () => {
@@ -93,8 +94,18 @@ fdescribe('LoginComponent', () => {
     );
   });
 
-  // TODO: test submit behavior once implemented
-  xit('should handle form submission when valid', () => {
-    // To be implemented when submit logic is ready
+  it('should call handleSubmit when the form is valid and submitted', () => {
+    const spy = spyOn(component, 'handleSubmit');
+    component.form.setValue({
+      username: 'testuser',
+      password: 'testpass',
+    });
+
+    fixture.detectChanges();
+    const form = fixture.nativeElement.querySelector('form') as HTMLFormElement;
+    form.dispatchEvent(new Event('submit'));
+
+    expect(spy).toHaveBeenCalled();
   });
+
 });
