@@ -9,6 +9,10 @@
   cursor: pointer;
   text-align: center;
   transition: background 0.3s ease, border 0.3s ease;
+  &:disabled {
+      opacity: 0.7;
+      background: darken($primary-color, 20%);
+    }
 
   &--primary {
     background: $primary-color;
