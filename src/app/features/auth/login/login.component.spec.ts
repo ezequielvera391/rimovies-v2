@@ -94,18 +94,39 @@ fdescribe('LoginComponent', () => {
     );
   });
 
-  it('should call handleSubmit when the form is valid and submitted', () => {
-    const spy = spyOn(component, 'handleSubmit');
+  it('should call handleSubmit when the form is valid and the form is submitted', () => {
+  const spy = spyOn(component, 'handleSubmit');
     component.form.setValue({
       username: 'testuser',
       password: 'testpass',
     });
 
     fixture.detectChanges();
-    const form = fixture.nativeElement.querySelector('form') as HTMLFormElement;
-    form.dispatchEvent(new Event('submit'));
+
+    const button = fixture.nativeElement.querySelector(
+      '[data-testid="login-button"]'
+    ) as HTMLButtonElement;
+    button.click();
 
     expect(spy).toHaveBeenCalled();
   });
+
+  it('should not call handleSubmit if the form is invalid', () => {
+    const spy = spyOn(component, 'handleSubmit');
+    component.form.setValue({
+      username: '',
+      password: 'somepass',
+    });
+
+    fixture.detectChanges();
+
+    const button = fixture.nativeElement.querySelector(
+      '[data-testid="login-button"]'
+    ) as HTMLButtonElement;
+    button.click();
+
+    expect(spy).not.toHaveBeenCalled();
+  });
+
 
 });
