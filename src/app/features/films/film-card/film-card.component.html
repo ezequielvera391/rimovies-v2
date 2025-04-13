@@ -2,10 +2,10 @@
   <app-base-card [imageUrl]="data.cover" [goToUrl]="goToUrl" [size]="size"></app-base-card>
 
   <div class="overlay">
-    <button (click)="addToFavorites($event)" class="action-button">
+    <button (click)="addToFavorites($event)" class="action-button" data-testid="fav-button">
       <img [src]="favIcon" alt="añadir a favoritos" srcset="">
     </button>
-    <button (click)="navigateTo($event)" class="action-button">
+    <button (click)="navigateTo($event)" class="action-button" data-testid="detail-button">
       <img [src]="detailIcon" alt="ir al detalle" srcset="">
     </button>
   </div>
