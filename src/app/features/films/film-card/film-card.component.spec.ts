@@ -5,64 +5,12 @@ import { Router } from '@angular/router';
 import { Component, Input } from '@angular/core';
 import { By } from '@angular/platform-browser';
 import { BaseCardComponent } from 'src/app/shared/card/base-card.component';
-
-@Component({
-  selector: 'app-base-card',
-  template: '',
-  standalone: true,
-})
-class MockBaseCardComponent {
-  @Input() size!: 'x-small' | 'small' | 'medium' | 'large';
-  @Input() imageUrl!: string;
-  @Input() goToUrl!: string;
-}
-
+import { MockBaseCardComponent } from 'src/testing/mocks/mock-components';
+import { mockFilm } from 'src/testing/mocks/mock-films';
 
 fdescribe('FilmCardComponent', () => {
   let component: FilmCardComponent;
   let fixture: ComponentFixture<FilmCardComponent>;
-  const mockFilm: Film = {
-    title: 'Drive',
-    sinopsis:
-      'A prototype enhanced human, on the run from Chinese-hired hit men, hooks up with a dread-locked bystander, and the two of them elude their pursuers narrowly each time.',
-    year: 1997,
-    director: {
-      id: '6423910681835624258',
-      name: 'Mark Dacascos',
-    },
-    genero: {
-      id: '5673693341140147561',
-      name: 'genero default',
-    },
-    cover: 'assets/images/temp/cards/drive-cover.jpg',
-    was_watched: false,
-    rating: 3,
-    actors: [
-      {
-        id: '6423910681835624258',
-        name: 'Mark Dacascos',
-      },
-      {
-        id: '12671016886590266669',
-        name: 'Kadeem Hardison',
-      },
-      {
-        id: '12039611290891670486',
-        name: 'John Pyper-Ferguson',
-      },
-      {
-        id: '13184388871992858153',
-        name: 'Brittany Murphy',
-      },
-      {
-        id: '11256182331831376635',
-        name: 'Tracey Walter',
-      },
-    ],
-    poster_url: 'assets/images/temp/posters/drive-poster.jpg',
-    id: '1',
-  };
-
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({

@@ -8,28 +8,8 @@ import { SearchInputComponent } from 'src/app/shared/search-input/search-input.c
 import { FilmsService } from 'src/app/core/services/films.service';
 import { of } from 'rxjs';
 import { By } from '@angular/platform-browser';
-
-@Component({
-  selector: 'app-search-input',
-  standalone: true,
-  template: '',
-})
-class MockSearchInputComponent {
-  @Input() placeholder!: string;
-  @Input() data!: Film[];
-  @Input() keys!: string[];
-  @Output() emitSearch = new EventEmitter<Film[]>();
-}
-
-@Component({
-  selector: 'app-film-card',
-  standalone: true,
-  template: '',
-})
-class MockFilmCardComponent {
-  @Input() data!: Film;
-  @Input() id!: string;
-}
+import { mockFilms } from 'src/testing/mocks/mock-films';
+import { MockFilmCardComponent, MockSearchInputComponent } from 'src/testing/mocks/mock-components';
 
 fdescribe('FilmsComponent', () => {
   let component: FilmsComponent;
@@ -43,91 +23,7 @@ fdescribe('FilmsComponent', () => {
           provide: FilmsService,
           useValue: {
             getFilms: () =>
-              of([
-                {
-                  title: 'Drive',
-                  sinopsis:
-                    'A prototype enhanced human, on the run from Chinese-hired hit men, hooks up with a dread-locked bystander, and the two of them elude their pursuers narrowly each time.',
-                  year: 1997,
-                  director: {
-                    id: '6423910681835624258',
-                    name: 'Mark Dacascos',
-                  },
-                  genero: {
-                    id: '5673693341140147561',
-                    name: 'genero default',
-                  },
-                  cover: 'assets/images/temp/cards/drive-cover.jpg',
-                  was_watched: false,
-                  rating: null,
-                  actors: [
-                    {
-                      id: '6423910681835624258',
-                      name: 'Mark Dacascos',
-                    },
-                    {
-                      id: '12671016886590266669',
-                      name: 'Kadeem Hardison',
-                    },
-                    {
-                      id: '12039611290891670486',
-                      name: 'John Pyper-Ferguson',
-                    },
-                    {
-                      id: '13184388871992858153',
-                      name: 'Brittany Murphy',
-                    },
-                    {
-                      id: '11256182331831376635',
-                      name: 'Tracey Walter',
-                    },
-                  ],
-                  poster_url: 'assets/images/temp/posters/drive-poster.jpg',
-                  id: '1',
-                },
-                {
-                  title: 'Mysterious Skin',
-                  sinopsis:
-                    'A teenage hustler and a young man obsessed with alien abductions cross paths, together discovering a horrible, liberating truth.',
-                  year: 2004,
-                  director: {
-                    id: '3339416782209307937',
-                    name: 'Joseph Gordon-Levitt',
-                  },
-                  genero: {
-                    id: '5673693341140147561',
-                    name: 'genero default',
-                  },
-                  cover: 'assets/images/temp/cards/mysterious-skin-cover.jpg',
-                  was_watched: false,
-                  rating: null,
-                  actors: [
-                    {
-                      id: '3339416782209307937',
-                      name: 'Joseph Gordon-Levitt',
-                    },
-                    {
-                      id: '1563081563033525666',
-                      name: 'Brady Corbet',
-                    },
-                    {
-                      id: '9132177978273651793',
-                      name: 'Michelle Trachtenberg',
-                    },
-                    {
-                      id: '10283611075315261231',
-                      name: 'Jeffrey Licon',
-                    },
-                    {
-                      id: '1921744841046446910',
-                      name: 'Mary Lynn Rajskub',
-                    },
-                  ],
-                  poster_url:
-                    'assets/images/temp/posters/mysterious-skin-poster.jpg',
-                  id: '2',
-                },
-            ]),
+              of(mockFilms),
           },
         },
       ],
