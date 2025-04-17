@@ -1,15 +1,15 @@
 [
   {
     "title": "Drive",
-    "sinopsis": "A prototype enhanced human, on the run from Chinese-hired hit men, hooks up with a dread-locked bystander, and the two of them elude their pursuers narrowly each time.",
+    "synopsis": "A prototype enhanced human, on the run from Chinese-hired hit men, hooks up with a dread-locked bystander, and the two of them elude their pursuers narrowly each time.",
     "year": 1997,
     "director": {
       "id": "6423910681835624258",
       "name": "Mark Dacascos"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/drive-cover.jpg",
     "was_watched": false,
@@ -41,15 +41,15 @@
   },
   {
     "title": "Mysterious Skin",
-    "sinopsis": "A teenage hustler and a young man obsessed with alien abductions cross paths, together discovering a horrible, liberating truth.",
+    "synopsis": "A teenage hustler and a young man obsessed with alien abductions cross paths, together discovering a horrible, liberating truth.",
     "year": 2004,
     "director": {
       "id": "3339416782209307937",
       "name": "Joseph Gordon-Levitt"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/mysterious-skin-cover.jpg",
     "was_watched": false,
@@ -81,15 +81,15 @@
   },
   {
     "title": "The Thing",
-    "sinopsis": "In the winter of 1982, a twelve-man research team at a remote Antarctic research station discovers an alien buried in the snow for over 100,000 years. Soon unfrozen, the form-changing creature wreaks havoc, creates terror… and becomes one of them.",
+    "synopsis": "In the winter of 1982, a twelve-man research team at a remote Antarctic research station discovers an alien buried in the snow for over 100,000 years. Soon unfrozen, the form-changing creature wreaks havoc, creates terror… and becomes one of them.",
     "year": 1982,
     "director": {
       "id": "18094922620694387438",
       "name": "Kurt Russell"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/the-thing-cover.jpg",
     "was_watched": false,
@@ -121,15 +121,15 @@
   },
   {
     "title": "Pink Floyd: The Wall",
-    "sinopsis": "A troubled rock star descends into madness in the midst of his physical and social isolation from everyone.",
+    "synopsis": "A troubled rock star descends into madness in the midst of his physical and social isolation from everyone.",
     "year": 1982,
     "director": {
       "id": "5698910728475072877",
       "name": "Bob Geldof"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/pink-floyd-the-wall-cover.jpg",
     "was_watched": false,
@@ -161,15 +161,15 @@
   },
   {
     "title": "Brazil",
-    "sinopsis": "Low-level bureaucrat Sam Lowry escapes the monotony of his day-to-day life through a recurring daydream of himself as a virtuous hero saving a beautiful damsel. Investigating a case that led to the wrongful arrest and eventual death of an innocent man instead of wanted terrorist Harry Tuttle, he meets the woman from his daydream, and in trying to help her gets caught in a web of mistaken identities, mindless bureaucracy and lies.",
+    "synopsis": "Low-level bureaucrat Sam Lowry escapes the monotony of his day-to-day life through a recurring daydream of himself as a virtuous hero saving a beautiful damsel. Investigating a case that led to the wrongful arrest and eventual death of an innocent man instead of wanted terrorist Harry Tuttle, he meets the woman from his daydream, and in trying to help her gets caught in a web of mistaken identities, mindless bureaucracy and lies.",
     "year": 1985,
     "director": {
       "id": "14884589880545399850",
       "name": "Jonathan Pryce"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/brazil-cover.jpg",
     "was_watched": false,
@@ -201,15 +201,15 @@
   },
   {
     "title": "Donnie Darko",
-    "sinopsis": "After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a large bunny rabbit that manipulates him to commit a series of crimes.",
+    "synopsis": "After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a large bunny rabbit that manipulates him to commit a series of crimes.",
     "year": 2001,
     "director": {
       "id": "2084687856362544334",
       "name": "Jake Gyllenhaal"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/donnie-darko-cover.jpg",
     "was_watched": false,
@@ -241,15 +241,15 @@
   },
   {
     "title": "Requiem for a Dream",
-    "sinopsis": "The drug-induced utopias of four Coney Island residents are shattered when their addictions run deep.",
+    "synopsis": "The drug-induced utopias of four Coney Island residents are shattered when their addictions run deep.",
     "year": 2000,
     "director": {
       "id": "5338148531662180956",
       "name": "Ellen Burstyn"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/requiem-for-a-dream-cover.jpg",
     "was_watched": false,
@@ -281,15 +281,15 @@
   },
   {
     "title": "Carrie",
-    "sinopsis": "Carrie’s dreams of adventure in the big city are quickly squashed as she discovers all that awaits her there is a bleak life of grueling and poorly paid factory work—that is, until a traveling salesman named Drouet steps into her life and changes her outlook.",
+    "synopsis": "Carrie’s dreams of adventure in the big city are quickly squashed as she discovers all that awaits her there is a bleak life of grueling and poorly paid factory work—that is, until a traveling salesman named Drouet steps into her life and changes her outlook.",
     "year": 1952,
     "director": {
       "id": "3112339869811562655",
       "name": "Laurence Olivier"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/carrie-cover.jpg",
     "was_watched": false,
@@ -321,15 +321,15 @@
   },
   {
     "title": "Blue Velvet",
-    "sinopsis": "The discovery of a severed human ear found in a field leads a young man on an investigation related to a beautiful, mysterious nightclub singer and a group of psychopathic criminals who have kidnapped her child.",
+    "synopsis": "The discovery of a severed human ear found in a field leads a young man on an investigation related to a beautiful, mysterious nightclub singer and a group of psychopathic criminals who have kidnapped her child.",
     "year": 1986,
     "director": {
       "id": "2498540526163679648",
       "name": "Isabella Rossellini"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/blue-velvet-cover.jpg",
     "was_watched": false,
@@ -361,15 +361,15 @@
   },
   {
     "title": "Venus in Fur",
-    "sinopsis": "An enigmatic actress may have a hidden agenda when she auditions for a part in a misogynistic writer’s play.",
+    "synopsis": "An enigmatic actress may have a hidden agenda when she auditions for a part in a misogynistic writer’s play.",
     "year": 2013,
     "director": {
       "id": "2557453556475386722",
       "name": "Emmanuelle Seigner"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/venus-in-fur-cover.jpg",
     "was_watched": false,
@@ -389,15 +389,15 @@
   },
   {
     "title": "2001: A Space Odyssey",
-    "sinopsis": "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world’s most advanced super computer.",
+    "synopsis": "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world’s most advanced super computer.",
     "year": 1968,
     "director": {
       "id": "6151427208759301538",
       "name": "Keir Dullea"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/2001-a-space-odyssey-cover.jpg",
     "was_watched": false,
@@ -429,15 +429,15 @@
   },
   {
     "title": "Full Metal Jacket",
-    "sinopsis": "A pragmatic U.S. Marine observes the dehumanizing effects the U.S.-Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.",
+    "synopsis": "A pragmatic U.S. Marine observes the dehumanizing effects the U.S.-Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.",
     "year": 1987,
     "director": {
       "id": "456404263710971139",
       "name": "Matthew Modine"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/full-metal-jacket-cover.jpg",
     "was_watched": false,
@@ -469,15 +469,15 @@
   },
   {
     "title": "The Godfather",
-    "sinopsis": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+    "synopsis": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
     "year": 1972,
     "director": {
       "id": "3317335486926180701",
       "name": "Marlon Brando"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/the-godfather-cover.jpg",
     "was_watched": false,
@@ -509,15 +509,15 @@
   },
   {
     "title": "Apocalypse Now",
-    "sinopsis": "At the height of the Vietnam war, Captain Benjamin Willard is sent on a dangerous mission that, officially, “does not exist, nor will it ever exist.” His goal is to locate - and eliminate - a mysterious Green Beret Colonel named Walter Kurtz, who has been leading his personal army on illegal guerrilla missions into enemy territory.",
+    "synopsis": "At the height of the Vietnam war, Captain Benjamin Willard is sent on a dangerous mission that, officially, “does not exist, nor will it ever exist.” His goal is to locate - and eliminate - a mysterious Green Beret Colonel named Walter Kurtz, who has been leading his personal army on illegal guerrilla missions into enemy territory.",
     "year": 1979,
     "director": {
       "id": "15803697834584071992",
       "name": "Martin Sheen"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/apocalypse-now-cover.jpg",
     "was_watched": false,
@@ -549,15 +549,15 @@
   },
   {
     "title": "Dracula",
-    "sinopsis": "British estate agent Renfield travels to Transylvania to meet the mysterious Count Dracula, who is interested in leasing a castle in London. After Dracula enslaves Renfield and drives him to insanity, the pair sail to London together and Dracula, a secret vampire, begins preying on London socialites.",
+    "synopsis": "British estate agent Renfield travels to Transylvania to meet the mysterious Count Dracula, who is interested in leasing a castle in London. After Dracula enslaves Renfield and drives him to insanity, the pair sail to London together and Dracula, a secret vampire, begins preying on London socialites.",
     "year": 1931,
     "director": {
       "id": "7990562538982299423",
       "name": "Bela Lugosi"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/dracula-cover.jpg",
     "was_watched": false,
@@ -589,15 +589,15 @@
   },
   {
     "title": "Pulp Fiction",
-    "sinopsis": "A burger-loving hit man, his philosophical partner, a drug-addled gangster’s moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+    "synopsis": "A burger-loving hit man, his philosophical partner, a drug-addled gangster’s moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
     "year": 1994,
     "director": {
       "id": "731415561077806786",
       "name": "John Travolta"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/pulp-fiction-cover.jpg",
     "was_watched": false,
@@ -629,15 +629,15 @@
   },
   {
     "title": "Reservoir Dogs",
-    "sinopsis": "A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors – veteran Mr. White, newcomer Mr. Orange, psychopathic parolee Mr. Blonde, bickering weasel Mr. Pink and Nice Guy Eddie – unravel.",
+    "synopsis": "A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors – veteran Mr. White, newcomer Mr. Orange, psychopathic parolee Mr. Blonde, bickering weasel Mr. Pink and Nice Guy Eddie – unravel.",
     "year": 1992,
     "director": {
       "id": "2929823772596524139",
       "name": "Harvey Keitel"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/reservoir-dogs-cover.jpg",
     "was_watched": false,
@@ -669,15 +669,15 @@
   },
   {
     "title": "Inglourious Basterds",
-    "sinopsis": "In Nazi-occupied France during World War II, a group of Jewish-American soldiers known as “The Basterds” are chosen specifically to spread fear throughout the Third Reich by scalping and brutally killing Nazis. The Basterds, lead by Lt. Aldo Raine soon cross paths with a French-Jewish teenage girl who runs a movie theater in Paris which is targeted by the soldiers.",
+    "synopsis": "In Nazi-occupied France during World War II, a group of Jewish-American soldiers known as “The Basterds” are chosen specifically to spread fear throughout the Third Reich by scalping and brutally killing Nazis. The Basterds, lead by Lt. Aldo Raine soon cross paths with a French-Jewish teenage girl who runs a movie theater in Paris which is targeted by the soldiers.",
     "year": 2009,
     "director": {
       "id": "17005495659796061336",
       "name": "Brad Pitt"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/inglourious-basterds-cover.jpg",
     "was_watched": false,
@@ -709,15 +709,15 @@
   },
   {
     "title": "Cape Fear",
-    "sinopsis": "Sam Bowden witnesses a rape committed by Max Cady and testifies against him. When released after 8 years in prison, Cady begins stalking Bowden and his family but is always clever enough not to violate the law.",
+    "synopsis": "Sam Bowden witnesses a rape committed by Max Cady and testifies against him. When released after 8 years in prison, Cady begins stalking Bowden and his family but is always clever enough not to violate the law.",
     "year": 1962,
     "director": {
       "id": "17472156460956998384",
       "name": "Gregory Peck"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/cape-fear-cover.jpg",
     "was_watched": false,
@@ -749,15 +749,15 @@
   },
   {
     "title": "Casino",
-    "sinopsis": "In early-1970s Las Vegas, Sam “Ace” Rothstein gets tapped by his bosses to head the Tangiers Casino. At first, he’s a great success in the job, but over the years, problems with his loose-cannon enforcer Nicky Santoro, his ex-hustler wife Ginger, her con-artist ex Lester Diamond and a handful of corrupt politicians put Sam in ever-increasing danger.",
+    "synopsis": "In early-1970s Las Vegas, Sam “Ace” Rothstein gets tapped by his bosses to head the Tangiers Casino. At first, he’s a great success in the job, but over the years, problems with his loose-cannon enforcer Nicky Santoro, his ex-hustler wife Ginger, her con-artist ex Lester Diamond and a handful of corrupt politicians put Sam in ever-increasing danger.",
     "year": 1995,
     "director": {
       "id": "15004595570541484829",
       "name": "Robert De Niro"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/casino-cover.jpg",
     "was_watched": false,
@@ -789,15 +789,15 @@
   },
   {
     "title": "Shutter Island",
-    "sinopsis": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a mysterious doctor.",
+    "synopsis": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a mysterious doctor.",
     "year": 2010,
     "director": {
       "id": "8549134310104062176",
       "name": "Leonardo DiCaprio"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/shutter-island-cover.jpg",
     "was_watched": false,
@@ -829,15 +829,15 @@
   },
   {
     "title": "Gangs of New York",
-    "sinopsis": "In 1863, Amsterdam Vallon returns to the Five Points of America to seek vengeance against the psychotic gangland kingpin, Bill the Butcher, who murdered his father years earlier. With an eager pickpocket by his side and a whole new army, Vallon fights his way to seek vengeance on the Butcher and restore peace in the area.",
+    "synopsis": "In 1863, Amsterdam Vallon returns to the Five Points of America to seek vengeance against the psychotic gangland kingpin, Bill the Butcher, who murdered his father years earlier. With an eager pickpocket by his side and a whole new army, Vallon fights his way to seek vengeance on the Butcher and restore peace in the area.",
     "year": 2002,
     "director": {
       "id": "8549134310104062176",
       "name": "Leonardo DiCaprio"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/gangs-of-new-york-cover.jpg",
     "was_watched": false,
@@ -869,15 +869,15 @@
   },
   {
     "title": "The Aviator",
-    "sinopsis": "A biopic depicting the life of filmmaker and aviation pioneer Howard Hughes from 1927 to 1947, during which time he became a successful film producer and an aviation magnate, while simultaneously growing more unstable due to severe obsessive-compulsive disorder.",
+    "synopsis": "A biopic depicting the life of filmmaker and aviation pioneer Howard Hughes from 1927 to 1947, during which time he became a successful film producer and an aviation magnate, while simultaneously growing more unstable due to severe obsessive-compulsive disorder.",
     "year": 2004,
     "director": {
       "id": "8549134310104062176",
       "name": "Leonardo DiCaprio"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/the-aviator-cover.jpg",
     "was_watched": false,
@@ -909,15 +909,15 @@
   },
   {
     "title": "The Lobster",
-    "sinopsis": "In a dystopian near future, single people, according to the laws of The City, are taken to The Hotel, where they are obliged to find a romantic partner in forty-five days or are transformed into animals and sent off into The Woods.",
+    "synopsis": "In a dystopian near future, single people, according to the laws of The City, are taken to The Hotel, where they are obliged to find a romantic partner in forty-five days or are transformed into animals and sent off into The Woods.",
     "year": 2015,
     "director": {
       "id": "12585678686446637683",
       "name": "Colin Farrell"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/the-lobster-cover.jpg",
     "was_watched": false,
@@ -949,15 +949,15 @@
   },
   {
     "title": "The Killing of a Sacred Deer",
-    "sinopsis": "Dr. Steven Murphy is a renowned cardiovascular surgeon who presides over a spotless household with his wife and two children. Lurking at the margins of his idyllic suburban existence is Martin, a fatherless teen who insinuates himself into the doctor’s life in gradually unsettling ways.",
+    "synopsis": "Dr. Steven Murphy is a renowned cardiovascular surgeon who presides over a spotless household with his wife and two children. Lurking at the margins of his idyllic suburban existence is Martin, a fatherless teen who insinuates himself into the doctor’s life in gradually unsettling ways.",
     "year": 2017,
     "director": {
       "id": "12585678686446637683",
       "name": "Colin Farrell"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/the-killing-of-a-sacred-deer-cover.jpg",
     "was_watched": false,
@@ -989,15 +989,15 @@
   },
   {
     "title": "The Elephant Man",
-    "sinopsis": "A Victorian surgeon rescues a heavily disfigured man being mistreated by his “owner” as a side-show freak. Behind his monstrous façade, there is revealed a person of great intelligence and sensitivity. Based on the true story of Joseph Merrick (called John Merrick in the film), a severely deformed man in 19th century London.",
+    "synopsis": "A Victorian surgeon rescues a heavily disfigured man being mistreated by his “owner” as a side-show freak. Behind his monstrous façade, there is revealed a person of great intelligence and sensitivity. Based on the true story of Joseph Merrick (called John Merrick in the film), a severely deformed man in 19th century London.",
     "year": 1980,
     "director": {
       "id": "11683139881137428335",
       "name": "Anthony Hopkins"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/the-elephant-man-cover.jpg",
     "was_watched": false,
@@ -1029,15 +1029,15 @@
   },
   {
     "title": "Midnight Express",
-    "sinopsis": "Billy Hayes is caught attempting to smuggle drugs out of Turkey. The Turkish courts decide to make an example of him, sentencing him to more than 30 years in prison. Hayes has two opportunities for release: the appeals made by his lawyer, his family, and the American government, or the “Midnight Express”.",
+    "synopsis": "Billy Hayes is caught attempting to smuggle drugs out of Turkey. The Turkish courts decide to make an example of him, sentencing him to more than 30 years in prison. Hayes has two opportunities for release: the appeals made by his lawyer, his family, and the American government, or the “Midnight Express”.",
     "year": 1978,
     "director": {
       "id": "10700453378398377313",
       "name": "Brad Davis"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/midnight-express-cover.jpg",
     "was_watched": false,
@@ -1069,15 +1069,15 @@
   },
   {
     "title": "Amores Perros",
-    "sinopsis": "A fatalistic car crash in Mexico city sets off a chain of events in the lives of three people: a supermodel, a young man wanting to run off with his sister-in-law, and a homeless man. Their lives are catapulted into unforeseen situations instigated by the seemingly inconsequential destiny of a dog.",
+    "synopsis": "A fatalistic car crash in Mexico city sets off a chain of events in the lives of three people: a supermodel, a young man wanting to run off with his sister-in-law, and a homeless man. Their lives are catapulted into unforeseen situations instigated by the seemingly inconsequential destiny of a dog.",
     "year": 2000,
     "director": {
       "id": "11472763541591120927",
       "name": "Emilio Echevarría"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/amores-perros-cover.jpg",
     "was_watched": false,
@@ -1109,15 +1109,15 @@
   },
   {
     "title": "The Pianist",
-    "sinopsis": "The true story of pianist Władysław Szpilman’s experiences in Warsaw during the Nazi occupation. When the Jews of the city find themselves forced into a ghetto, Szpilman finds work playing in a café; and when his family is deported in 1942, he stays behind, works for a while as a laborer, and eventually goes into hiding in the ruins of the war-torn city.",
+    "synopsis": "The true story of pianist Władysław Szpilman’s experiences in Warsaw during the Nazi occupation. When the Jews of the city find themselves forced into a ghetto, Szpilman finds work playing in a café; and when his family is deported in 1942, he stays behind, works for a while as a laborer, and eventually goes into hiding in the ruins of the war-torn city.",
     "year": 2002,
     "director": {
       "id": "7454290802574120796",
       "name": "Adrien Brody"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/the-pianist-cover.jpg",
     "was_watched": false,
@@ -1149,15 +1149,15 @@
   },
   {
     "title": "The Lives of Others",
-    "sinopsis": "In 1983 East Berlin, dedicated Stasi officer Gerd Wiesler begins spying on a famous playwright and his actress-lover Christa-Maria. Wiesler becomes unexpectedly sympathetic to the couple, and faces conflicting loyalties when his superior takes a liking to Christa-Maria.",
+    "synopsis": "In 1983 East Berlin, dedicated Stasi officer Gerd Wiesler begins spying on a famous playwright and his actress-lover Christa-Maria. Wiesler becomes unexpectedly sympathetic to the couple, and faces conflicting loyalties when his superior takes a liking to Christa-Maria.",
     "year": 2006,
     "director": {
       "id": "12748564726933574790",
       "name": "Martina Gedeck"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/the-lives-of-others-cover.jpg",
     "was_watched": false,
@@ -1189,15 +1189,15 @@
   },
   {
     "title": "No Country for Old Men",
-    "sinopsis": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide.",
+    "synopsis": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide.",
     "year": 2007,
     "director": {
       "id": "17885707485753073298",
       "name": "Javier Bardem"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/no-country-for-old-men-cover.jpg",
     "was_watched": false,
@@ -1229,15 +1229,15 @@
   },
   {
     "title": "We Need to Talk About Kevin",
-    "sinopsis": "After her son Kevin commits a horrific act, troubled mother Eva reflects on her complicated relationship with her disturbed son as he grew from a toddler into a teenager.",
+    "synopsis": "After her son Kevin commits a horrific act, troubled mother Eva reflects on her complicated relationship with her disturbed son as he grew from a toddler into a teenager.",
     "year": 2011,
     "director": {
       "id": "12791299072639392320",
       "name": "Tilda Swinton"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/we-need-to-talk-about-kevin-cover.jpg",
     "was_watched": false,
@@ -1269,15 +1269,15 @@
   },
   {
     "title": "Hereditary",
-    "sinopsis": "Following the death of the Leigh family matriarch, Annie and her children uncover disturbing secrets about their heritage. Their daily lives are not only impacted, but they also become entangled in a chilling fate from which they cannot escape, driving them to the brink of madness.",
+    "synopsis": "Following the death of the Leigh family matriarch, Annie and her children uncover disturbing secrets about their heritage. Their daily lives are not only impacted, but they also become entangled in a chilling fate from which they cannot escape, driving them to the brink of madness.",
     "year": 2018,
     "director": {
       "id": "11538628600444509066",
       "name": "Toni Collette"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/hereditary-cover.jpg",
     "was_watched": false,
@@ -1309,15 +1309,15 @@
   },
   {
     "title": "Gattaca",
-    "sinopsis": "Vincent is an all-too-human man who dares to defy a system obsessed with genetic perfection. He is an “In-Valid” who assumes the identity of a member of the genetic elite to pursue his goal of traveling into space with the Gattaca Aerospace Corporation.",
+    "synopsis": "Vincent is an all-too-human man who dares to defy a system obsessed with genetic perfection. He is an “In-Valid” who assumes the identity of a member of the genetic elite to pursue his goal of traveling into space with the Gattaca Aerospace Corporation.",
     "year": 1997,
     "director": {
       "id": "11379497556121441339",
       "name": "Ethan Hawke"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/gattaca-cover.jpg",
     "was_watched": false,
@@ -1349,15 +1349,15 @@
   },
   {
     "title": "Gone Girl",
-    "sinopsis": "With his wife’s disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it’s suspected that he may not be innocent.",
+    "synopsis": "With his wife’s disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it’s suspected that he may not be innocent.",
     "year": 2014,
     "director": {
       "id": "1359588848534049030",
       "name": "Ben Affleck"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/gone-girl-cover.jpg",
     "was_watched": false,
@@ -1389,15 +1389,15 @@
   },
   {
     "title": "Seven",
-    "sinopsis": "A government agent discovers a plot by a cartel of seven gangsters to take over the state of Hawaii. He hires a team of seven hitmen to stop them.",
+    "synopsis": "A government agent discovers a plot by a cartel of seven gangsters to take over the state of Hawaii. He hires a team of seven hitmen to stop them.",
     "year": 1979,
     "director": {
       "id": "14338699710197946202",
       "name": "William Smith"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/seven-cover.jpg",
     "was_watched": false,
@@ -1429,15 +1429,15 @@
   },
   {
     "title": "Black Swan",
-    "sinopsis": "The story of Nina, a ballerina in a New York City ballet company whose life, like all those in her profession, is completely consumed with dance. She lives with her retired ballerina mother Erica who zealously supports her daughter’s professional ambition. When artistic director Thomas Leroy decides to replace prima ballerina Beth MacIntyre for the opening production of their new season, Swan Lake, Nina is his first choice.",
+    "synopsis": "The story of Nina, a ballerina in a New York City ballet company whose life, like all those in her profession, is completely consumed with dance. She lives with her retired ballerina mother Erica who zealously supports her daughter’s professional ambition. When artistic director Thomas Leroy decides to replace prima ballerina Beth MacIntyre for the opening production of their new season, Swan Lake, Nina is his first choice.",
     "year": 2010,
     "director": {
       "id": "15409622895904969331",
       "name": "Natalie Portman"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/black-swan-cover.jpg",
     "was_watched": false,
@@ -1469,15 +1469,15 @@
   },
   {
     "title": "Mother",
-    "sinopsis": "A teenaged girl witnesses her widowed mother’s attempt to sustain her family.",
+    "synopsis": "A teenaged girl witnesses her widowed mother’s attempt to sustain her family.",
     "year": 1952,
     "director": {
       "id": "13262452818904437252",
       "name": "Kinuyo Tanaka"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/mother-cover.jpg",
     "was_watched": false,
@@ -1509,15 +1509,15 @@
   },
   {
     "title": "American Beauty",
-    "sinopsis": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter’s attractive friend.",
+    "synopsis": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter’s attractive friend.",
     "year": 1999,
     "director": {
       "id": "11640022196356338791",
       "name": "Kevin Spacey"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/american-beauty-cover.jpg",
     "was_watched": false,
@@ -1549,15 +1549,15 @@
   },
   {
     "title": "The Virgin Suicides",
-    "sinopsis": "A group of male friends become obsessed with five mysterious sisters who are sheltered by their strict, religious parents.",
+    "synopsis": "A group of male friends become obsessed with five mysterious sisters who are sheltered by their strict, religious parents.",
     "year": 1999,
     "director": {
       "id": "4733423102982052565",
       "name": "James Woods"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/the-virgin-suicides-cover.jpg",
     "was_watched": false,
@@ -1589,15 +1589,15 @@
   },
   {
     "title": "Midsommar",
-    "sinopsis": "Several friends travel to Sweden to study as anthropologists a summer festival that is held every ninety years in the remote hometown of one of them. What begins as a dream vacation in a place where the sun never sets, gradually turns into a dark nightmare as the mysterious inhabitants invite them to participate in their disturbing festive activities.",
+    "synopsis": "Several friends travel to Sweden to study as anthropologists a summer festival that is held every ninety years in the remote hometown of one of them. What begins as a dream vacation in a place where the sun never sets, gradually turns into a dark nightmare as the mysterious inhabitants invite them to participate in their disturbing festive activities.",
     "year": 2019,
     "director": {
       "id": "15327363410726769961",
       "name": "Florence Pugh"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/midsommar-cover.jpg",
     "was_watched": false,
@@ -1629,15 +1629,15 @@
   },
   {
     "title": "Monster",
-    "sinopsis": "An emotionally scarred highway drifter shoots a sadistic trick who rapes her, and ultimately becomes America’s first female serial killer.",
+    "synopsis": "An emotionally scarred highway drifter shoots a sadistic trick who rapes her, and ultimately becomes America’s first female serial killer.",
     "year": 2003,
     "director": {
       "id": "450663788341122774",
       "name": "Charlize Theron"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/monster-cover.jpg",
     "was_watched": false,
@@ -1669,15 +1669,15 @@
   },
   {
     "title": "American Psycho",
-    "sinopsis": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
+    "synopsis": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
     "year": 2000,
     "director": {
       "id": "7207320979052254545",
       "name": "Christian Bale"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/american-psycho-cover.jpg",
     "was_watched": false,
@@ -1709,15 +1709,15 @@
   },
   {
     "title": "Jennifer’s Body",
-    "sinopsis": "Jennifer, a gorgeous, seductive cheerleader takes evil to a whole new level after she’s possessed by a sinister demon. Now it’s up to her best friend to stop Jennifer’s reign of terror before it’s too late.",
+    "synopsis": "Jennifer, a gorgeous, seductive cheerleader takes evil to a whole new level after she’s possessed by a sinister demon. Now it’s up to her best friend to stop Jennifer’s reign of terror before it’s too late.",
     "year": 2009,
     "director": {
       "id": "7982185505163992829",
       "name": "Megan Fox"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/jennifers-body-cover.jpg",
     "was_watched": false,
@@ -1749,15 +1749,15 @@
   },
   {
     "title": "Big Fish",
-    "sinopsis": "Throughout his life Edward Bloom has always been a man of big appetites, enormous passions and tall tales. In his later years, he remains a huge mystery to his son, William. Now, to get to know the real man, Will begins piecing together a true picture of his father from flashbacks of his amazing adventures.",
+    "synopsis": "Throughout his life Edward Bloom has always been a man of big appetites, enormous passions and tall tales. In his later years, he remains a huge mystery to his son, William. Now, to get to know the real man, Will begins piecing together a true picture of his father from flashbacks of his amazing adventures.",
     "year": 2003,
     "director": {
       "id": "17069012504405564821",
       "name": "Ewan McGregor"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/big-fish-cover.jpg",
     "was_watched": false,
@@ -1789,15 +1789,15 @@
   },
   {
     "title": "American History X",
-    "sinopsis": "",
+    "synopsis": "",
     "year": 1998,
     "director": {
       "id": "6347379004986315671",
       "name": "Edward Norton"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/american-history-x-cover.jpg",
     "was_watched": false,
@@ -1829,15 +1829,15 @@
   },
   {
     "title": "It’s Kind of a Funny Story",
-    "sinopsis": "A clinically depressed teenager gets a new start after he checks himself into an adult psychiatric ward.",
+    "synopsis": "A clinically depressed teenager gets a new start after he checks himself into an adult psychiatric ward.",
     "year": 2010,
     "director": {
       "id": "3904803653907078719",
       "name": "Keir Gilchrist"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/its-kind-of-a-funny-story-cover.jpg",
     "was_watched": false,
@@ -1869,15 +1869,15 @@
   },
   {
     "title": "Palo Alto",
-    "sinopsis": "A lack of parental guidance encourages teens in an affluent California town to rebel with substance abuse and casual sex.",
+    "synopsis": "A lack of parental guidance encourages teens in an affluent California town to rebel with substance abuse and casual sex.",
     "year": 2013,
     "director": {
       "id": "11228567488301978660",
       "name": "Emma Roberts"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/palo-alto-cover.jpg",
     "was_watched": false,
@@ -1909,15 +1909,15 @@
   },
   {
     "title": "The Master",
-    "sinopsis": "When Master Tak, an old martial arts master, disappears, his best student, Jet, steps in to find him. However, when he learns that Tak’s life is in danger, he decides to protect him at all costs.",
+    "synopsis": "When Master Tak, an old martial arts master, disappears, his best student, Jet, steps in to find him. However, when he learns that Tak’s life is in danger, he decides to protect him at all costs.",
     "year": 1992,
     "director": {
       "id": "40077546684111284",
       "name": "Jet Li"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/the-master-cover.jpg",
     "was_watched": false,
@@ -1949,15 +1949,15 @@
   },
   {
     "title": "Capote",
-    "sinopsis": "A biopic of writer Truman Capote and his assignment for The New Yorker to write the non-fiction book “In Cold Blood”.",
+    "synopsis": "A biopic of writer Truman Capote and his assignment for The New Yorker to write the non-fiction book “In Cold Blood”.",
     "year": 2005,
     "director": {
       "id": "2125493790091205561",
       "name": "Philip Seymour Hoffman"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/capote-cover.jpg",
     "was_watched": false,
@@ -1989,15 +1989,15 @@
   },
   {
     "title": "A Beautiful Mind",
-    "sinopsis": "Brilliant mathematician, John Nash, is on the brink of international acclaim when he becomes entangled in a mysterious conspiracy.",
+    "synopsis": "Brilliant mathematician, John Nash, is on the brink of international acclaim when he becomes entangled in a mysterious conspiracy.",
     "year": 2001,
     "director": {
       "id": "9301803125821890134",
       "name": "Russell Crowe"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/a-beautiful-mind-cover.jpg",
     "was_watched": false,
@@ -2029,15 +2029,15 @@
   },
   {
     "title": "Sophie’s Choice",
-    "sinopsis": "Stingo, a young writer, moves to Brooklyn in 1947 to begin work on his first novel. As he becomes friendly with Sophie and her lover Nathan, he learns that she is a Holocaust survivor. Flashbacks reveal her harrowing story, from pre-war prosperity to Auschwitz. In the present, Sophie and Nathan’s relationship increasingly unravels as Stingo grows closer to Sophie and Nathan’s fragile mental state becomes ever more apparent.",
+    "synopsis": "Stingo, a young writer, moves to Brooklyn in 1947 to begin work on his first novel. As he becomes friendly with Sophie and her lover Nathan, he learns that she is a Holocaust survivor. Flashbacks reveal her harrowing story, from pre-war prosperity to Auschwitz. In the present, Sophie and Nathan’s relationship increasingly unravels as Stingo grows closer to Sophie and Nathan’s fragile mental state becomes ever more apparent.",
     "year": 1982,
     "director": {
       "id": "288353839632702116",
       "name": "Meryl Streep"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/sophies-choice-cover.jpg",
     "was_watched": false,
@@ -2069,15 +2069,15 @@
   },
   {
     "title": "Room",
-    "sinopsis": "Held captive for 7 years in an enclosed space, a woman and her young son finally gain their freedom, allowing the boy to experience the outside world for the first time.",
+    "synopsis": "Held captive for 7 years in an enclosed space, a woman and her young son finally gain their freedom, allowing the boy to experience the outside world for the first time.",
     "year": 2015,
     "director": {
       "id": "4476151894260404766",
       "name": "Brie Larson"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/room-cover.jpg",
     "was_watched": false,
@@ -2109,15 +2109,15 @@
   },
   {
     "title": "Mulholland Drive",
-    "sinopsis": "Blonde Betty Elms has only just arrived in Hollywood to become a movie star when she meets an enigmatic brunette with amnesia. Meanwhile, as the two set off to solve the second woman’s identity, filmmaker Adam Kesher runs into ominous trouble while casting his latest project.",
+    "synopsis": "Blonde Betty Elms has only just arrived in Hollywood to become a movie star when she meets an enigmatic brunette with amnesia. Meanwhile, as the two set off to solve the second woman’s identity, filmmaker Adam Kesher runs into ominous trouble while casting his latest project.",
     "year": 2001,
     "director": {
       "id": "49506937523559232",
       "name": "Naomi Watts"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/mulholland-drive-cover.jpg",
     "was_watched": false,
@@ -2149,15 +2149,15 @@
   },
   {
     "title": "Natural Born Killers",
-    "sinopsis": "Two victims of traumatized childhoods become lovers and serial murderers irresponsibly glorified by the mass media.",
+    "synopsis": "Two victims of traumatized childhoods become lovers and serial murderers irresponsibly glorified by the mass media.",
     "year": 1994,
     "director": {
       "id": "11891867386196939564",
       "name": "Woody Harrelson"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/natural-born-killers-cover.jpg",
     "was_watched": false,
@@ -2189,15 +2189,15 @@
   },
   {
     "title": "The Witch",
-    "sinopsis": "A historian goes to a castle library to translate some ancient erotic literature. While there he discovers what he believes to be supernatural forces at work.",
+    "synopsis": "A historian goes to a castle library to translate some ancient erotic literature. While there he discovers what he believes to be supernatural forces at work.",
     "year": 1966,
     "director": {
       "id": "16739364905934345732",
       "name": "Richard Johnson"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/the-witch-cover.jpg",
     "was_watched": false,
@@ -2229,15 +2229,15 @@
   },
   {
     "title": "Promising Young Woman",
-    "sinopsis": "A young woman, traumatized by a tragic event in her past, seeks out vengeance against those who crossed her path.",
+    "synopsis": "A young woman, traumatized by a tragic event in her past, seeks out vengeance against those who crossed her path.",
     "year": 2020,
     "director": {
       "id": "8000758401753633367",
       "name": "Carey Mulligan"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/promising-young-woman-cover.jpg",
     "was_watched": false,
@@ -2269,15 +2269,15 @@
   },
   {
     "title": "The Terminal",
-    "sinopsis": "An Eastern European tourist unexpectedly finds himself stranded in JFK airport, and must take up temporary residence there.",
+    "synopsis": "An Eastern European tourist unexpectedly finds himself stranded in JFK airport, and must take up temporary residence there.",
     "year": 2004,
     "director": {
       "id": "243871452045988419",
       "name": "Tom Hanks"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/the-terminal-cover.jpg",
     "was_watched": false,
@@ -2309,15 +2309,15 @@
   },
   {
     "title": "Hard Candy",
-    "sinopsis": "Hayley’s a smart, charming teenage girl. Jeff’s a handsome, smooth fashion photographer. An Internet chat, a coffee shop meet-up, an impromptu fashion shoot back at Jeff’s place. Jeff thinks it’s his lucky night. He’s in for a surprise.",
+    "synopsis": "Hayley’s a smart, charming teenage girl. Jeff’s a handsome, smooth fashion photographer. An Internet chat, a coffee shop meet-up, an impromptu fashion shoot back at Jeff’s place. Jeff thinks it’s his lucky night. He’s in for a surprise.",
     "year": 2005,
     "director": {
       "id": "5166932328984042697",
       "name": "Elliot Page"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/hard-candy-cover.jpg",
     "was_watched": false,
@@ -2349,15 +2349,15 @@
   },
   {
     "title": "Rear Window",
-    "sinopsis": "A wheelchair-bound photographer spies on his neighbors from his apartment window and becomes convinced one of them has committed murder.",
+    "synopsis": "A wheelchair-bound photographer spies on his neighbors from his apartment window and becomes convinced one of them has committed murder.",
     "year": 1954,
     "director": {
       "id": "744550317537906719",
       "name": "James Stewart"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/rear-window-cover.jpg",
     "was_watched": false,
@@ -2389,15 +2389,15 @@
   },
   {
     "title": "The Devil’s Advocate",
-    "sinopsis": "Aspiring Florida defense lawyer Kevin Lomax accepts a job at a New York law firm. With the stakes getting higher every case, Kevin quickly learns that his boss has something far more evil planned.",
+    "synopsis": "Aspiring Florida defense lawyer Kevin Lomax accepts a job at a New York law firm. With the stakes getting higher every case, Kevin quickly learns that his boss has something far more evil planned.",
     "year": 1997,
     "director": {
       "id": "2929022599763153725",
       "name": "Keanu Reeves"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/the-devils-advocate-cover.jpg",
     "was_watched": false,
@@ -2429,15 +2429,15 @@
   },
   {
     "title": "Scent of a Woman",
-    "sinopsis": "Charlie Simms is a student at a private preparatory school who comes from a poor family. To earn the money for his flight home to Gresham, Oregon for Christmas, Charlie takes a job over Thanksgiving looking after retired U.S. Army officer Lieutenant Colonel Frank Slade, a cantankerous middle-aged man who lives with his niece and her family.",
+    "synopsis": "Charlie Simms is a student at a private preparatory school who comes from a poor family. To earn the money for his flight home to Gresham, Oregon for Christmas, Charlie takes a job over Thanksgiving looking after retired U.S. Army officer Lieutenant Colonel Frank Slade, a cantankerous middle-aged man who lives with his niece and her family.",
     "year": 1992,
     "director": {
       "id": "1965195658026897724",
       "name": "Al Pacino"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/scent-of-a-woman-cover.jpg",
     "was_watched": false,
@@ -2469,15 +2469,15 @@
   },
   {
     "title": "Dancer in the Dark",
-    "sinopsis": "Selma, a Czech immigrant on the verge of blindness, struggles to make ends meet for herself and her son, who has inherited the same genetic disorder and will suffer the same fate without an expensive operation. When life gets too difficult, Selma learns to cope through her love of musicals, escaping life’s troubles – even if just for a moment – by dreaming up little numbers to the rhythmic beats of her surroundings.",
+    "synopsis": "Selma, a Czech immigrant on the verge of blindness, struggles to make ends meet for herself and her son, who has inherited the same genetic disorder and will suffer the same fate without an expensive operation. When life gets too difficult, Selma learns to cope through her love of musicals, escaping life’s troubles – even if just for a moment – by dreaming up little numbers to the rhythmic beats of her surroundings.",
     "year": 2000,
     "director": {
       "id": "10469447797242548740",
       "name": "Björk"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/dancer-in-the-dark-cover.jpg",
     "was_watched": false,
@@ -2509,15 +2509,15 @@
   },
   {
     "title": "Dogville",
-    "sinopsis": "When beautiful young Grace arrives in the isolated township of Dogville, the small community agrees to hide her from a gang of ruthless gangsters, and, in return, Grace agrees to do odd jobs for the townspeople.",
+    "synopsis": "When beautiful young Grace arrives in the isolated township of Dogville, the small community agrees to hide her from a gang of ruthless gangsters, and, in return, Grace agrees to do odd jobs for the townspeople.",
     "year": 2003,
     "director": {
       "id": "1381453631133802072",
       "name": "Nicole Kidman"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/dogville-cover.jpg",
     "was_watched": false,
@@ -2549,15 +2549,15 @@
   },
   {
     "title": "Nymphomaniac",
-    "sinopsis": "A man named Seligman finds a fainted wounded woman in an alley and he brings her home. She tells him that her name is Joe and that she is nymphomaniac. Joe tells her life and sexual experiences with hundreds of men since she was a young teenager while Seligman tells about his hobbies, such as fly fishing, reading about Fibonacci numbers or listening to organ music.",
+    "synopsis": "A man named Seligman finds a fainted wounded woman in an alley and he brings her home. She tells him that her name is Joe and that she is nymphomaniac. Joe tells her life and sexual experiences with hundreds of men since she was a young teenager while Seligman tells about his hobbies, such as fly fishing, reading about Fibonacci numbers or listening to organ music.",
     "year": 2014,
     "director": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/nymphomaniac-cover.jpg",
     "was_watched": false,
@@ -2565,23 +2565,23 @@
     "actors": [
       {
         "id": "5673693341140147561",
-        "name": "genero default"
+        "name": "gender default"
       },
       {
         "id": "5673693341140147561",
-        "name": "genero default"
+        "name": "gender default"
       },
       {
         "id": "5673693341140147561",
-        "name": "genero default"
+        "name": "gender default"
       },
       {
         "id": "5673693341140147561",
-        "name": "genero default"
+        "name": "gender default"
       },
       {
         "id": "5673693341140147561",
-        "name": "genero default"
+        "name": "gender default"
       }
     ],
     "poster_url": "assets/images/temp/posters/nymphomaniac-poster.jpg",
@@ -2589,15 +2589,15 @@
   },
   {
     "title": "Melancholia",
-    "sinopsis": "Justine and Michael are celebrating their marriage at a sumptuous party in the home of her sister Claire, and brother-in-law John. Despite Claire’s best efforts, the wedding is a fiasco, with family tensions mounting and relationships fraying. Meanwhile, a planet called Melancholia is heading directly towards Earth…",
+    "synopsis": "Justine and Michael are celebrating their marriage at a sumptuous party in the home of her sister Claire, and brother-in-law John. Despite Claire’s best efforts, the wedding is a fiasco, with family tensions mounting and relationships fraying. Meanwhile, a planet called Melancholia is heading directly towards Earth…",
     "year": 2011,
     "director": {
       "id": "16454534152378734308",
       "name": "Kirsten Dunst"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/melancholia-cover.jpg",
     "was_watched": false,
@@ -2629,15 +2629,15 @@
   },
   {
     "title": "Antichrist",
-    "sinopsis": "A grieving couple retreats to their cabin ‘Eden’ in the woods, hoping to repair their broken hearts and troubled marriage. But nature takes its course and things go from bad to worse.",
+    "synopsis": "A grieving couple retreats to their cabin ‘Eden’ in the woods, hoping to repair their broken hearts and troubled marriage. But nature takes its course and things go from bad to worse.",
     "year": 2009,
     "director": {
       "id": "12139651180873143997",
       "name": "Willem Dafoe"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/antichrist-cover.jpg",
     "was_watched": false,
@@ -2661,15 +2661,15 @@
   },
   {
     "title": "Breaking the Waves",
-    "sinopsis": "In a small and conservative Scottish village, a woman’s paralytic husband convinces her to have extramarital intercourse so she can tell him about it and give him a reason for living.",
+    "synopsis": "In a small and conservative Scottish village, a woman’s paralytic husband convinces her to have extramarital intercourse so she can tell him about it and give him a reason for living.",
     "year": 1996,
     "director": {
       "id": "6533176214199295362",
       "name": "Emily Watson"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/breaking-the-waves-cover.jpg",
     "was_watched": false,
@@ -2701,15 +2701,15 @@
   },
   {
     "title": "The Idiots",
-    "sinopsis": "A mix of home-video and documentary styles about a group of young people who have decided to get to know their “inner-idiots” and thus not only facing and breaking their outer appearance but also their inner.",
+    "synopsis": "A mix of home-video and documentary styles about a group of young people who have decided to get to know their “inner-idiots” and thus not only facing and breaking their outer appearance but also their inner.",
     "year": 1998,
     "director": {
       "id": "7746126393927815909",
       "name": "Bodil Jørgensen"
     },
-    "genero": {
+    "gender": {
       "id": "5673693341140147561",
-      "name": "genero default"
+      "name": "gender default"
     },
     "cover": "assets/images/temp/cards/the-idiots-cover.jpg",
     "was_watched": false,

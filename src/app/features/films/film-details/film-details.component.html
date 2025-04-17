@@ -1,54 +1,57 @@
-<app-backdrop-image [imageUrl]="data.poster_url"></app-backdrop-image>
-<div class="film-info__container flex w-full justify-center items-start gap-x-6 w-full max-w-1200 mx-auto">
-  <app-base-card [imageUrl]="data.cover" [size]="size" alt="cover" ></app-base-card>
-  <div class="flex flex-col w-1000">
-    <div class="film-info__title__box flex gap-x-2 items-end">
-      <span class="title--large mr-2">{{ data.title }}</span>
-      <span class="title--medium lighter mb-1">{{ data.year }}</span>
-    </div>
-    <div class="film-info__sinopsis">
-      <p class="text">
-        {{ data.sinopsis }}
-      </p>
-      <button class="button button--action button--w-lg my-2 flex justify-center align-center gap-x-2">
-        <span class="flex items-center">Add to Watchlist</span>
-        <img [src]="detailIcon" alt="ir al detalle" srcset="">
-      </button>
-    </div>
-    <div class="info">
-      <div class="flex flex-col justify-start items-start">
-        <p class="text label">Director</p>
-        <div class="flex flex-wrap p gap-2">
-          <app-chip [label]="data.director.name"></app-chip>
+<div *ngIf="!data; else detailPage">Loading...</div>
+<ng-template #detailPage>
+  <app-backdrop-image [imageUrl]="data.poster_url"></app-backdrop-image>
+  <div class="film-info__container flex w-full justify-center items-start gap-x-6 w-full max-w-1200 mx-auto">
+    <app-base-card [imageUrl]="data.cover" [size]="size" alt="cover" ></app-base-card>
+    <div class="flex flex-col w-1000">
+      <div class="film-info__title__box flex gap-x-2 items-end">
+        <span class="title--large mr-2" data-testid="film-title">{{ data.title }}</span>
+        <span class="title--medium lighter mb-1" data-testid="film-year">{{ data.year }}</span>
+      </div>
+      <div class="film-info__synopsis">
+        <p class="text" data-testid="film-synopsis">
+          {{ data.synopsis }}
+        </p>
+        <button class="button button--action button--w-lg my-2 flex justify-center align-center gap-x-2">
+          <span class="flex items-center">Add to Watchlist</span>
+          <img [src]="detailIcon" alt="ir al detalle" srcset="">
+        </button>
+      </div>
+      <div class="info">
+        <div class="flex flex-col justify-start items-start">
+          <p class="text label">Director</p>
+          <div class="flex flex-wrap p gap-2">
+            <app-chip [label]="data.director.name"></app-chip>
+          </div>
+        </div>
+        <div class="flex flex-col justify-start items-start">
+          <p class="text label">Actors</p>
+          <div class="flex flex-wrap gap-2">
+            <app-chip *ngFor="let actor of data.actors" [label]="actor.name"></app-chip>
+          </div>
+        </div>
+        <!-- TODO: el genero debe ser un array tambien -->
+        <div *ngIf="data.gender.name" class="flex flex-col justify-start items-start">
+          <p class="text label">Gender</p>
+          <div class="flex flex-wrap">
+            <app-chip [label]="data.gender.name"></app-chip>
+          </div>
         </div>
       </div>
-      <div class="flex flex-col justify-start items-start">
-        <p class="text label">Actors</p>
-        <div class="flex flex-wrap gap-2">
-          <app-chip *ngFor="let actor of data.actors" [label]="actor.name"></app-chip>
+    </div>
+    <div class="w-350 h-400 flex flex-col card">
+      <h2 class="text">More Like This</h2>
+      <div *ngFor="let film of recommendedFilms">
+        <div class="flex justify-start gap-2">
+          <!-- ! Este redirect no va a funcionar bien hasta que el componente detail no integre el servicio de buscar el detalle del film en vez de recibir la data por params -->
+          <app-base-card [size]="'x-small'" [imageUrl]="film.cover" [goToUrl]="'films/' + film.id"></app-base-card>
+          <div class="flex flex-col gap-1">
+            <p class="text label my-0">{{ film.title }}</p>
+            <p class="text text--small lighter my-0">{{ film.synopsis }}</p>
+          </div>
         </div>
-      </div>
-      <!-- TODO: el genero debe ser un array tambien -->
-      <div *ngIf="data.genero.name" class="flex flex-col justify-start items-start">
-        <p class="text label">Gender</p>
-        <div class="flex flex-wrap">
-          <app-chip [label]="data.genero.name"></app-chip>
-        </div>
+        <app-divider class="w-full p-6 m-2"></app-divider>
       </div>
     </div>
   </div>
-  <div class="w-350 h-400 flex flex-col card">
-    <h2 class="text">More Like This</h2>
-    <div *ngFor="let film of recommendedFilms">
-      <div class="flex justify-start gap-2">
-        <!-- ! Este redirect no va a funcionar bien hasta que el componente detail no integre el servicio de buscar el detalle del film en vez de recibir la data por params -->
-        <app-base-card [size]="'x-small'" [imageUrl]="film.cover" [goToUrl]="'films/' + film.id"></app-base-card>
-        <div class="flex flex-col gap-1">
-          <p class="text label my-0">{{ film.title }}</p>
-          <p class="text text--small lighter my-0">{{ film.sinopsis }}</p>
-        </div>
-      </div>
-      <app-divider class="w-full p-6 m-2"></app-divider>
-    </div>
-  </div>
-</div>
+</ng-template>

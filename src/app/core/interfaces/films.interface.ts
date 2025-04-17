@@ -1,10 +1,10 @@
 export interface Film {
   id: string;
   title: string;
-  sinopsis: string;
+  synopsis: string;
   year: number;
   director: Entity;
-  genero: Entity;
+  gender: Entity;
   cover: string;
   poster_url: string;
   was_watched: boolean;

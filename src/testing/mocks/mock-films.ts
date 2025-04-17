@@ -4,9 +4,9 @@ export const mockFilm: Film = {
   id: '1',
   title: 'Mock Film',
   year: 2022,
-  sinopsis: 'Mock sinopsis.',
+  synopsis: 'Mock synopsis.',
   director: { id: 'd1', name: 'Mock Director' },
-  genero: { id: 'g1', name: 'Mock Genre' },
+  gender: { id: 'g1', name: 'Mock Genre' },
   cover: 'mock-cover.jpg',
   poster_url: 'mock-poster.jpg',
   was_watched: false,
@@ -20,16 +20,16 @@ export const mockFilm: Film = {
 export const mockFilms: Film[] = [
   {
     title: 'Drive',
-    sinopsis:
+    synopsis:
       'A prototype enhanced human, on the run from Chinese-hired hit men, hooks up with a dread-locked bystander, and the two of them elude their pursuers narrowly each time.',
     year: 1997,
     director: {
       id: '6423910681835624258',
       name: 'Mark Dacascos',
     },
-    genero: {
+    gender: {
       id: '5673693341140147561',
-      name: 'genero default',
+      name: 'gender default',
     },
     cover: 'assets/images/temp/cards/drive-cover.jpg',
     was_watched: false,
@@ -61,16 +61,16 @@ export const mockFilms: Film[] = [
   },
   {
     title: 'Mysterious Skin',
-    sinopsis:
+    synopsis:
       'A teenage hustler and a young man obsessed with alien abductions cross paths, together discovering a horrible, liberating truth.',
     year: 2004,
     director: {
       id: '3339416782209307937',
       name: 'Joseph Gordon-Levitt',
     },
-    genero: {
+    gender: {
       id: '5673693341140147561',
-      name: 'genero default',
+      name: 'gender default',
     },
     cover: 'assets/images/temp/cards/mysterious-skin-cover.jpg',
     was_watched: false,

@@ -2,13 +2,13 @@
   {
     "id": "1",
     "title": "Anora",
-    "sinopsis": "Una conmovedora historia que explora las complejidades de las relaciones humanas en un pequeño pueblo.",
+    "synopsis": "Una conmovedora historia que explora las complejidades de las relaciones humanas en un pequeño pueblo.",
     "year": 2024,
     "director": {
       "id": "1",
       "name": "Sean Baker"
     },
-    "genero": {
+    "gender": {
       "id": "1",
       "name": "Drama"
     },
@@ -50,13 +50,13 @@
   {
     "id": "2",
     "title": "The Brutalist",
-    "sinopsis": "La vida de un arquitecto visionario y su lucha por construir su obra maestra.",
+    "synopsis": "La vida de un arquitecto visionario y su lucha por construir su obra maestra.",
     "year": 2024,
     "director": {
       "id": "2",
       "name": "Brady Corbet"
     },
-    "genero": {
+    "gender": {
       "id": "2",
       "name": "Biografía"
     },
@@ -106,13 +106,13 @@
   {
     "id": "3",
     "title": "A Complete Unknown",
-    "sinopsis": "Un viaje a través de la vida y música de un icónico cantante que definió una era.",
+    "synopsis": "Un viaje a través de la vida y música de un icónico cantante que definió una era.",
     "year": 2024,
     "director": {
       "id": "3",
       "name": "James Mangold"
     },
-    "genero": {
+    "gender": {
       "id": "3",
       "name": "Musical"
     },
@@ -154,13 +154,13 @@
   {
     "id": "4",
     "title": "Conclave",
-    "sinopsis": "Intrigas y secretos en el proceso de elección de un nuevo Papa.",
+    "synopsis": "Intrigas y secretos en el proceso de elección de un nuevo Papa.",
     "year": 2024,
     "director": {
       "id": "4",
       "name": "Edward Berger"
     },
-    "genero": {
+    "gender": {
       "id": "4",
       "name": "Suspenso"
     },
