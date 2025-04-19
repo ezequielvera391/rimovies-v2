@@ -12,26 +12,26 @@
         <p class="text" data-testid="film-synopsis">
           {{ data.synopsis }}
         </p>
-        <button class="button button--action button--w-lg my-2 flex justify-center align-center gap-x-2">
+        <button class="button button--action button--w-lg my-2 flex justify-center align-center gap-x-2" data-testid="button-add-to-wtchlist">
           <span class="flex items-center">Add to Watchlist</span>
           <img [src]="detailIcon" alt="ir al detalle" srcset="">
         </button>
       </div>
       <div class="info">
-        <div class="flex flex-col justify-start items-start">
+        <div class="flex flex-col justify-start items-start" data-testid="director-section">
           <p class="text label">Director</p>
-          <div class="flex flex-wrap p gap-2">
+          <div class="flex flex-wrap p gap-2" >
             <app-chip [label]="data.director.name"></app-chip>
           </div>
         </div>
-        <div class="flex flex-col justify-start items-start">
+        <div class="flex flex-col justify-start items-start" data-testid="actors-section">
           <p class="text label">Actors</p>
           <div class="flex flex-wrap gap-2">
             <app-chip *ngFor="let actor of data.actors" [label]="actor.name"></app-chip>
           </div>
         </div>
         <!-- TODO: el genero debe ser un array tambien -->
-        <div *ngIf="data.gender.name" class="flex flex-col justify-start items-start">
+        <div *ngIf="data.gender.name" class="flex flex-col justify-start items-start" data-testid="gender-section">
           <p class="text label">Gender</p>
           <div class="flex flex-wrap">
             <app-chip [label]="data.gender.name"></app-chip>
@@ -41,7 +41,7 @@
     </div>
     <div class="w-350 h-400 flex flex-col card">
       <h2 class="text">More Like This</h2>
-      <div *ngFor="let film of recommendedFilms">
+      <div *ngFor="let film of recommendedFilms" data-testid="recommended-film-card">
         <div class="flex justify-start gap-2">
           <!-- ! Este redirect no va a funcionar bien hasta que el componente detail no integre el servicio de buscar el detalle del film en vez de recibir la data por params -->
           <app-base-card [size]="'x-small'" [imageUrl]="film.cover" [goToUrl]="'films/' + film.id"></app-base-card>
@@ -50,7 +50,7 @@
             <p class="text text--small lighter my-0">{{ film.synopsis }}</p>
           </div>
         </div>
-        <app-divider class="w-full p-6 m-2"></app-divider>
+        <app-divider class="w-full p-6 m-2" data-testid="recommended-divider"></app-divider>
       </div>
     </div>
   </div>
