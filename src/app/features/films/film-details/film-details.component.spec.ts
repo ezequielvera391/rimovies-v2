@@ -13,7 +13,7 @@ import { FilmsService } from 'src/app/core/services/films.service';
 import { of } from 'rxjs';
 import { By } from '@angular/platform-browser';
 
-fdescribe('FilmDetailsComponent', () => {
+describe('FilmDetailsComponent', () => {
   let component: FilmDetailsComponent;
   let fixture: ComponentFixture<FilmDetailsComponent>;
   let mockFilmsService: jasmine.SpyObj<FilmsService>;

@@ -8,7 +8,7 @@ import { BaseCardComponent } from 'src/app/shared/card/base-card.component';
 import { MockBaseCardComponent } from 'src/testing/mocks/mock-components';
 import { mockFilm } from 'src/testing/mocks/mock-films';
 
-fdescribe('FilmCardComponent', () => {
+describe('FilmCardComponent', () => {
   let component: FilmCardComponent;
   let fixture: ComponentFixture<FilmCardComponent>;
 

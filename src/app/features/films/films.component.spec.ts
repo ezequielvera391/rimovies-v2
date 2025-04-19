@@ -11,7 +11,7 @@ import { By } from '@angular/platform-browser';
 import { mockFilms } from 'src/testing/mocks/mock-films';
 import { MockFilmCardComponent, MockSearchInputComponent } from 'src/testing/mocks/mock-components';
 
-fdescribe('FilmsComponent', () => {
+describe('FilmsComponent', () => {
   let component: FilmsComponent;
   let fixture: ComponentFixture<FilmsComponent>;
 

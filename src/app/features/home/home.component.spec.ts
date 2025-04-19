@@ -11,7 +11,7 @@ import { BackdropImageComponent } from 'src/app/shared/backdrop-image/backdrop-i
 import { MockBackdropImageComponent, MockFilmCardComponent } from 'src/testing/mocks/mock-components';
 import { mockFilms } from 'src/testing/mocks/mock-films';
 
-fdescribe('HomeComponent', () => {
+describe('HomeComponent', () => {
   let component: HomeComponent;
   let fixture: ComponentFixture<HomeComponent>;
   let mockFilmsService: jasmine.SpyObj<FilmsService>;
