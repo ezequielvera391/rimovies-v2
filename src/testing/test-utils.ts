@@ -4,3 +4,9 @@ export function mockRouterWithState(state: any) {
     navigate: jasmine.createSpy('navigate'),
   };
 }
+
+export function mockActivatedRouteWithParams(params: Record<string, any>) {
+  return {
+    snapshot: { params },
+  };
+}
