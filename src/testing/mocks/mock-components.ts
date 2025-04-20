@@ -44,3 +44,9 @@ export class MockSearchInputComponent {
   @Input() keys!: string[];
   @Output() emitSearch = new EventEmitter<Film[]>();
 }
+
+@Component({ selector: 'app-nav-bar', template: '', standalone: true })
+export class MockNavBarComponent {
+  @Input() navLinks: { name: string; path: string }[];
+}
+
