@@ -10,4 +10,5 @@ import { CommonModule } from '@angular/common';
 })
 export class BackdropImageComponent {
   @Input() imageUrl: string;
+  // TODO: Create a empty state for when imageUrl is null
 }
