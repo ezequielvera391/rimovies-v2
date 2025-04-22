@@ -12,6 +12,7 @@ export class ChipComponent {
   @Input() label!: string;
   @Input() removable: boolean = false;
 
+  // TODO: implement removable chip
   remove() {
     console.log(`Eliminar chip: ${this.label}`);
   }
