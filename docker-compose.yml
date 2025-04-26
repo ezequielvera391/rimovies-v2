@@ -5,6 +5,10 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+      args:
+        BUILD_DATE: "${BUILD_DATE}"
+        GIT_BRANCH: "${GIT_BRANCH}"
+        GIT_COMMIT: "${GIT_COMMIT}"
     ports:
       - "8080:80"
     container_name: rimovies-app

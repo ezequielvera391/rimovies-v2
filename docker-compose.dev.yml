@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  rimovies-app-dev:
+    image: node:18
+    container_name: rimovies-app-dev
+    working_dir: /app
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - "4200:4200"
+    command: bash -c "npm install && npm run start:docker"

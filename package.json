@@ -7,6 +7,7 @@
     "start:dev": "ng serve --configuration=development",
     "start:staging": "ng serve --configuration=staging",
     "start:prod": "ng serve --configuration=production",
+    "start:docker": "ng serve --host 0.0.0.0 --poll=1000 --configuration=development",
     "build:dev": "ng build --configuration=development",
     "build:staging": "ng build --configuration=staging",
     "build:prod": "ng build --configuration=production"

@@ -8,23 +8,20 @@ RUN npm run build:prod
 
 FROM nginx:stable-alpine
 
-# Declaramos los argumentos que vamos a recibir para el log
 ARG BUILD_DATE
 ARG GIT_BRANCH
 ARG GIT_COMMIT
 
+ENV BUILD_DATE=$BUILD_DATE
+ENV GIT_BRANCH=$GIT_BRANCH
+ENV GIT_COMMIT=$GIT_COMMIT
+
 COPY --from=builder /app/dist/rimovies-v2 /usr/share/nginx/html
-
-# Copiar configuración personalizada de NGINX
 COPY nginx.conf /etc/nginx/conf.d/default.conf
+COPY entrypoint.sh /entrypoint.sh
 
-# Log
-RUN echo "<html><body>" \
-    "<b>Build time:</b> ${BUILD_DATE}<br/>" \
-    "<b>Git branch:</b> ${GIT_BRANCH}<br/>" \
-    "<b>Git commit:</b> ${GIT_COMMIT}" \
-    "</body></html>" > /usr/share/nginx/html/version.html
+RUN chmod +x /entrypoint.sh
 
 EXPOSE 80
 
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["/entrypoint.sh"]

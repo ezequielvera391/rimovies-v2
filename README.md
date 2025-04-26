@@ -1,27 +1,167 @@
-# RimoviesV2
+# Rimovies V2 - Docker Setup
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+Este proyecto Angular está dockerizado para facilitar su despliegue en entornos de **desarrollo** y **producción**.
 
-## Development server
+## 🔗 Tabla de contenido
+- [Requisitos](#requisitos)
+- [Modos de ejecución](#modos-de-ejecución)
+  - [Desarrollo](#desarrollo)
+  - [Producción](#producción)
+- [Estructura relevante](#estructura-relevante)
+- [Información del build](#información-del-build)
+- [Comandos útiles](#comandos-útiles)
+- [Flujo diario recomendado](#flujo-diario-recomendado)
+- [Notas adicionales](#notas-adicionales)
+- [Mejoras futuras](#mejoras-futuras)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## Requisitos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Docker Desktop instalado y corriendo en tu máquina.
+- WSL 2 habilitado (Ubuntu recomendado).
+- Acceso a terminal Bash (WSL).
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Modos de ejecución
 
-## Running unit tests
+### Desarrollo
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+En desarrollo la aplicación corre usando `ng serve` dentro de un contenedor Node.js. Permite hot-reload sin necesidad de rebuild.
 
-## Running end-to-end tests
+Ahora contamos con un script especial preparado para entornos Docker.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+#### Levantar en desarrollo
 
-## Further help
+```bash
+docker-compose -f docker-compose.dev.yml up
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Acceder en el navegador:
+
+```
+http://localhost:4200
+```
+
+#### Script usado en desarrollo
+
+Dentro del `package.json`, se utiliza:
+
+```json
+"start:docker": "ng serve --host 0.0.0.0 --poll=1000 --configuration=development"
+```
+
+Este script garantiza que Angular detecte cambios de archivos correctamente dentro de contenedores.
+
+#### Detener en desarrollo
+
+```bash
+docker-compose -f docker-compose.dev.yml down
+```
+
+---
+
+### Producción
+
+En producción se construye la app Angular y se sirve mediante Nginx.
+
+#### Build y despliegue en producción
+
+Utilizamos el script `build.sh`, que permite hacer un build completo y levantar la app en un solo paso. Además, ofrece la opción de forzar un build limpio sin usar cache.
+
+##### Build rápido (usando cache)
+
+```bash
+./build.sh
+```
+
+##### Build limpio (sin usar cache)
+
+```bash
+./build.sh --no-cache
+```
+
+Acceder en el navegador:
+
+```
+http://localhost:8080
+```
+
+#### Detener en producción
+
+```bash
+docker-compose down
+```
+
+---
+
+## Estructura relevante
+
+| Archivo                     | Descripción                                                  |
+|:-----------------------------|:------------------------------------------------------------|
+| `Dockerfile`                 | Build de Angular y configuración de Nginx.                   |
+| `docker-compose.yml`         | Levanta app en **producción**.                              |
+| `docker-compose.dev.yml`     | Levanta app en **desarrollo** usando script `start:docker`.   |
+| `build.sh`                   | Script automatizado para construir imagen, permite `--no-cache`.|
+| `nginx.conf`                 | Config personalizado de Nginx para rutas SPA.                |
+| `.dockerignore`              | Ignora archivos innecesarios al construir la imagen.         |
+| `package.json`               | Contiene el script `start:docker` para entorno de desarrollo.|
+
+---
+
+## Información del build
+
+Accedé a `/version.html` para ver detalles del build actual:
+
+- Fecha y hora de build
+- Rama de Git utilizada
+- Commit utilizado
+
+Ejemplo:
+
+```
+http://localhost:8080/version.html
+```
+
+---
+
+## Comandos útiles
+
+| Acción                  | Comando |
+|:-------------------------|:--------|
+| Construir imagen rápido  | `./build.sh` |
+| Construir imagen limpio  | `./build.sh --no-cache` |
+| Levantar app en dev      | `docker-compose -f docker-compose.dev.yml up` |
+| Detener app              | `docker-compose down` (agregar `-f docker-compose.dev.yml` si es dev) |
+| Limpiar imágenes/volúmenes | `docker system prune -af` (precaución) |
+
+---
+
+## Flujo diario recomendado
+
+| Situación | Acción recomendada |
+|:----------|:------------------|
+| Desarrollo diario | `docker-compose -f docker-compose.dev.yml up` |
+| Preparar build para deploy | `./build.sh --no-cache` |
+| Detener app | `docker-compose down` |
+
+---
+
+## Notas adicionales
+
+- Docker Desktop debe estar corriendo antes de ejecutar cualquier comando.
+- Puertos expuestos:
+  - Desarrollo: `4200`
+  - Producción: `8080`
+- Nginx está configurado para manejar rutas internas con `try_files`.
+- Para entornos Docker en desarrollo, se utiliza `--poll=1000` para garantizar la detección de cambios.
+- `version.html` se genera dinámicamente al arrancar el contenedor y no se cachea en navegador (gracias a la configuración en `nginx.conf`).
+
+---
+
+## Mejoras futuras
+
+- Automatizar build y deploy mediante CI/CD (GitHub Actions, GitLab CI).
+- Crear `docker-compose.staging.yml` para entorno de testing.
+
