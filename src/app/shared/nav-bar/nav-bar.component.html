@@ -1,12 +1,14 @@
-<div [ngClass]="{ 'scrolled': isScrolled }" class="nav-bar flex flex-row justify-between items-center px-6 p-y4">
-    <div class="nav-bar__menu flex flex-row justify-start items-center">
-        <div class="nav-bar__logo">
-            <img [src]="logoPath " alt="logo">
-        </div>
-        <div class="nav-bar__list flex flex-row justify-between items-center p-4">
-            <div *ngFor="let item of navLinks" class="nav-bar__item" (click)="redirectTo(item.path)" (keydown)="handleKeydown($event, item.path)"  tabindex="0">
-                <span class="nav-bar__link bold button button--ghost">{{ item.name }}</span>
-            </div>
-        </div>
+<div [ngClass]="{ 'scrolled': isScrolled }" data-testid="nav-bar"
+  class="nav-bar flex flex-row justify-between items-center px-6 p-y4">
+  <div class="nav-bar__menu flex flex-row justify-start items-center">
+    <div class="nav-bar__logo" data-testid="logo">
+      <img [src]="logoPath" alt="logo" data-testid="logo-img">
     </div>
+    <div class="nav-bar__list flex flex-row justify-between items-center p-4">
+      <div *ngFor="let item of navLinks; let i = index" class="nav-bar__item" (click)="redirectTo(item.path)"
+        (keydown)="handleKeydown($event, item.path)" tabindex="0" [attr.data-testid]="'nav-item-' + i">
+        <span class="nav-bar__link bold button button--ghost">{{ item.name }}</span>
+      </div>
+    </div>
+  </div>
 </div>
