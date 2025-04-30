@@ -1,1 +1,16 @@
-<p>not-found works!</p>
+<div class="not-found-page">
+  <div class="not-found-content">
+    <h1 class="title title--large">Something went <span class="error-highlight">wrong</span></h1>
+    <p class="text text--small lighter">
+      Sorry, we couldn’t find the page you were looking for.<br>
+      To return to the homepage, click the button below.
+    </p>
+    <button (click)="redirectToHome()" class="button button--primary button--w-lg mt-6">
+      Go Home
+    </button>
+  </div>
+
+  <div class="not-found-image">
+    <img src="assets/images/404-error.png" alt="404" />
+  </div>
+</div>

@@ -1,0 +1,46 @@
+@import '/src/assets/styles/_variables.scss';
+
+.not-found-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $background-color;
+  color: $text-color;
+  height: 100vh;
+  padding: map-get($spacing-values, 5) map-get($spacing-values, 6);
+  box-sizing: border-box;
+
+  @media (max-width: $breakpoint-md) {
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    padding: map-get($spacing-values, 5);
+  }
+}
+
+.not-found-content {
+  max-width: 500px;
+
+  .error-highlight {
+    color: $primary-color;
+  }
+
+  .mt-6 {
+    margin-top: map-get($spacing-values, 6);
+  }
+}
+
+.not-found-image {
+  img {
+    max-width: 900px;
+    height: auto;
+    filter: brightness(0.9);
+  }
+
+  @media (max-width: $breakpoint-md) {
+    margin-top: map-get($spacing-values, 5);
+
+    img {
+      max-width: 500px;
+    }
+  }
+}
