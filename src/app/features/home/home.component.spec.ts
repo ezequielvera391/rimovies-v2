@@ -1,4 +1,4 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, discardPeriodicTasks, fakeAsync, TestBed, tick } from '@angular/core/testing';
 
 import { HomeComponent } from './home.component';
 import { Component, Input } from '@angular/core';
@@ -43,6 +43,12 @@ describe('HomeComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should execute ngOnInit()', () => {
+  const spy = spyOn(component as any, 'getRecommendedFilms').and.callThrough();
+  component.ngOnInit();
+  expect(spy).toHaveBeenCalled();
+});
 
   it('should call loadRecommendedFilms() on init', () => {
     expect(mockFilmsService.loadRecommendedFilms).toHaveBeenCalled();
@@ -98,4 +104,38 @@ describe('HomeComponent', () => {
     expect(backdropComponentInstance.imageUrl).toBe(expectedPosterUrl);
   });
 
+  it('should rotate the poster image correctly', () => {
+    component.recommendedFilms = mockFilms;
+    component.posterUrl = mockFilms[0].poster_url;
+
+    component['rotatePoster']();
+
+    expect(component.posterUrl).toBe(mockFilms[1].poster_url);
+  });
+
+  it('should complete destroy$ on ngOnDestroy', () => {
+    const destroySpy = spyOn(
+      (component as any).destroy$,
+      'next'
+    ).and.callThrough();
+    const completeSpy = spyOn(
+      (component as any).destroy$,
+      'complete'
+    ).and.callThrough();
+
+    component.ngOnDestroy();
+
+    expect(destroySpy).toHaveBeenCalled();
+    expect(completeSpy).toHaveBeenCalled();
+  });
+
+  it('should rotate poster on timer emission (rxjs concatMap branch)', fakeAsync(() => {
+    mockFilmsService.loadRecommendedFilms.and.returnValue(of(mockFilms));
+
+    component.ngOnInit();
+    tick(0);
+    expect(component.posterUrl).toBe(mockFilms[1].poster_url);
+
+    discardPeriodicTasks();
+  }));
 });

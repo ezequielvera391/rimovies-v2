@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { NavBarComponent } from './nav-bar.component';
 import { RouterTestingModule } from '@angular/router/testing';
+import { Router } from '@angular/router';
 
 describe('NavBarComponent', () => {
   let component: NavBarComponent;
@@ -44,6 +45,34 @@ describe('NavBarComponent', () => {
     ) as HTMLElement;
     firstNavItem.click();
     expect(component.redirectTo).toHaveBeenCalledWith('/');
+  });
+
+  it('should not call redirectTo on other key presses', () => {
+    spyOn(component, 'redirectTo');
+    const navItem = compiled.querySelector(
+      '[data-testid="nav-item-0"]'
+    ) as HTMLElement;
+    const otherKeyEvent = new KeyboardEvent('keydown', { key: 'ArrowDown' });
+
+    navItem.dispatchEvent(otherKeyEvent);
+
+    expect(component.redirectTo).not.toHaveBeenCalled();
+  });
+
+  it('should set isScrolled to true when scrolling via real window event', () => {
+    spyOnProperty(window, 'scrollY', 'get').and.returnValue(120);
+
+    window.dispatchEvent(new Event('scroll'));
+    fixture.detectChanges();
+
+    expect(component.isScrolled).toBeTrue();
+  });
+
+  it('should navigate to path when redirectTo is called', () => {
+    const router = TestBed.inject(Router);
+    const spy = spyOn(router, 'navigate');
+    component.redirectTo('/films');
+    expect(spy).toHaveBeenCalledWith(['/films']);
   });
 
   it('should call redirectTo when pressing Enter or Space', () => {

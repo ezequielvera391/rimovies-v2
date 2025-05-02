@@ -36,6 +36,14 @@ describe('ChipComponent', () => {
     expect(chipEl.nativeElement.textContent).toContain('Angular');
   });
 
+  it('should render nothing if label is not defined', () => {
+    component.label = undefined as any;
+    fixture.detectChanges();
+
+    const chipEl = fixture.debugElement.query(By.css('.chip'));
+    expect(chipEl.nativeElement.textContent.trim()).toBe('');
+  });
+
   it('should hide remove button for default', () => {
     const btn = fixture.debugElement.query(By.css('.close-btn'));
     expect(btn).toBeFalsy();
