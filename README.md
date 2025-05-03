@@ -1,6 +1,13 @@
-# Rimovies V2 - Docker Setup
+# Rimovies V2
 
-Este proyecto Angular está dockerizado para facilitar su despliegue en entornos de **desarrollo** y **producción**.
+Rimovies V2 es un proyecto de estudio con el objetivo de practicar, probar y demostrar habilidades en:
+
+- Angular moderno (standalone components, buenas prácticas)
+- Docker y despliegue de aplicaciones frontend
+- Automatización de builds
+- Integración con datasets generados por scraping
+
+El proyecto está en constante evolución. Toda sugerencia, corrección o aporte es más que bienvenido.
 
 ## 🔗 Tabla de contenido
 - [Requisitos](#requisitos)
@@ -13,6 +20,9 @@ Este proyecto Angular está dockerizado para facilitar su despliegue en entornos
 - [Flujo diario recomendado](#flujo-diario-recomendado)
 - [Notas adicionales](#notas-adicionales)
 - [Mejoras futuras](#mejoras-futuras)
+- [Alternativa: levantar sin Docker](#alternativa-levantar-sin-docker)
+- [Dataset de películas (opcional)](#dataset-de-películas-opcional)
+- [Sobre este proyecto](#sobre-este-proyecto)
 
 ---
 
@@ -165,3 +175,49 @@ http://localhost:8080/version.html
 - Automatizar build y deploy mediante CI/CD (GitHub Actions, GitLab CI).
 - Crear `docker-compose.staging.yml` para entorno de testing.
 
+---
+
+## Alternativa: levantar sin Docker
+
+Esta sección es solo para quienes deseen ejecutar el proyecto Angular **sin usar Docker**. En este caso sí es necesario tener instalado Angular CLI y Node.js en la máquina local.
+
+### Requisitos
+
+- Node.js 18+
+- Angular CLI
+
+### Instalación del proyecto
+
+```bash
+npm install
+```
+
+### Levantar en modo desarrollo
+
+```bash
+ng serve
+```
+
+Accedé en tu navegador a:
+
+```
+http://localhost:4200
+```
+
+---
+
+## Dataset de películas (opcional)
+
+Durante el desarrollo podés usar este proyecto complementario para generar un conjunto de datos realista basado en Letterboxd:
+
+https://github.com/ezequielvera391/scraping-project
+
+Este scraper genera:
+
+- Pósters y covers de películas.
+- Archivo JSON con información estructurada.
+- Archivos listos para integrarse al frontend.
+
+Ideal para entornos sin base de datos o para generar contenido de prueba automatizado.
+
+---
