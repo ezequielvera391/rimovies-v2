@@ -21,6 +21,7 @@ El proyecto está en constante evolución. Toda sugerencia, corrección o aporte
 - [Notas adicionales](#notas-adicionales)
 - [Mejoras futuras](#mejoras-futuras)
 - [Alternativa: levantar sin Docker](#alternativa-levantar-sin-docker)
+- [Testing](#testing)
 - [Dataset de películas (opcional)](#dataset-de-películas-opcional)
 - [Sobre este proyecto](#sobre-este-proyecto)
 
@@ -203,6 +204,41 @@ Accedé en tu navegador a:
 ```
 http://localhost:4200
 ```
+
+---
+
+## Testing
+
+El proyecto incluye pruebas unitarias para los componentes principales usando **Jasmine** y **Karma**, siguiendo las buenas prácticas de Angular moderno.
+
+### Ejecutar tests
+
+```bash
+npm run test
+```
+
+Esto lanza el entorno de pruebas con Karma y muestra los resultados en tiempo real. Al finalizar, se genera un reporte de cobertura.
+
+### Reporte de cobertura
+
+El reporte se guarda automáticamente en:
+
+```
+/coverage/index.html
+```
+
+Podés abrir ese archivo en tu navegador para ver qué partes del código están cubiertas por tests y cuáles no.
+
+### Buenas prácticas adoptadas
+
+- Tests aislados con `TestBed` y `ComponentFixture`.
+- Uso de spies y mocks para simular servicios.
+- Cubrimos componentes standalone, pipes y lógica de negocio en componentes clave.
+- Se busca alcanzar cobertura alta sin perder legibilidad.
+
+### Tests en entorno Docker
+
+Actualmente, los tests están pensados para ejecutarse fuera del contenedor. En futuras versiones se integrará un entorno de testing completo dentro de Docker o en un pipeline CI/CD.
 
 ---
 
