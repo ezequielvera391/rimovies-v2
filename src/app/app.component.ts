@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { FilmsService } from './core/services/films.service';
 import { concatMap, filter, of, take } from 'rxjs';
-import { environment } from 'src/enviroments/enviroment';
+import { environment } from 'src/environments/enviroment';
 import { NavigationEnd, Router } from '@angular/router';
+import { HealthService } from './core/health.service';
 
 @Component({
   selector: 'app-root',
@@ -18,11 +19,12 @@ export class AppComponent implements OnInit {
   public showNavBar: boolean = true;
   private isProd: boolean;
 
-  constructor(private filmService: FilmsService, private router: Router) {
+  constructor(private filmService: FilmsService, private router: Router, private healthService: HealthService) {
     this.monitorNavBarVisibility();
   }
 
   ngOnInit(): void {
+    this.checkServerHealth();
     this.getFilms();
     this.isProd = environment.production;
     this.configNavBar();
@@ -67,5 +69,13 @@ export class AppComponent implements OnInit {
            event.urlAfterRedirects.startsWith(path)
          );
        });
+  }
+
+  private checkServerHealth() {
+    this.healthService.checkServerHealth().subscribe((status) => {
+      if (!status) {
+        alert('El servidor no está accesible. Verifica la conexión.');
+      }
+    });
   }
 }
