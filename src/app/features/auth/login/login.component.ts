@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { PasswordInputComponent } from "../../../shared/password-input/password-input.component";
 import { RouterModule } from '@angular/router';
 import { FormBuilder,  FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import { AuthService } from '../services/auth.service';
 
 @Component({
   selector: 'app-login',
@@ -14,7 +15,7 @@ import { FormBuilder,  FormGroup, ReactiveFormsModule, Validators } from '@angul
 export class LoginComponent implements OnInit {
   public form: FormGroup;
 
-  constructor(private fb: FormBuilder) {
+  constructor(private fb: FormBuilder, private authService: AuthService) {
     this.createForm()
   }
 
@@ -34,6 +35,12 @@ export class LoginComponent implements OnInit {
   public handleSubmit(): void {
     const { username, password } = this.form.value;
     console.log({ username, password });
+    this.authService.login(username, password).subscribe({
+      next: (res) => {
+        // TODO: redireccionar a web logueado
+        console.log(res)
+      }
+    });
   }
 
   get formValid(): boolean {
