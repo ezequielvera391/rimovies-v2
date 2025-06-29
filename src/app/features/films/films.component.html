@@ -1,6 +1,6 @@
 
 <div class="flex flex-col justify-center items-center py-6 w-full">
-  <div class="flex flex-row justify-center items-center py-6 w-full max-w-400">
+  <div class="flex flex-row justify-center items-center py-6 w-full search-input-container">
       <app-search-input
           class="py-4 w-full"
           [placeholder]="'Buscar peliculas...'"
@@ -9,7 +9,7 @@
           (emitSearch)="showFilteredFilms($event)"
       ></app-search-input>
   </div>
-  <div class="flex gap-4 flex-wrap">
+  <div class="flex gap-4 flex-wrap films-container">
     <div *ngFor="let movie of filteredFilms">
       <!-- le paso data como parámetro, pero en un cuando este el servicio de film/:id esa data la va a ir a buscar con el id -->
       <app-film-card class="flex-grow" [data]="movie" [id]="movie.id"></app-film-card>

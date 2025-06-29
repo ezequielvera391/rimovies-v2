@@ -13,7 +13,12 @@
 }
 
 .nav-bar__logo {
+  img {
+    max-width: 120px;
+  }
+  @media (max-width: 767px) {
     img {
-        max-width: 120px;
+      max-width: 100px;
     }
+  }
 }
