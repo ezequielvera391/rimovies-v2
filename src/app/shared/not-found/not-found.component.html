@@ -1,10 +1,12 @@
-<div class="not-found-page">
+<div class="not-found-page m-auto max-w-1200 gap-6">
   <div class="not-found-content">
-    <h1 class="title title--large">Something went <span class="error-highlight">wrong</span></h1>
-    <p class="text text--small lighter">
-      Sorry, we couldn’t find the page you were looking for.<br>
-      To return to the homepage, click the button below.
-    </p>
+    <div class="not-found-header flex flex-col gap-2">
+      <h1 class="title title--large">Something went <span class="error-highlight">wrong</span></h1>
+      <p class="text text--small lighter">
+        Sorry, we couldn’t find the page you were looking for.<br>
+        To return to the homepage, click the button below.
+      </p>
+    </div>
     <button (click)="redirectToHome()" class="button button--primary button--w-lg mt-6">
       Go Home
     </button>

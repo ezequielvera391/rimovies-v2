@@ -19,6 +19,10 @@
 
 .not-found-content {
   max-width: 500px;
+  height: 336px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   .error-highlight {
     color: $primary-color;
@@ -31,7 +35,7 @@
 
 .not-found-image {
   img {
-    max-width: 900px;
+    max-width: 700px;
     height: auto;
     filter: brightness(0.9);
   }
@@ -40,7 +44,7 @@
     margin-top: map-get($spacing-values, 5);
 
     img {
-      max-width: 500px;
+      max-width: 450px;
     }
   }
 }
