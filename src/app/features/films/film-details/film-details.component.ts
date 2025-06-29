@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Film } from 'src/app/core/interfaces/films.interface';
@@ -41,9 +41,20 @@ export class FilmDetailsComponent {
     this.detailIcon = 'assets/images/icons/add_circle.svg';
   }
 
+  // TODO: change size to small when screen is smaller than 768px
+
   ngOnInit() {
     this.id = this.activatedRoute.snapshot.params['id'];
     this.getRecommendedFilms();
+  }
+
+  @HostListener('window:resize', [])
+  onResize(): void {
+    this.checkScreenSize(); // Verifica en cada resize
+  }
+
+  private checkScreenSize(): void {
+    this.size = window.innerWidth <= 1200 ? 'small' : 'large';
   }
 
   private getRecommendedFilms(): void {

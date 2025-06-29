@@ -1,0 +1,56 @@
+.film-info__container {
+  max-width: 1200px;
+  margin-top: 80px;
+  @media (max-width: 1200px) {
+    max-width: unset;
+    margin-top: 40px;
+    flex-direction: column;
+  }
+}
+.film-info__content {
+  width: 1000px;
+  @media (max-width: 1200px) {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.recommended-film-container {
+  @media (max-width: 1200px) {
+    width: 100% ;
+    margin-top: 24px;
+  }
+
+}
+.recommended-film-card-container {
+  flex-direction: column;
+  max-width: 350px;
+  min-width: 240px;
+  @media (max-width: 1200px) {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 16px;
+    width: 100%;
+    max-width: unset;
+  }
+}
+.film-card {
+  @media (max-width: 1200px) {
+    height: 200px;
+  }
+}
+.item-container {
+  display: flex;
+  gap: 8px;
+
+  @media (max-width: 1200px) {
+    height: 120px;
+    max-width: 350px;
+  }
+}

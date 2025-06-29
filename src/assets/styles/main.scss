@@ -5,14 +5,23 @@
 @import 'spacing';
 @import 'flex';
 @import 'cards';
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: $font-family;
   background: $background-color;
   color: $text-color;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 a {
   text-decoration: none;
+}
+html, body {
+  width: 100%;
+  height: 100%;
 }
