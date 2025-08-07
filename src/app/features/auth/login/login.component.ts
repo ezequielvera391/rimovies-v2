@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PasswordInputComponent } from "../../../shared/password-input/password-input.component";
-import { RouterModule } from '@angular/router';
+import { Router, RouterModule} from '@angular/router';
 import { FormBuilder,  FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { AuthService } from '../services/auth.service';
 
@@ -15,7 +15,11 @@ import { AuthService } from '../services/auth.service';
 export class LoginComponent implements OnInit {
   public form: FormGroup;
 
-  constructor(private fb: FormBuilder, private authService: AuthService) {
+  constructor(
+    private fb: FormBuilder,
+    private authService: AuthService,
+    private router: Router
+  ) {
     this.createForm()
   }
 
@@ -37,8 +41,7 @@ export class LoginComponent implements OnInit {
     console.log({ username, password });
     this.authService.login(username, password).subscribe({
       next: (res) => {
-        // TODO: redireccionar a web logueado
-        console.log(res)
+        this.router.navigate(['/']);
       }
     });
   }
