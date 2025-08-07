@@ -6,6 +6,9 @@
   <div class="input-wrapper w-300">
     <input class="input" type="text" placeholder="username" formControlName="username" data-testid="username-input">
   </div>
+  <div class="input-wrapper w-300">
+    <input class="input" type="text" placeholder="email" formControlName="email" data-testid="email-input">
+  </div>
   <app-password-input class="w-300" formControlName="password" data-testid="password-input"></app-password-input>
   <app-password-input class="w-300" formControlName="password2" data-testid="password2-input" [placeholder]="'Repeat password'" [ariaLabel]="'Repeat password'"></app-password-input>
   <button class="button button--primary w-300" type="submit" data-testid="register-button" [disabled]="!formValid">Sign up</button>
