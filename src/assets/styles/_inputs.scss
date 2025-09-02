@@ -45,3 +45,21 @@
   }
 }
 
+.input-error {
+  font-size: 12px;
+  color: $error-color; // puedes definirlo en variables.scss, ej: #ff6b6b
+  margin-top: 4px;
+  text-align: left;
+  width: 100%;
+}
+
+.input--invalid {
+  border-color: $error-color;
+}
+
+/* Slot de error para evitar salto de layout */
+.input-error-slot {
+  min-height: 18px; // 1 línea del .input-error
+  display: block;
+  width: 100%;
+}
