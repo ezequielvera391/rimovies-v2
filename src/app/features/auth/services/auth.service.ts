@@ -12,13 +12,18 @@ export class AuthService {
 
   constructor(private http: HttpClient) {}
 
-  public login(email: string, password: string): Observable<loginResponse> {
+  public login(
+    identifier: string,
+    password: string
+  ): Observable<loginResponse> {
     let loginUrl: string = this.url + '/login';
-    return this.http.post<loginResponse>(loginUrl, { email, password }).pipe(
-      tap((response) => {
-        this.setAccessToken(response.access_token);
-      })
-    );
+    return this.http
+      .post<loginResponse>(loginUrl, { identifier, password })
+      .pipe(
+        tap((response) => {
+          this.setAccessToken(response.access_token);
+        })
+      );
   }
 
   public register(
