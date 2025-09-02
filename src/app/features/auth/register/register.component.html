@@ -9,8 +9,14 @@
   <div class="input-wrapper w-300">
     <input class="input" type="text" placeholder="email" formControlName="email" data-testid="email-input">
   </div>
-  <app-password-input class="w-300" formControlName="password" data-testid="password-input"></app-password-input>
-  <app-password-input class="w-300" formControlName="password2" data-testid="password2-input" [placeholder]="'Repeat password'" [ariaLabel]="'Repeat password'"></app-password-input>
+  <app-password-input class="w-300" formControlName="password" [required]="true" [minLength]="8" [maxLength]="128"
+    [confirm]="true" [messages]="{
+          required: 'Password is required.',
+          minlength: 'Use at least 8 characters.',
+          maxlength: 'Use at most 128 characters.',
+          mismatch: 'Passwords do not match.'
+      }">
+  </app-password-input>
   <button class="button button--primary w-300" type="submit" data-testid="register-button" [disabled]="!formValid">Sign up</button>
   <a [routerLink]="'/auth/login'" class="text text--small lighter" data-testid="login-link">Have an account? Sign in</a>
 </form>
