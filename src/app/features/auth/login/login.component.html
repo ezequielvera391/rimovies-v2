@@ -1,13 +1,37 @@
-<form [formGroup]="form" (ngSubmit)="handleSubmit()" class="flex flex-col gap-4 justify-center items-center h-full">
-  <div class="flex flex-col justify-start items-center">
+<form [formGroup]="form" (ngSubmit)="handleSubmit()" class="flex flex-col justify-center items-center h-full">
+  <div class="flex flex-col justify-start items-center mb-4">
     <h2 class="title title--medium mb-0">Welcome back!</h2>
     <p class="text">Sign in to your account</p>
   </div>
-  <div class="input-wrapper w-300">
-    <input class="input" type="text" placeholder="user" formControlName="username" data-testid="username-input">
+  <div class="input-wrapper flex-col w-300">
+    <input class="input"
+      [ngClass]="{'input--invalid': usernameControl?.invalid && usernameControl?.touched}"
+      type="text"
+      placeholder="email"
+      formControlName="username"
+      data-testid="username-input"
+    >
+    <div class="input-error-slot"  aria-live="polite">
+      <span class="input-error" role="alert" *ngIf="usernameControl?.hasError('required') && usernameControl?.touched">
+        Email or username is required.
+      </span>
+      <span class="input-error" role="alert" *ngIf="usernameControl?.hasError('minlength') && usernameControl?.touched">
+        Username or email must be at least 5 characters.
+      </span>
+      <span class="input-error" role="alert" *ngIf="usernameControl?.hasError('maxlength') && usernameControl?.touched">
+        Username or email must be at most 255 characters.
+      </span>
+    </div>
   </div>
-  <app-password-input class="w-300" formControlName="password" data-testid="password-input"></app-password-input>
+  <app-password-input class="w-300" formControlName="password" [required]="true" [minLength]="6" [maxLength]="20"
+    [messages]="{
+          required: 'Password is required.',
+          minlength: 'Use at least 6 characters.',
+          maxlength: 'Use at most 20 characters.',
+          invalidCredentials: 'Invalid username or password.'
+      }" data-testid="password-input">
+  </app-password-input>
   <button type="submit" class="button button--primary w-300" data-testid="login-button" [disabled]="!formValid">Login</button>
-  <a [routerLink]="'/auth/register'" class="text text--small lighter" data-testid="register-link">Don’t have an account? Sign up</a>
+  <a [routerLink]="'/auth/register'" class="text text--small lighter mt-4 mb-2" data-testid="register-link">Don’t have an account? Sign up</a>
   <a [routerLink]="'/auth/forgot-password'" class="text text--small lighter" data-testid="reset-link">Forgot your password?</a>
 </form>
